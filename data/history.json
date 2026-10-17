@@ -1,0 +1,332 @@
+[
+ {
+  "metal": "Aluminum (LME)",
+  "date": "2026-09-16",
+  "price": 3297.62,
+  "note": "about one month earlier, from Trading Economics 1-month change"
+ },
+ {
+  "metal": "Aluminum (LME)",
+  "date": "2026-10-15",
+  "price": 2985.01,
+  "note": "prior close, from day change"
+ },
+ {
+  "metal": "Aluminum (LME)",
+  "date": "2026-10-16",
+  "price": 3007.1,
+  "note": "close"
+ },
+ {
+  "metal": "Copper (COMEX)",
+  "date": "2026-09-16",
+  "price": 6.5907,
+  "note": "about one month earlier, from Trading Economics 1-month change"
+ },
+ {
+  "metal": "Copper (COMEX)",
+  "date": "2026-10-15",
+  "price": 6.5078,
+  "note": "prior close, from day change"
+ },
+ {
+  "metal": "Copper (COMEX)",
+  "date": "2026-10-16",
+  "price": 6.58,
+  "note": "close"
+ },
+ {
+  "metal": "Copper (LME official)",
+  "date": "2026-10-16",
+  "price": 14595,
+  "note": "close"
+ },
+ {
+  "metal": "Gold",
+  "date": "2026-09-16",
+  "price": 4341.35,
+  "note": "about one month earlier, from Trading Economics 1-month change"
+ },
+ {
+  "metal": "Gold",
+  "date": "2026-10-15",
+  "price": 4170.98,
+  "note": "prior close, from day change"
+ },
+ {
+  "metal": "Gold",
+  "date": "2026-10-16",
+  "price": 4166.39,
+  "note": "close"
+ },
+ {
+  "metal": "HMS 1&2 80:20 (Turkey import)",
+  "date": "2026-10-03",
+  "price": 403,
+  "note": "close"
+ },
+ {
+  "metal": "Iron ore (62% Fe)",
+  "date": "2026-09-15",
+  "price": 97.408,
+  "note": "about one month earlier, from Trading Economics 1-month change"
+ },
+ {
+  "metal": "Iron ore (62% Fe)",
+  "date": "2026-10-14",
+  "price": 90.7424,
+  "note": "prior close, from day change"
+ },
+ {
+  "metal": "Iron ore (62% Fe)",
+  "date": "2026-10-15",
+  "price": 90.57,
+  "note": "close"
+ },
+ {
+  "metal": "Lead (LME spot)",
+  "date": "2026-09-01",
+  "price": 1874,
+  "note": "close"
+ },
+ {
+  "metal": "Nickel (LME)",
+  "date": "2026-09-16",
+  "price": 16265.81,
+  "note": "about one month earlier, from Trading Economics 1-month change"
+ },
+ {
+  "metal": "Nickel (LME)",
+  "date": "2026-10-15",
+  "price": 15250.07,
+  "note": "prior close, from day change"
+ },
+ {
+  "metal": "Nickel (LME)",
+  "date": "2026-10-16",
+  "price": 15321.75,
+  "note": "close"
+ },
+ {
+  "metal": "Palladium",
+  "date": "2026-09-16",
+  "price": 1303.01,
+  "note": "about one month earlier, from Trading Economics 1-month change"
+ },
+ {
+  "metal": "Palladium",
+  "date": "2026-10-15",
+  "price": 1114.05,
+  "note": "prior close, from day change"
+ },
+ {
+  "metal": "Palladium",
+  "date": "2026-10-16",
+  "price": 1096.0,
+  "note": "close"
+ },
+ {
+  "metal": "Platinum",
+  "date": "2026-09-16",
+  "price": 1794.38,
+  "note": "about one month earlier, from Trading Economics 1-month change"
+ },
+ {
+  "metal": "Platinum",
+  "date": "2026-10-15",
+  "price": 1621.54,
+  "note": "prior close, from day change"
+ },
+ {
+  "metal": "Platinum",
+  "date": "2026-10-16",
+  "price": 1639.7,
+  "note": "close"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-09-21",
+  "price": 9000.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-09-22",
+  "price": 9150.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-09-23",
+  "price": 9300.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-09-24",
+  "price": 9450.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-09-25",
+  "price": 9350.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-09-28",
+  "price": 9250.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-09-29",
+  "price": 9150.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-09-30",
+  "price": 9100.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-10-01",
+  "price": 9100.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-10-02",
+  "price": 9000.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-10-05",
+  "price": 9000.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-10-06",
+  "price": 9000.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-10-07",
+  "price": 9000.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-10-08",
+  "price": 9000.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-10-09",
+  "price": 9000.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-10-12",
+  "price": 9200.1,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-10-13",
+  "price": 9350.02,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-10-14",
+  "price": 9299.94,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-10-15",
+  "price": 9150.02,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Rhodium",
+  "date": "2026-10-16",
+  "price": 9150.02,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
+  "metal": "Silver",
+  "date": "2026-09-16",
+  "price": 65.1945,
+  "note": "about one month earlier, from Trading Economics 1-month change"
+ },
+ {
+  "metal": "Silver",
+  "date": "2026-10-15",
+  "price": 57.4106,
+  "note": "prior close, from day change"
+ },
+ {
+  "metal": "Silver",
+  "date": "2026-10-16",
+  "price": 56.98,
+  "note": "close"
+ },
+ {
+  "metal": "Tin (Shanghai spot)",
+  "date": "2026-10-15",
+  "price": 55599.97,
+  "note": "prior close, from day change"
+ },
+ {
+  "metal": "Tin (Shanghai spot)",
+  "date": "2026-10-16",
+  "price": 56428.41,
+  "note": "close"
+ },
+ {
+  "metal": "US Midwest HRC steel",
+  "date": "2026-09-15",
+  "price": 1276.98,
+  "note": "about one month earlier, from Trading Economics 1-month change"
+ },
+ {
+  "metal": "US Midwest HRC steel",
+  "date": "2026-10-14",
+  "price": 1342.06,
+  "note": "prior close, from day change"
+ },
+ {
+  "metal": "US Midwest HRC steel",
+  "date": "2026-10-15",
+  "price": 1343,
+  "note": "close"
+ },
+ {
+  "metal": "Zinc (LME)",
+  "date": "2026-09-16",
+  "price": 3888.8,
+  "note": "about one month earlier, from Trading Economics 1-month change"
+ },
+ {
+  "metal": "Zinc (LME)",
+  "date": "2026-10-15",
+  "price": 3676.68,
+  "note": "prior close, from day change"
+ },
+ {
+  "metal": "Zinc (LME)",
+  "date": "2026-10-16",
+  "price": 3666.75,
+  "note": "close"
+ }
+]

@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f5f6f4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121614" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Metals">
+<meta name="robots" content="noindex">
+<title>Morning Metals</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232f6b55'/%3E%3Cpath d='M14 44 L26 30 L36 38 L50 20' stroke='white' stroke-width='6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap">
+<style>
+:root {
+  --color-bg: #f5f6f4; --color-panel: #ffffff; --color-fg: #1b211e; --color-fg-muted: #5c6862;
+  --color-border-line: #dce1dd; --color-ok: #1f7a4d; --color-bad: #b23a2b; --color-warn: #a86200; --accent: #2f6b55;
+  --cds-surface-popover: #ffffff; --cds-border: #dce1dd; --cds-text-secondary: #5c6862; --cds-chart-grid: #e6eae7;
+  --cds-shadow-popover: 0 4px 16px rgba(20,30,25,.12);
+  --font-anthropic-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-anthropic-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --cds-font-size-caption: 0.8rem; --cds-font-size-body: 1rem; --cds-font-size-heading: 1.1rem; --cds-font-size-title: 1.75rem;
+  --cds-font-weight-medium: 600;
+  --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 14px; --cds-gap-lg: 26px;
+  --cds-pad-xs: 4px; --cds-pad-sm: 8px; --cds-pad-md: 12px; --cds-pad-lg: 16px; --cds-radius: 10px;
+}
+@media (prefers-color-scheme: dark) { :root {
+  --color-bg: #121614; --color-panel: #1a201d; --color-fg: #e7ece9; --color-fg-muted: #9ba8a1;
+  --color-border-line: #2c3531; --color-ok: #5fcf95; --color-bad: #f07a68; --color-warn: #f0a94a; --accent: #6cc1a0;
+  --cds-surface-popover: #222a26; --cds-border: #34403a; --cds-text-secondary: #9ba8a1; --cds-chart-grid: #29312d;
+  --cds-shadow-popover: 0 4px 16px rgba(0,0,0,.4); color-scheme: dark; } }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-family: var(--font-anthropic-sans); font-size: 16px; }
+.mm-tile, .mm-tab, .mm-seg button { touch-action: manipulation; }
+.mm-tab:focus-visible, .mm-seg button:focus-visible, .mm-ch-close:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.mm-foot { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); line-height: 1.5; margin-top: var(--cds-gap-lg); border-top: 1px solid var(--color-border-line); padding-top: var(--cds-pad-md); }
+.dash-skeleton { color: transparent !important; background: var(--color-border-line); border-radius: 6px; }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+/* Small stand-in for the data layer: loads data/*.json and redraws on change. */
+(() => {
+  const store = {}, subs = [], params = {};
+  const ids = ['brief', 'prices', 'news', 'calendar', 'yards', 'history'];
+  const run = () => subs.forEach((fn) => { try { fn(); } catch (e) { console.error(e); } });
+  const v = Date.now() - (Date.now() % 600000); // cache-bust every 10 min
+  ids.forEach((id) => {
+    store[id] = { status: 'loading', data: [] };
+    fetch('data/' + id + '.json?v=' + v).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then((d) => { store[id] = { status: 'ok', data: Array.isArray(d) ? d : [] }; run(); })
+      .catch(() => { store[id] = { status: 'error', data: [] }; run(); });
+  });
+  let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(run, 150); });
+  window.dash = {
+    data: (id) => store[id] || { status: 'missing', data: [] },
+    onData: (fn) => { subs.push(fn); fn(); },
+    params: () => ({ ...params }),
+    setParams: (p) => { Object.assign(params, p); run(); },
+    setLink: (name) => { try { history.replaceState(null, '', '#' + name); } catch {} },
+    colors: ['var(--accent)'],
+  };
+})();
+</script>
+</head>
+<body>
+<style>
+.mm { max-width: 46rem; margin-inline: auto; padding-block: 20px 40px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+.mm-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; }
+.mm-asof { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: var(--cds-gap-xs) 0 0; }
+.mm-brief { font-size: var(--cds-font-size-body); line-height: 1.5; margin: var(--cds-gap-sm) 0 var(--cds-gap-md); min-height: 3em; }
+.mm-tabs { display: flex; overflow-x: auto; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); margin-bottom: var(--cds-gap-md); }
+.mm-tab { flex: 0 0 auto; font: inherit; font-size: var(--cds-font-size-body); background: none; border: 0; border-bottom: 3px solid transparent; padding: var(--cds-pad-sm) var(--cds-pad-md); color: var(--color-fg-muted); cursor: pointer; }
+.mm-tab[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+.mm-h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: var(--cds-gap-lg) 0 var(--cds-gap-sm); }
+.mm-note { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: 0 0 var(--cds-gap-sm); line-height: 1.45; }
+.mm-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 9.5rem), 1fr)); gap: var(--cds-gap-sm); }
+.mm-tile { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md); min-height: 6.5rem; }
+.mm-tile-name { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.mm-tile-price { display: block; font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; margin: var(--cds-gap-xs) 0; }
+.mm-chg { font-variant-numeric: tabular-nums; font-size: var(--cds-font-size-body); white-space: nowrap; }
+.mm-up { color: var(--color-ok); } .mm-down { color: var(--color-bad); } .mm-flat { color: var(--color-fg-muted); }
+.mm-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md) var(--cds-pad-lg); margin-bottom: var(--cds-gap-md); }
+.mm-card-title { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0 0 var(--cds-gap-xs); }
+.mm-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.mm-table th { text-align: left; font-weight: 400; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) 0; border-bottom: 1px solid var(--color-border-line); }
+.mm-table td { padding: var(--cds-pad-sm) 0; border-bottom: 1px solid var(--color-border-line); vertical-align: top; font-size: var(--cds-font-size-body); }
+.mm-table tr:last-child td { border-bottom: 0; }
+.mm-table .mm-num { text-align: right; padding-left: var(--cds-pad-sm); white-space: nowrap; }
+.mm-sub { display: block; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin-top: 2px; }
+.mm-stale { color: var(--color-warn); }
+.mm-list { list-style: none; margin: 0; padding: 0; }
+.mm-item { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md); margin-bottom: var(--cds-gap-sm); }
+.mm-chip { display: inline-block; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); border: 1px solid var(--color-border-line); border-radius: 999px; padding: 0 var(--cds-pad-sm); margin-bottom: var(--cds-gap-xs); }
+.mm-item-h { display: block; font-weight: var(--cds-font-weight-medium); font-size: var(--cds-font-size-body); line-height: 1.35; }
+.mm-item-p { margin: var(--cds-gap-xs) 0; line-height: 1.5; font-size: var(--cds-font-size-body); }
+.mm-item a { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.mm-fail { display: flex; align-items: center; justify-content: center; gap: var(--cds-gap-xs); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); min-height: 3rem; }
+.mm-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+.mm-hint { margin-top: var(--cds-gap-sm); }
+.mm-first { margin-top: 0; }
+.mm-tile, #price-groups tr[data-key] { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.mm-tile:hover, .mm-tile:focus-visible { border-color: var(--color-fg-muted); outline: none; }
+.mm-tile.mm-on { border-color: var(--color-fg); }
+#price-groups tr.mm-on td { font-weight: var(--cds-font-weight-medium); border-bottom-color: transparent; }
+.mm-exp td { padding: 0 0 var(--cds-pad-md); }
+.mm-chartcard { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md); margin-top: var(--cds-gap-sm); }
+.mm-exp .mm-chartcard { margin-top: 0; background: var(--color-bg); }
+.mm-ch-head { display: flex; justify-content: space-between; align-items: baseline; gap: var(--cds-gap-sm); }
+.mm-ch-name { font-weight: var(--cds-font-weight-medium); font-size: var(--cds-font-size-body); }
+.mm-ch-close { font: inherit; background: none; border: 0; color: var(--color-fg-muted); font-size: 1.4rem; line-height: 1; cursor: pointer; padding: 0 var(--cds-pad-xs); }
+.mm-ch-change { font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; margin: 2px 0 var(--cds-gap-sm); }
+.mm-seg { display: inline-flex; border: 1px solid var(--color-border-line); border-radius: 999px; overflow: hidden; margin-bottom: var(--cds-gap-sm); }
+.mm-seg button { font: inherit; font-size: var(--cds-font-size-caption); background: none; border: 0; padding: var(--cds-pad-xs) var(--cds-pad-md); color: var(--color-fg-muted); cursor: pointer; min-width: 3.2rem; }
+.mm-seg button[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); }
+.mm-plot { position: relative; min-height: 210px; }
+.mm-plot svg { display: block; }
+.mm-empty { display: flex; align-items: center; justify-content: center; text-align: center; min-height: 210px; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); padding: 0 var(--cds-pad-md); line-height: 1.5; }
+.mm-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.mm-tip .mm-tip-d { color: var(--cds-text-secondary); display: block; }
+.mm-ch-foot { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: var(--cds-gap-xs) 0 0; line-height: 1.45; }
+[hidden] { display: none !important; }
+</style>
+
+<div class="mm">
+  <header id="top">
+    <h1 class="mm-title">Morning Metals</h1>
+    <p class="mm-asof">Prices as of <span data-source="brief" data-row="0" data-field="as_of" class="dash-skeleton">—</span> close · updated before 5am on weekdays</p>
+    <p class="mm-brief dash-skeleton" id="brief" data-source="brief" data-row="0" data-field="headline">—</p>
+  </header>
+
+  <nav class="mm-tabs" role="tablist">
+    <button class="mm-tab" id="tab-markets" role="tab" aria-selected="true" data-page="markets">Markets</button>
+    <button class="mm-tab" id="tab-news" role="tab" aria-selected="false" data-page="news">News</button>
+    <button class="mm-tab" id="tab-yards" role="tab" aria-selected="false" data-page="yards">Local yards</button>
+  </nav>
+
+  <section id="markets">
+    <div class="mm-tiles" id="headline-tiles">
+      <div class="mm-tile"><div class="mm-tile-name">Copper · COMEX $/lb</div><span class="mm-tile-price" data-source="prices" data-where="metal=Copper (COMEX)" data-field="price">—</span><span class="mm-chg" data-source="prices" data-where="metal=Copper (COMEX)" data-field="change_pct">—</span></div>
+      <div class="mm-tile"><div class="mm-tile-name">Palladium $/oz</div><span class="mm-tile-price" data-source="prices" data-where="metal=Palladium" data-field="price">—</span><span class="mm-chg" data-source="prices" data-where="metal=Palladium" data-field="change_pct">—</span></div>
+      <div class="mm-tile"><div class="mm-tile-name">Platinum $/oz</div><span class="mm-tile-price" data-source="prices" data-where="metal=Platinum" data-field="price">—</span><span class="mm-chg" data-source="prices" data-where="metal=Platinum" data-field="change_pct">—</span></div>
+      <div class="mm-tile"><div class="mm-tile-name">Rhodium $/oz</div><span class="mm-tile-price" data-source="prices" data-where="metal=Rhodium" data-field="price">—</span><span class="mm-chg" data-source="prices" data-where="metal=Rhodium" data-field="change_pct">—</span></div>
+      <div class="mm-tile"><div class="mm-tile-name">Gold $/oz</div><span class="mm-tile-price" data-source="prices" data-where="metal=Gold" data-field="price">—</span><span class="mm-chg" data-source="prices" data-where="metal=Gold" data-field="change_pct">—</span></div>
+      <div class="mm-tile"><div class="mm-tile-name">Midwest HRC steel $/st</div><span class="mm-tile-price" data-source="prices" data-where="metal=US Midwest HRC steel" data-field="price">—</span><span class="mm-chg" data-source="prices" data-where="metal=US Midwest HRC steel" data-field="change_pct">—</span></div>
+    </div>
+
+    <div id="tile-chart"></div>
+    <p class="mm-note mm-hint">Tap any metal to see its chart.</p>
+
+    <h2 class="mm-h2" id="all-prices">All prices</h2>
+    <p class="mm-note">Change is versus the day before. $/t is per metric tonne, $/st per short ton. Dates in orange are older quotes.</p>
+    <div id="price-groups"></div>
+
+  </section>
+
+  <section id="news" hidden>
+    <h2 class="mm-h2 mm-first" id="movers">What's moving markets</h2>
+    <ul class="mm-list" id="news-list" data-source="news"></ul>
+
+    <h2 class="mm-h2" id="coming-up">Coming up</h2>
+    <ul class="mm-list" id="cal-list" data-source="calendar"></ul>
+  </section>
+
+  <section id="yards" hidden>
+    <p class="mm-note">Buy prices posted by yards around Chicago, the south suburbs and NW Indiana, plus area averages. Posted prices lag the market — call ahead before loading the truck. Yards adjust for quantity and how clean the material is.</p>
+    <div id="yard-groups"></div>
+  </section>
+  <footer class="mm-foot">Prices gathered each weekday morning from public sources (Trading Economics, Kitco, LME, Shanghai Metals Market, yard websites). For information only — always confirm with your buyer.</footer>
+</div>
+
+<script>
+(() => {
+  const tabs = document.querySelectorAll('.mm-tab');
+  const show = (page) => {
+    tabs.forEach((t) => t.setAttribute('aria-selected', String(t.dataset.page === page)));
+    ['markets', 'news', 'yards'].forEach((p) => { document.getElementById(p).hidden = page !== p; });
+  };
+  tabs.forEach((t) => t.addEventListener('click', () => { show(t.dataset.page); dash.setLink(t.dataset.page); }));
+  const h = location.hash.slice(1);
+  if (['news', 'yards'].includes(h)) show(h);
+  window.mmShow = show;
+})();
+</script>
+
+<script>
+(() => {
+  const ISO = d3.utcParse('%Y-%m-%d');
+  const fmtDate = (s) => { const d = ISO(s); return d ? d3.utcFormat('%a, %b %-d')(d) : '—'; };
+  const fmtShort = (s) => { const d = ISO(s); return d ? d3.utcFormat('%b %-d')(d) : ''; };
+  const fmtPrice = (p) => p == null || isNaN(+p) ? '—' : (+p >= 1000 ? d3.format('$,.0f')(+p) : d3.format('$,.2f')(+p));
+  const setChg = (el, v) => {
+    el.classList.remove('mm-up', 'mm-down', 'mm-flat');
+    if (v == null || v === '' || isNaN(+v)) { el.textContent = '—'; el.classList.add('mm-flat'); return; }
+    const n = +v;
+    if (n > 0) { el.textContent = '▲ ' + d3.format('.2f')(n) + '%'; el.classList.add('mm-up'); }
+    else if (n < 0) { el.textContent = '▼ ' + d3.format('.2f')(Math.abs(n)) + '%'; el.classList.add('mm-down'); }
+    else { el.textContent = 'unch'; el.classList.add('mm-flat'); }
+  };
+  const safeLink = (u) => typeof u === 'string' && u.startsWith('https://') ? u : null;
+  const fail = (box) => { box.replaceChildren(); const d = document.createElement('div'); d.className = 'mm-fail'; d.textContent = 'Failed to load'; box.append(d); };
+
+  // ---------- Tap-to-chart ----------
+  const RANGES = [['7d', '7D', 7], ['30d', '30D', 31], ['6m', '6M', 183]];
+  const tileOf = (el) => decodeURIComponent((el.querySelector('[data-field="price"]')?.dataset.where || '').replace(/^metal=/, ''));
+  document.querySelectorAll('#headline-tiles .mm-tile').forEach((t) => {
+    t.dataset.metal = tileOf(t);
+    t.setAttribute('role', 'button');
+    t.setAttribute('tabindex', '0');
+  });
+  const pick = (metal, where) => {
+    const p = dash.params();
+    if (p.metal === metal && p.where === where) dash.setParams({ metal: null, where: null });
+    else dash.setParams({ metal, where, range: p.range || '30d' });
+  };
+  document.getElementById('headline-tiles').addEventListener('click', (e) => {
+    const t = e.target.closest('.mm-tile'); if (t) pick(t.dataset.metal, 'tile');
+  });
+  document.getElementById('headline-tiles').addEventListener('keydown', (e) => {
+    const t = e.target.closest('.mm-tile'); if (t && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); pick(t.dataset.metal, 'tile'); }
+  });
+  document.getElementById('price-groups').addEventListener('click', (e) => {
+    const tr = e.target.closest('tr[data-key]'); if (tr) pick(tr.dataset.key, 'table');
+  });
+
+  const buildPanel = (metal) => {
+    const card = document.createElement('div'); card.className = 'mm-chartcard'; card.id = 'metal-chart';
+    const head = document.createElement('div'); head.className = 'mm-ch-head';
+    const name = document.createElement('span'); name.className = 'mm-ch-name'; name.textContent = metal;
+    const close = document.createElement('button'); close.className = 'mm-ch-close'; close.setAttribute('aria-label', 'Close chart'); close.textContent = '×';
+    close.addEventListener('click', (e) => { e.stopPropagation(); dash.setParams({ metal: null, where: null }); });
+    head.append(name, close);
+    const chg = document.createElement('div'); chg.className = 'mm-ch-change';
+    const seg = document.createElement('div'); seg.className = 'mm-seg'; seg.setAttribute('role', 'group'); seg.setAttribute('aria-label', 'Time range');
+    const cur = dash.params().range || '30d';
+    RANGES.forEach(([id, label]) => {
+      const b = document.createElement('button'); b.textContent = label; b.setAttribute('aria-pressed', String(id === cur));
+      b.addEventListener('click', (e) => { e.stopPropagation(); dash.setParams({ range: id }); });
+      seg.append(b);
+    });
+    const plot = document.createElement('div'); plot.className = 'mm-plot'; plot.setAttribute('data-source', 'history');
+    const foot = document.createElement('p'); foot.className = 'mm-ch-foot';
+    card.append(head, chg, seg, plot, foot);
+    return { card, chg, plot, foot };
+  };
+
+  const drawPlot = (parts, metal) => {
+    const { chg, plot, foot } = parts;
+    const h = dash.data('history');
+    plot.replaceChildren();
+    if (h.status === 'error') { fail(plot); return; }
+    if (h.status !== 'ok') { plot.classList.add('dash-skeleton'); return; }
+    plot.classList.remove('dash-skeleton');
+    const unit = (dash.data('prices').data || []).find((r) => r.metal === metal)?.unit || '';
+    const all = h.data.filter((r) => r.metal === metal)
+      .map((r) => ({ ...r, d: ISO(r.date), v: +r.price }))
+      .filter((r) => r.d && !isNaN(r.v)).sort((a, b) => a.d - b.d);
+    const rangeId = dash.params().range || '30d';
+    const days = RANGES.find((r) => r[0] === rangeId)[2];
+    const last = all.length ? all[all.length - 1].d : null;
+    const pts = last ? all.filter((r) => r.d >= d3.utcDay.offset(last, -days)) : [];
+    const firstDate = all.length ? fmtShort(all.find((r) => r.note === 'close')?.date || all[0].date) : '';
+
+    if (pts.length >= 2) {
+      const a = pts[0].v, b = pts[pts.length - 1].v, pct = (b - a) / a * 100;
+      chg.textContent = '';
+      const s = document.createElement('span');
+      s.className = pct > 0 ? 'mm-up' : pct < 0 ? 'mm-down' : 'mm-flat';
+      s.textContent = (pct > 0 ? '▲ ' : pct < 0 ? '▼ ' : '') + d3.format('.1f')(Math.abs(pct)) + '% ';
+      chg.append(s, document.createTextNode('since ' + fmtShort(pts[0].date) + ' · ' + unit));
+    } else chg.textContent = unit;
+
+    const approx = pts.some((r) => r.note && r.note !== 'close' && !r.note.startsWith('daily'));
+    foot.textContent = approx
+      ? 'Hollow dots are reference points from published daily or monthly changes. The chart fills in with real closes every morning.'
+      : 'Daily closing prices.';
+
+    if (pts.length < 2) {
+      const e = document.createElement('div'); e.className = 'mm-empty';
+      e.textContent = pts.length === 1
+        ? 'Only one price so far in this window. Charts fill in each weekday morning — check back soon.'
+        : 'No prices in this window yet.';
+      plot.append(e); return;
+    }
+
+    const W = Math.max(260, plot.clientWidth || 300), H = 210;
+    const fmtV = (v) => fmtPrice(v);
+    const y0 = d3.min(pts, (r) => r.v), y1 = d3.max(pts, (r) => r.v);
+    const pad = (y1 - y0) * 0.12 || y1 * 0.02;
+    const y = d3.scaleLinear([y0 - pad, y1 + pad], [H - 26, 10]).nice(4);
+    const svg = d3.create('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img')
+      .attr('aria-label', `${metal} price chart`);
+    // measure widest y tick
+    const ticks = y.ticks(4);
+    const meas = svg.append('g').style('font-size', 'var(--cds-font-size-caption)');
+    plot.append(svg.node());
+    let left = 0;
+    ticks.forEach((t) => { const tx = meas.append('text').text(fmtV(t)); left = Math.max(left, tx.node().getComputedTextLength()); });
+    meas.remove();
+    const mL = Math.ceil(left) + 10, mR = 12;
+    const x = d3.scaleUtc([pts[0].d, pts[pts.length - 1].d], [mL, W - mR]);
+    const g = svg.append('g');
+    g.selectAll('line.grid').data(ticks).join('line')
+      .attr('x1', mL).attr('x2', W - mR).attr('y1', (t) => y(t)).attr('y2', (t) => y(t))
+      .style('stroke', 'var(--cds-chart-grid)').attr('stroke-width', 1);
+    g.selectAll('text.yt').data(ticks).join('text')
+      .attr('x', mL - 8).attr('y', (t) => y(t)).attr('dy', '0.32em').attr('text-anchor', 'end')
+      .style('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)').text((t) => fmtV(t));
+    // x labels: first and last date only (no overlap)
+    [[pts[0], 'start'], [pts[pts.length - 1], 'end']].forEach(([r, anchor]) => {
+      g.append('text').attr('x', x(r.d)).attr('y', H - 6).attr('text-anchor', anchor)
+        .style('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)').text(fmtShort(r.date));
+    });
+    const color = dash.colors[0];
+    const line = d3.line().x((r) => x(r.d)).y((r) => y(r.v));
+    // segments: dashed when either end is a reference point
+    const isRef = (r) => r.note && r.note !== 'close' && !r.note.startsWith('daily');
+    for (let i = 1; i < pts.length; i++) {
+      const s = [pts[i - 1], pts[i]];
+      g.append('path').attr('d', line(s)).attr('fill', 'none').style('stroke', color)
+        .attr('stroke-width', 2).attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round')
+        .attr('stroke-dasharray', isRef(s[0]) || isRef(s[1]) ? '4 4' : null);
+    }
+    g.selectAll('circle.pt').data(pts).join('circle')
+      .attr('cx', (r) => x(r.d)).attr('cy', (r) => y(r.v)).attr('r', pts.length > 40 ? 0 : 3.5)
+      .style('fill', (r) => isRef(r) ? 'var(--color-bg)' : color).style('stroke', color).attr('stroke-width', 1.5);
+    const hot = g.append('circle').attr('r', 5).style('fill', color).style('stroke', 'var(--color-bg)').attr('stroke-width', 2).style('display', 'none');
+    const tip = document.createElement('div'); tip.className = 'mm-tip'; tip.hidden = true; plot.append(tip);
+    const showAt = (px) => {
+      const scale = W / plot.clientWidth;
+      const xv = px * scale;
+      const i = d3.leastIndex(pts, (r) => Math.abs(x(r.d) - xv));
+      const r = pts[i];
+      hot.style('display', null).attr('cx', x(r.d)).attr('cy', y(r.v));
+      tip.replaceChildren();
+      const d = document.createElement('span'); d.className = 'mm-tip-d'; d.textContent = d3.utcFormat('%a %b %-d')(r.d);
+      const v = document.createElement('span'); v.textContent = fmtV(r.v) + (isRef(r) ? ' (approx.)' : '');
+      tip.append(d, v); tip.hidden = false;
+      const left = Math.min(Math.max(0, x(r.d) / scale - tip.offsetWidth / 2), plot.clientWidth - tip.offsetWidth);
+      tip.style.left = left + 'px';
+      tip.style.top = Math.max(0, y(r.v) / scale - tip.offsetHeight - 10) + 'px';
+    };
+    const hide = () => { tip.hidden = true; hot.style('display', 'none'); };
+    const svgEl = svg.node();
+    svgEl.addEventListener('pointermove', (e) => showAt(e.clientX - svgEl.getBoundingClientRect().left));
+    svgEl.addEventListener('pointerdown', (e) => showAt(e.clientX - svgEl.getBoundingClientRect().left));
+    svgEl.addEventListener('pointerleave', hide);
+  };
+
+  const drawCharts = () => {
+    const { metal, where } = dash.params();
+    const slot = document.getElementById('tile-chart');
+    slot.replaceChildren();
+    document.querySelectorAll('.mm-tile').forEach((t) => t.classList.toggle('mm-on', !!metal && where === 'tile' && t.dataset.metal === metal));
+    if (!metal) return;
+    let parts;
+    if (where === 'tile') {
+      parts = buildPanel(metal); slot.append(parts.card);
+    } else {
+      const tr = [...document.querySelectorAll('#price-groups tr[data-key]')].find((r) => r.dataset.key === metal);
+      if (!tr) return;
+      tr.classList.add('mm-on');
+      parts = buildPanel(metal);
+      tr.closest('.mm-card').after(parts.card);
+      parts.card.style.marginTop = '0';
+      parts.card.style.marginBottom = 'var(--cds-gap-md)';
+    }
+    drawPlot(parts, metal);
+  };
+
+  dash.onData(() => {
+    // Brief
+    const b = dash.data('brief');
+    document.querySelectorAll('[data-source="brief"]').forEach((el) => {
+      if (b.status === 'ok' && b.data[0]) {
+        el.classList.remove('dash-skeleton');
+        const f = el.dataset.field;
+        el.textContent = f === 'as_of' ? fmtDate(b.data[0].as_of) : (b.data[0][f] ?? '—');
+      } else { el.textContent = '—'; if (b.status === 'error') el.classList.remove('dash-skeleton'); }
+    });
+
+    // Prices
+    const pr = dash.data('prices');
+    const rows = pr.status === 'ok' ? pr.data : [];
+    const byMetal = new Map(rows.map((r) => [r.metal, r]));
+    document.querySelectorAll('#headline-tiles [data-source="prices"]').forEach((el) => {
+      const metal = decodeURIComponent(el.dataset.where.replace(/^metal=/, ''));
+      const r = byMetal.get(metal);
+      if (!r) { el.textContent = '—'; return; }
+      if (el.dataset.field === 'price') el.textContent = fmtPrice(r.price);
+      else setChg(el, r.change_pct);
+    });
+
+    const groupsBox = document.getElementById('price-groups');
+    if (pr.status === 'error') fail(groupsBox);
+    else {
+      groupsBox.replaceChildren();
+      const latest = d3.max(rows, (r) => r.as_of);
+      for (const [group, grs] of d3.group(rows, (r) => r.group)) {
+        const card = document.createElement('div'); card.className = 'mm-card';
+        card.id = 'group-' + group.toLowerCase().replace(/[^a-z]+/g, '-');
+        const t = document.createElement('h3'); t.className = 'mm-card-title'; t.textContent = group; card.append(t);
+        const table = document.createElement('table'); table.className = 'mm-table';
+        table.setAttribute('data-source', 'prices'); table.setAttribute('data-row-key', 'metal');
+        const thead = table.createTHead().insertRow();
+        [['metal', 'Metal', ''], ['price', 'Price', 'mm-num'], ['change_pct', 'Day', 'mm-num']].forEach(([f, label, cls]) => {
+          const th = document.createElement('th'); th.setAttribute('data-field', f); th.textContent = label; if (cls) th.className = cls; thead.append(th);
+        });
+        const tb = table.createTBody();
+        grs.forEach((r) => {
+          const tr = tb.insertRow(); tr.dataset.key = r.metal;
+          const c0 = tr.insertCell(); c0.textContent = r.metal;
+          const sub = document.createElement('span'); sub.className = 'mm-sub';
+          const stale = r.as_of !== latest && r.as_of < latest;
+          sub.textContent = r.unit + (r.as_of ? ' · ' + fmtShort(r.as_of) : '');
+          if (stale) sub.classList.add('mm-stale');
+          c0.append(sub);
+          const c1 = tr.insertCell(); c1.className = 'mm-num'; c1.textContent = fmtPrice(r.price);
+          const c2 = tr.insertCell(); c2.className = 'mm-num mm-chg'; setChg(c2, r.change_pct);
+        });
+        card.append(table); groupsBox.append(card);
+      }
+    }
+
+    // News
+    const nw = dash.data('news');
+    const nl = document.getElementById('news-list');
+    if (nw.status === 'error') fail(nl);
+    else {
+      nl.replaceChildren();
+      (nw.status === 'ok' ? nw.data.slice().sort((a, b) => a.rank - b.rank) : []).forEach((n) => {
+        const li = document.createElement('li'); li.className = 'mm-item';
+        const chip = document.createElement('span'); chip.className = 'mm-chip'; chip.textContent = n.category;
+        const h = document.createElement('span'); h.className = 'mm-item-h'; h.textContent = n.headline;
+        const p = document.createElement('p'); p.className = 'mm-item-p'; p.textContent = n.detail;
+        li.append(chip, h, p);
+        const u = safeLink(n.url);
+        if (u) { const a = document.createElement('a'); a.href = u; a.target = '_blank'; a.rel = 'noopener'; a.textContent = n.source + ' ↗'; li.append(a); }
+        nl.append(li);
+      });
+    }
+
+    // Calendar
+    const cl = dash.data('calendar');
+    const cel = document.getElementById('cal-list');
+    if (cl.status === 'error') fail(cel);
+    else {
+      cel.replaceChildren();
+      (cl.status === 'ok' ? cl.data : []).forEach((c) => {
+        const li = document.createElement('li'); li.className = 'mm-item';
+        const chip = document.createElement('span'); chip.className = 'mm-chip'; chip.textContent = c.when;
+        const h = document.createElement('span'); h.className = 'mm-item-h'; h.textContent = c.event;
+        const p = document.createElement('p'); p.className = 'mm-item-p'; p.textContent = c.why;
+        li.append(chip, h, p); cel.append(li);
+      });
+    }
+
+    // Yards
+    const yd = dash.data('yards');
+    const yb = document.getElementById('yard-groups');
+    if (yd.status === 'error') fail(yb);
+    else {
+      yb.replaceChildren();
+      for (const [yard, yrs] of d3.group(yd.status === 'ok' ? yd.data : [], (r) => r.yard)) {
+        const card = document.createElement('div'); card.className = 'mm-card';
+        const t = document.createElement('h3'); t.className = 'mm-card-title'; t.textContent = yard; card.append(t);
+        const note = document.createElement('p'); note.className = 'mm-note';
+        const dated = yrs[0].as_of ? 'Posted ' + fmtShort(yrs[0].as_of) : 'Date not posted';
+        const priced = yrs.some((r) => r.price != null && r.price !== '');
+        note.textContent = (yrs[0].address || yrs[0].area) + (priced ? ' · ' + dated : '');
+        const u = safeLink(yrs[0].url);
+        if (u) { note.append(' · '); const a = document.createElement('a'); a.href = u; a.target = '_blank'; a.rel = 'noopener'; a.textContent = 'price list ↗'; a.style.color = 'inherit'; note.append(a); }
+        card.append(note);
+        const table = document.createElement('table'); table.className = 'mm-table';
+        table.setAttribute('data-source', 'yards'); table.setAttribute('data-row-key', 'yard,material');
+        const thead = table.createTHead().insertRow();
+        [['material', 'Material', ''], ['price', 'Pays', 'mm-num']].forEach(([f, label, cls]) => {
+          const th = document.createElement('th'); th.setAttribute('data-field', f); th.textContent = label; if (cls) th.className = cls; thead.append(th);
+        });
+        const tb = table.createTBody();
+        yrs.forEach((r) => {
+          const tr = tb.insertRow(); tr.dataset.key = encodeURIComponent(r.yard) + ',' + encodeURIComponent(r.material);
+          tr.insertCell().textContent = r.material;
+          const c = tr.insertCell(); c.className = 'mm-num';
+          if (r.price == null || r.price === '') { c.textContent = 'Call'; c.classList.add('mm-flat'); }
+          else c.textContent = fmtPrice(r.price) + (r.unit === '$/lb' ? '/lb' : '/ton');
+        });
+        card.append(table); yb.append(card);
+      }
+    }
+
+    drawCharts();
+  });
+})();
+</script>
+
+</body>
+</html>
