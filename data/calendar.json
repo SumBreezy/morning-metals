@@ -1,12 +1,5 @@
 [
  {
-  "when": "Wed Oct 21, after close",
-  "event": "Tesla Q3 earnings",
-  "why": "EV demand matters for copper, nickel and aluminum.",
-  "source": "eOption",
-  "url": "https://www.eoption.com/weekly-event-calendar-10-19-2026-10-23-2026/"
- },
- {
   "when": "Thu Oct 22, 7:30am CT",
   "event": "Weekly jobless claims",
   "why": "Labor data feed Fed rate-hike odds and the dollar.",
@@ -40,6 +33,13 @@
   "why": "Inflation expectations feed into Fed rate-hike odds and the dollar.",
   "source": "Scotiabank",
   "url": "https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.calendar-of-economic-release-dates.calendar-of-economic-release-dates--october-2026-.html"
+ },
+ {
+  "when": "Sat Oct 24, 10:00am CT",
+  "event": "Earliest strike start at Teck's Highland Valley Copper mine (Canada)",
+  "why": "A walkout at a major North American copper mine would tighten supply and support copper prices.",
+  "source": "SMM",
+  "url": "https://news.metal.com/newscontent/104171656-highland-valley-copper-mine-strike-risk-heats-up-supply-disruption-back-in-focus-smm-copper-morning-meeting-minutes"
  },
  {
   "when": "Mon Oct 26, after close",
@@ -84,10 +84,24 @@
   "url": "https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.calendar-of-economic-release-dates.calendar-of-economic-release-dates--october-2026-.html"
  },
  {
+  "when": "Fri Oct 30, 7:30am CT",
+  "event": "Employment cost index (Q3)",
+  "why": "Wage inflation is a big input to the Fed's December rate-hike call.",
+  "source": "Scotiabank",
+  "url": "https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.calendar-of-economic-release-dates.calendar-of-economic-release-dates--october-2026-.html"
+ },
+ {
   "when": "Fri Oct 30, 8:45am CT",
   "event": "Chicago PMI (October)",
   "why": "Local factory gauge for the Chicago area.",
   "source": "Scotiabank",
   "url": "https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.calendar-of-economic-release-dates.calendar-of-economic-release-dates--october-2026-.html"
+ },
+ {
+  "when": "Mon Nov 2, 9:00am CT (estimated)",
+  "event": "ISM manufacturing PMI (October)",
+  "why": "Main read on US factory demand for steel, copper and aluminum.",
+  "source": "The Right Trader",
+  "url": "https://therighttrader.com/economic-calendar/ism-manufacturing"
  }
 ]

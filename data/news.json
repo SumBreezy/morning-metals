@@ -1,90 +1,218 @@
 [
  {
   "rank": 1,
-  "category": "Scrap (Chicago/Midwest)",
-  "headline": "Area yard prices hold steady",
-  "detail": "Big Daddy and Central Metal postings are unchanged, and Alsip-area averages for heavy steel and sheet iron stayed near 9 cents a pound through Oct 20. The national index last showed clean copper grades down 8 cents, with aluminum and ferrous flat.",
-  "source": "ScrapMonster / MetalRecap",
-  "url": "https://www.scrapmonster.com/news/daily-scrap-metal-price-report/north-american-copper-and-brass-scrap-prices-register-decline-on-the-index-2026-10-16/100270"
+  "category": "Steel & iron ore",
+  "headline": "Steel Dynamics sees steady scrap, strong steel",
+  "detail": "On its Oct 20 call the big mill said scrap cost it $404 a ton last quarter, down $8, and it expects scrap prices to stay fairly flat with plenty of obsolete scrap and soft exports. Steel demand is strong: record shipments, lead times into 2027 and Q4 mill outages tightening supply.",
+  "source": "Motley Fool (SDI Q3 call)",
+  "url": "https://fool.com/earnings/call-transcripts/2026/10/20/steel-dynamics-stld-q3-2026-earnings-call-transcript",
+  "date": "2026-10-20"
  },
  {
   "rank": 2,
   "category": "Copper",
-  "headline": "Copper stuck in a tight range",
-  "detail": "LME copper edged up to about $14,540 and COMEX gained about half a percent to $6.61. Chile disruptions cut BHP's quarterly copper output 19% and Anglo's 5%, but buyers are cautious at these prices.",
-  "source": "Business Recorder (Reuters)",
-  "url": "https://www.brecorder.com/news/40445117/uncertainty-over-us-tariffs-keeps-copper-trading-in-a-tight-range"
+  "headline": "Copper slips as warehouse stocks build",
+  "detail": "LME copper fell about 0.4% Wednesday after LME stocks rose 8% in a week, and COMEX dropped about 0.7% to $6.56. Macquarie says prices are high for the stock levels, though Europe is short and Codelco is asking a record $350 premium there.",
+  "source": "MINING.COM (Reuters)",
+  "url": "https://www.mining.com/web/copper-price-falls-as-inventories-rise-supply-worries-ease-nickel-climbs",
+  "date": "2026-10-21"
  },
  {
   "rank": 3,
-  "category": "Tariffs/policy",
-  "headline": "Still no call on refined copper tariffs",
-  "detail": "The White House has not ruled on tariffs for refined copper and is focused on affordability before the midterms. The US keeps importing anyway, pushing COMEX stocks to a record of about 718,000 tons.",
-  "source": "Business Recorder (Reuters)",
-  "url": "https://www.brecorder.com/news/40445117/uncertainty-over-us-tariffs-keeps-copper-trading-in-a-tight-range"
+  "category": "Scrap",
+  "headline": "National scrap index: copper and aluminum grades dip, ferrous flat",
+  "detail": "The weekly index showed clean copper scrap down about 2 cents a pound and aluminum scrap grades down about 2%, while HMS, shred and busheling held unchanged. US steel mill output was up 4% from a year ago.",
+  "source": "ScrapMonster",
+  "url": "https://www.scrapmonster.com/news/weekly-metal-price-report/scrap-metal-prices-weekly-market-report-october-9-15-2026-2026-10-16/100268",
+  "date": "2026-10-16"
  },
  {
   "rank": 4,
-  "category": "Construction/housing",
-  "headline": "Housing data come in weak",
-  "detail": "September housing starts fell 5.2% and pending home sales dropped 7.3% to the lowest on record, with builder confidence at 29. That is a soft sign for rebar, structural steel and copper wire demand.",
-  "source": "Kitco",
-  "url": "https://www.kitco.com/news/article/2026-10-20/gold-pressured-despite-falling-yields-hormuz-diplomacy-sparks-oil-price"
+  "category": "Scrap",
+  "headline": "Area yard postings unchanged",
+  "detail": "Big Daddy in Chicago Heights still posts bare bright at $5.52 and #1 copper at $5.45, and Central Metal's list is unchanged. Alsip-area averages for heavy steel and sheet iron stayed near 9 cents a pound through Oct 20.",
+  "source": "Big Daddy Scrap / MetalRecap",
+  "url": "https://metalrecap.com/scrap-price/alsip/",
+  "date": "2026-10-20"
  },
  {
   "rank": 5,
-  "category": "Autos",
-  "headline": "GM beats and raises cash guidance",
-  "detail": "GM earned $4.1 billion on an adjusted basis in Q3, up 22%, led by North American trucks, and raised its free cash flow outlook. Steady Detroit output keeps busheling and other prime scrap flowing.",
-  "source": "General Motors (SEC filing)",
-  "url": "https://www.sec.gov/Archives/edgar/data/0001467858/000146785826000056/gmq32026pressreleaseandfin.htm"
+  "category": "Steel & iron ore",
+  "headline": "Nucor raises spot hot-rolled coil to $1,255 a ton",
+  "detail": "Nucor lifted its weekly HRC price $15 to $1,255 per short ton and California Steel went to $1,320, with lead times still three to five weeks. Rising steel prices help mills keep buying scrap.",
+  "source": "Steel Market Update",
+  "url": "https://www.steelmarketupdate.com/2026/10/19/nucor-ups-spot-hr-coil-to-1255-ton/",
+  "date": "2026-10-19"
  },
  {
   "rank": 6,
-  "category": "Fed/dollar",
-  "headline": "Gold slips for a third day ahead of Fed",
-  "detail": "Gold fell about 0.4% to near $4,124 even as yields and the dollar eased. Markets see a hold at the Oct 27-28 Fed meeting but over 90% odds of a December hike.",
-  "source": "Kitco",
-  "url": "https://www.kitco.com/news/article/2026-10-20/gold-pressured-despite-falling-yields-hormuz-diplomacy-sparks-oil-price"
+  "category": "Aluminum & nickel",
+  "headline": "Nickel jumps 4% on talk of Indonesian output cuts",
+  "detail": "LME nickel rose about 4% to roughly $16,300, its highest in three weeks, as Chinese producers running Indonesian plants discussed cutting output together. A similar attempt failed in August, so the rally could fade if no deal comes.",
+  "source": "MINING.COM (Reuters)",
+  "url": "https://www.mining.com/web/copper-price-falls-as-inventories-rise-supply-worries-ease-nickel-climbs",
+  "date": "2026-10-21"
  },
  {
   "rank": 7,
-  "category": "Supply shocks",
-  "headline": "Oil whipsaws on Gulf attacks and talks hopes",
-  "detail": "Brent hit about $112 after attacks on Gulf shipping and Saudi energy sites, then settled near $109 on reports of efforts to revive US-Iran talks. High energy costs keep inflation and rate worries alive.",
-  "source": "Kitco",
-  "url": "https://www.kitco.com/news/article/2026-10-20/gold-pressured-despite-falling-yields-hormuz-diplomacy-sparks-oil-price"
+  "category": "Fed & dollar",
+  "headline": "Markets bet on a December Fed rate hike",
+  "detail": "Traders expect the Fed to hold at its Oct 27-28 meeting but see roughly a 90% chance of a hike in December after hot inflation readings. Higher rates and a firm dollar tend to cap metal prices.",
+  "source": "MINING.COM (Reuters)",
+  "url": "https://mining.com/web/gold-price-steadies-near-one-week-low-as-oil-driven-inflation-fears-grow",
+  "date": "2026-10-21"
  },
  {
   "rank": 8,
-  "category": "PGMs (converters)",
-  "headline": "Palladium sinks again, platinum and silver up",
-  "detail": "Palladium fell about 1.4% to near $1,086, close to a one-year low, while platinum rose about 0.7% and rhodium held at $9,100. Converter values stay soft.",
-  "source": "Kitco / Trading Economics",
-  "url": "https://tradingeconomics.com/commodity/palladium"
+  "category": "Copper",
+  "headline": "Strike notice at Teck's Highland Valley copper mine",
+  "detail": "The union at Canada's Highland Valley Copper mine gave notice and could walk out as early as Saturday morning, Oct 24. The mine is still running, but a strike would tighten copper supply.",
+  "source": "SMM",
+  "url": "https://news.metal.com/newscontent/104171656-highland-valley-copper-mine-strike-risk-heats-up-supply-disruption-back-in-focus-smm-copper-morning-meeting-minutes",
+  "date": "2026-10-22"
  },
  {
   "rank": 9,
-  "category": "Aluminum/nickel",
-  "headline": "Nickel jumps in Shanghai on output-cut talk",
-  "detail": "Shanghai nickel rose 2.4% Wednesday morning as news of production cuts sent short sellers running. LME aluminum slipped about half a percent to $3,003 and zinc fell about 1%.",
-  "source": "Shanghai Metals Market",
-  "url": "https://news.metal.com/newscontent/104170716-smm-nickel-midday-review-nickel-prices-surged-24-on-october-21-as-production-cuts-news-drove-bears-to-aggressively-cover-their-short-positions"
+  "category": "Steel & iron ore",
+  "headline": "Cleveland-Cliffs swings to a profit on higher prices",
+  "detail": "Cliffs earned $165 million in Q3 as its average steel price rose to $1,177 a ton, and it beat its own earnings guidance. It will idle galvanizing lines at Stelco in Canada due to oversupply there.",
+  "source": "SteelOrbis",
+  "url": "https://www.steelorbis.com/steel-news/latest-news/cleveland-cliffs-posts-positive-net-income-in-q3-2026-1484711.htm",
+  "date": "2026-10-19"
  },
  {
   "rank": 10,
-  "category": "Steel/iron ore",
-  "headline": "US steel high, iron ore near lows",
-  "detail": "Midwest hot-rolled coil held near $1,363 a ton, close to a three-and-a-half-year high. Iron ore sits near $91, around its lowest since 2024, as Chinese mill margins stay thin.",
-  "source": "Trading Economics",
-  "url": "https://tradingeconomics.com/commodity/hrc-steel"
+  "category": "PGMs & converters",
+  "headline": "Platinum and palladium slide over 1%",
+  "detail": "Platinum fell about 1.1% to near $1,630 and palladium about 1.2% to near $1,090 Wednesday as rate-hike bets weighed on metals. Rhodium was unchanged around $9,100; lower PGM prices mean lower catalytic converter values.",
+  "source": "MINING.COM (Reuters)",
+  "url": "https://mining.com/web/gold-price-steadies-near-one-week-low-as-oil-driven-inflation-fears-grow",
+  "date": "2026-10-21"
  },
  {
   "rank": 11,
+  "category": "Construction",
+  "headline": "Single-family home building hits a one-year low",
+  "detail": "September single-family starts fell 4.6% and permits fell to their lowest since March 2023, while total starts dropped 5.2%. Less home building means less demand for copper wire, pipe and steel.",
+  "source": "Hawaii Tribune-Herald (Reuters)",
+  "url": "https://www.hawaiitribune-herald.com/2026/10/21/nation-world-news/us-single-family-housing-starts-plunge-building-permits-hit-3-1-2-year-low/",
+  "date": "2026-10-21"
+ },
+ {
+  "rank": 12,
+  "category": "Gold & silver",
+  "headline": "Gold edges up, silver lags",
+  "detail": "Gold rose to about $4,141 late Wednesday as Treasury yields eased, while silver was roughly flat near $58. Rate-hike expectations keep a lid on both.",
+  "source": "Kitco",
+  "url": "https://www.kitco.com/news/article/2026-10-21/gold-gains-treasury-yields-stabilize-nasdaq-surges-despite-fed-tightening",
+  "date": "2026-10-21"
+ },
+ {
+  "rank": 13,
+  "category": "Supply shocks",
+  "headline": "Ship attacks near Hormuz push oil back above $110",
+  "detail": "Brent topped $110 after reports of attacks on commercial shipping in the Strait of Hormuz, where traffic is still about a third below prewar levels. High energy costs raise smelting costs and feed inflation worries.",
+  "source": "Kitco",
+  "url": "https://www.kitco.com/news/article/2026-10-21/gold-gains-silver-slips-oil-prices-rise-fed-rate-hike-expectations-persist",
+  "date": "2026-10-21"
+ },
+ {
+  "rank": 14,
+  "category": "Aluminum & nickel",
+  "headline": "Gulf smelter restart lifts aluminum supply",
+  "detail": "Emirates Global Aluminium has brought back half the capacity at its war-damaged main smelter and aims for full output by early 2027. Aluminum still rose about 1% Wednesday to about $3,031 a ton.",
+  "source": "The Edge Malaysia (Bloomberg)",
+  "url": "https://theedgemalaysia.com/node/822689",
+  "date": "2026-10-21"
+ },
+ {
+  "rank": 15,
+  "category": "Tariffs & policy",
+  "headline": "Century Aluminum pushes to keep Section 232 tariffs",
+  "detail": "Century's CEO urged keeping the 50% steel and aluminum tariffs in US-Mexico trade talks, and Commerce Secretary Lutnick reportedly opposes cutting them. Keeping tariffs supports high US aluminum and steel prices.",
+  "source": "SMM",
+  "url": "https://news.metal.com/newscontent/104171495-smm-aluminum-flash-newscentury-aluminum-ceo-urges-maintaining-section-232-steel-and-aluminum-tariffs-in-usmca-talks",
+  "date": "2026-10-21"
+ },
+ {
+  "rank": 16,
   "category": "China",
-  "headline": "China steel output flat, copper buying firm",
-  "detail": "China made 73.6 million tons of crude steel in September, flat on the year and down 2.9% year to date. A copper scrap shortage there pushed the Yangshan import premium to its highest in almost four years.",
-  "source": "Shanghai Metals Market / Reuters",
-  "url": "https://news.metal.com/newscontent/104163945-chinas-january-september-crude-steel-production-at-72477-million-mt"
+  "headline": "China's economy grows 4.5% but property keeps sinking",
+  "detail": "China's Q3 growth beat forecasts on strong exports and September factory output rose 5.5%, but property investment is down about 21% this year. Weak building in China limits demand for steel and copper.",
+  "source": "Outlook India",
+  "url": "https://www.outlookindia.com/international/china-gdp-growth-q3-2026-exports-weak-domestic-demand",
+  "date": "2026-10-19"
+ },
+ {
+  "rank": 17,
+  "category": "Autos",
+  "headline": "GM plans $20 billion buyback, will close Brownstown battery plant",
+  "detail": "GM earned $3.3 billion in Q3, approved another $20 billion of stock buybacks and confirmed its Brownstown, Michigan battery plant will close in 2027. Slower EV plans mean less battery metal demand.",
+  "source": "WSWS",
+  "url": "https://www.wsws.org/en/articles/2026/10/22/ikri-o22.html",
+  "date": "2026-10-22"
+ },
+ {
+  "rank": 18,
+  "category": "Autos",
+  "headline": "Tesla profit drops 43% on flat sales",
+  "detail": "Tesla's Q3 revenue was flat at about $28 billion and net income fell 43%, while battery storage installs missed estimates. It is a mixed signal for EV-related copper, nickel and aluminum demand.",
+  "source": "Electrek",
+  "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results",
+  "date": "2026-10-21"
+ },
+ {
+  "rank": 19,
+  "category": "PGMs & converters",
+  "headline": "GM to add hybrids as fuel prices climb",
+  "detail": "GM plans more hybrid models as high gas prices drive demand. Hybrids still use catalytic converters, which supports platinum, palladium and rhodium demand.",
+  "source": "CBT News",
+  "url": "https://www.cbtnews.com/cbt-automotive-newscast-october-21-2026/",
+  "date": "2026-10-21"
+ },
+ {
+  "rank": 20,
+  "category": "Steel & iron ore",
+  "headline": "Iron ore stuck as Chinese port stocks pile up",
+  "detail": "Dalian iron ore was flat and the global price sits near $91 a ton; Chinese mills are still losing money and port stockpiles are high. Cheap ore keeps a lid on world steel costs.",
+  "source": "SMM",
+  "url": "https://news.metal.com/newscontent/104171419-hot-metal-rebounds-slightly-with-limited-support-iron-ore-moves-sideways-amid-port-inventory-buildup-smm-iron-ore-daily-review",
+  "date": "2026-10-21"
+ },
+ {
+  "rank": 21,
+  "category": "China",
+  "headline": "China steel output down 2.9% this year, exports steady",
+  "detail": "China made 2.9% less crude steel in January through September, but September exports rose 3.3% from August to about 10.5 million tons. Steady Chinese exports keep pressure on world steel prices.",
+  "source": "GMK Center",
+  "url": "https://gmk.center/en/news/steel-production-in-china-fell-by-2-9-y-y-in-january-september/",
+  "date": "2026-10-19"
+ },
+ {
+  "rank": 22,
+  "category": "Gold & silver",
+  "headline": "CIBC cuts its gold forecast",
+  "detail": "CIBC lowered its Q4 gold forecast to $4,500 an ounce, far below its $6,500 start-of-year call, but still sees $5,200 on average in 2027. Gold has fallen three of the last four sessions on rate-hike worries.",
+  "source": "Guardian Gold (market summary)",
+  "url": "https://guardian-gold.com.au/market-updates/overnight-summary-precious-metals-prices-21-10-2026/",
+  "date": "2026-10-21"
+ },
+ {
+  "rank": 23,
+  "category": "Autos",
+  "headline": "Corvette plant adds a four-week December shutdown",
+  "detail": "GM's Bowling Green Corvette plant will close for four more weeks in December, its 11th down week this year, with earlier stops blamed on parts shortages. Fewer cars built means less factory scrap.",
+  "source": "Corvette Blogger",
+  "url": "https://www.corvetteblogger.com/2026/10/20/corvette-assembly-plant-is-shutting-down-for-four-weeks-in-december/",
+  "date": "2026-10-20"
+ },
+ {
+  "rank": 24,
+  "category": "Supply shocks",
+  "headline": "China defends rare-earth limits as Japan runs short",
+  "detail": "Beijing defended its rare-earth export limits on Japan, which reportedly could run out of yttrium within months. Shortages could disrupt car, jet engine and chip production.",
+  "source": "A News (Anadolu)",
+  "url": "https://www.anews.com.tr/asia/2026/10/21/china-defends-rare-earth-export-curbs-on-japan-citing-remilitarization-concerns",
+  "date": "2026-10-21"
  }
 ]

@@ -30,6 +30,12 @@
   "note": "close"
  },
  {
+  "metal": "Aluminum (LME)",
+  "date": "2026-10-21",
+  "price": 3031,
+  "note": "close"
+ },
+ {
   "metal": "Copper (COMEX)",
   "date": "2026-09-16",
   "price": 6.5907,
@@ -60,6 +66,12 @@
   "note": "close"
  },
  {
+  "metal": "Copper (COMEX)",
+  "date": "2026-10-21",
+  "price": 6.56,
+  "note": "close"
+ },
+ {
   "metal": "Copper (LME official)",
   "date": "2026-10-16",
   "price": 14595,
@@ -75,6 +87,12 @@
   "metal": "Copper (LME official)",
   "date": "2026-10-20",
   "price": 14540,
+  "note": "close"
+ },
+ {
+  "metal": "Copper (LME official)",
+  "date": "2026-10-21",
+  "price": 14441,
   "note": "close"
  },
  {
@@ -105,6 +123,12 @@
   "metal": "Gold",
   "date": "2026-10-20",
   "price": 4124.1,
+  "note": "close"
+ },
+ {
+  "metal": "Gold",
+  "date": "2026-10-21",
+  "price": 4140.3,
   "note": "close"
  },
  {
@@ -153,6 +177,12 @@
   "metal": "Iron ore (62% Fe)",
   "date": "2026-10-20",
   "price": 90.86,
+  "note": "close"
+ },
+ {
+  "metal": "Iron ore (62% Fe)",
+  "date": "2026-10-21",
+  "price": 90.85,
   "note": "close"
  },
  {
@@ -240,6 +270,12 @@
   "note": "close"
  },
  {
+  "metal": "Palladium",
+  "date": "2026-10-21",
+  "price": 1073.0,
+  "note": "close"
+ },
+ {
   "metal": "Platinum",
   "date": "2026-09-16",
   "price": 1794.38,
@@ -267,6 +303,12 @@
   "metal": "Platinum",
   "date": "2026-10-20",
   "price": 1647.0,
+  "note": "close"
+ },
+ {
+  "metal": "Platinum",
+  "date": "2026-10-21",
+  "price": 1622.0,
   "note": "close"
  },
  {
@@ -402,6 +444,12 @@
   "note": "daily price, dailymetalprice.com"
  },
  {
+  "metal": "Rhodium",
+  "date": "2026-10-21",
+  "price": 9100.0,
+  "note": "daily price, dailymetalprice.com"
+ },
+ {
   "metal": "Silver",
   "date": "2026-09-16",
   "price": 65.1945,
@@ -429,6 +477,12 @@
   "metal": "Silver",
   "date": "2026-10-20",
   "price": 57.88,
+  "note": "close"
+ },
+ {
+  "metal": "Silver",
+  "date": "2026-10-21",
+  "price": 57.85,
   "note": "close"
  },
  {
@@ -489,6 +543,12 @@
   "metal": "US Midwest HRC steel",
   "date": "2026-10-20",
   "price": 1363,
+  "note": "close"
+ },
+ {
+  "metal": "US Midwest HRC steel",
+  "date": "2026-10-21",
+  "price": 1370,
   "note": "close"
  },
  {
