@@ -254,9 +254,9 @@
   "area": "West Side Chicago",
   "address": "West Side, Chicago, IL",
   "material": "Bare bright copper",
-  "price": 5.1,
+  "price": 5.15,
   "unit": "$/lb",
-  "as_of": "2026-10-11",
+  "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
  },
  {
@@ -264,9 +264,9 @@
   "area": "West Side Chicago",
   "address": "West Side, Chicago, IL",
   "material": "#1 copper",
-  "price": 4.97,
+  "price": 5.05,
   "unit": "$/lb",
-  "as_of": "2026-10-11",
+  "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
  },
  {
@@ -274,9 +274,9 @@
   "area": "West Side Chicago",
   "address": "West Side, Chicago, IL",
   "material": "#2 copper",
-  "price": 4.83,
+  "price": 4.87,
   "unit": "$/lb",
-  "as_of": "2026-10-11",
+  "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
  },
  {
@@ -284,9 +284,9 @@
   "area": "West Side Chicago",
   "address": "West Side, Chicago, IL",
   "material": "Yellow brass",
-  "price": 2.85,
+  "price": 2.9,
   "unit": "$/lb",
-  "as_of": "2026-10-11",
+  "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
  },
  {
@@ -296,7 +296,7 @@
   "material": "Sheet aluminum",
   "price": 0.6,
   "unit": "$/lb",
-  "as_of": "2026-10-11",
+  "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
  },
  {
@@ -306,7 +306,7 @@
   "material": "Aluminum cans",
   "price": 0.55,
   "unit": "$/lb",
-  "as_of": "2026-10-11",
+  "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
  },
  {
@@ -314,9 +314,9 @@
   "area": "West Side Chicago",
   "address": "West Side, Chicago, IL",
   "material": "304 stainless",
-  "price": 0.44,
+  "price": 0.45,
   "unit": "$/lb",
-  "as_of": "2026-10-11",
+  "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
  },
  {
@@ -324,9 +324,9 @@
   "area": "West Side Chicago",
   "address": "West Side, Chicago, IL",
   "material": "Clean sheet",
-  "price": 270,
+  "price": 290,
   "unit": "$/net ton",
-  "as_of": "2026-10-11",
+  "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
  },
  {
@@ -334,9 +334,9 @@
   "area": "West Side Chicago",
   "address": "West Side, Chicago, IL",
   "material": "Unprepared HMS",
-  "price": 215,
+  "price": 225,
   "unit": "$/net ton",
-  "as_of": "2026-10-11",
+  "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
  },
  {
@@ -344,9 +344,9 @@
   "area": "West Side Chicago",
   "address": "West Side, Chicago, IL",
   "material": "Sheet iron",
-  "price": 205,
+  "price": 215,
   "unit": "$/net ton",
-  "as_of": "2026-10-11",
+  "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
  },
  {
@@ -354,7 +354,7 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Bare bright copper",
-  "price": 4.99,
+  "price": 4.96,
   "unit": "$/lb",
   "as_of": "2026-10-12",
   "url": "https://metalrecap.com/scrap-price/alsip/"
@@ -364,7 +364,7 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "#1 copper",
-  "price": 4.84,
+  "price": 4.81,
   "unit": "$/lb",
   "as_of": "2026-10-14",
   "url": "https://metalrecap.com/scrap-price/alsip/"
@@ -374,7 +374,7 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "#2 copper",
-  "price": 4.69,
+  "price": 4.66,
   "unit": "$/lb",
   "as_of": "2026-10-14",
   "url": "https://metalrecap.com/scrap-price/alsip/"
@@ -384,7 +384,7 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "#1 insulated wire",
-  "price": 3.14,
+  "price": 3.09,
   "unit": "$/lb",
   "as_of": "2026-10-14",
   "url": "https://metalrecap.com/scrap-price/alsip/"
@@ -394,7 +394,7 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Yellow brass",
-  "price": 2.71,
+  "price": 2.72,
   "unit": "$/lb",
   "as_of": "2026-10-14",
   "url": "https://metalrecap.com/scrap-price/alsip/"
@@ -404,7 +404,7 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Red brass",
-  "price": 3.22,
+  "price": 3.21,
   "unit": "$/lb",
   "as_of": "2026-10-14",
   "url": "https://metalrecap.com/scrap-price/alsip/"
@@ -414,7 +414,7 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Aluminum wheels",
-  "price": 0.99,
+  "price": 0.96,
   "unit": "$/lb",
   "as_of": "2026-10-15",
   "url": "https://metalrecap.com/scrap-price/alsip/"
@@ -434,9 +434,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Aluminum cans",
-  "price": 0.58,
+  "price": 0.59,
   "unit": "$/lb",
-  "as_of": "2026-10-07",
+  "as_of": "2026-10-19",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -464,9 +464,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Cast iron rotors",
-  "price": 0.14,
+  "price": 0.13,
   "unit": "$/lb",
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-17",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -476,7 +476,7 @@
   "material": "Heavy steel",
   "price": 0.09,
   "unit": "$/lb",
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-20",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -486,7 +486,7 @@
   "material": "Sheet iron",
   "price": 0.09,
   "unit": "$/lb",
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-20",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -607,6 +607,56 @@
   "price": 0.71,
   "unit": "$/lb",
   "as_of": "2026-10-12",
+  "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
+ },
+ {
+  "yard": "Illinois yard average",
+  "area": "Statewide (ScrapMonster)",
+  "address": "",
+  "material": "#1 copper",
+  "price": 4.64,
+  "unit": "$/lb",
+  "as_of": "2026-10-12",
+  "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
+ },
+ {
+  "yard": "Illinois yard average",
+  "area": "Statewide (ScrapMonster)",
+  "address": "",
+  "material": "#2 copper",
+  "price": 4.54,
+  "unit": "$/lb",
+  "as_of": "2026-10-12",
+  "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
+ },
+ {
+  "yard": "Illinois yard average",
+  "area": "Statewide (ScrapMonster)",
+  "address": "",
+  "material": "Yellow brass",
+  "price": 3.75,
+  "unit": "$/lb",
+  "as_of": "2026-10-12",
+  "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
+ },
+ {
+  "yard": "Illinois yard average",
+  "area": "Statewide (ScrapMonster)",
+  "address": "",
+  "material": "Cast iron",
+  "price": 220,
+  "unit": "$/net ton",
+  "as_of": "2026-10-09",
+  "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
+ },
+ {
+  "yard": "Illinois yard average",
+  "area": "Statewide (ScrapMonster)",
+  "address": "",
+  "material": "Sheet iron",
+  "price": 175,
+  "unit": "$/net ton",
+  "as_of": "2026-10-09",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {

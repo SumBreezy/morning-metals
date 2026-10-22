@@ -2,136 +2,136 @@
  {
   "group": "Precious & PGMs",
   "metal": "Gold",
-  "price": 4166.39,
+  "price": 4124.1,
   "unit": "$/oz",
-  "change_pct": -0.11,
-  "as_of": "2026-10-16",
-  "source": "Trading Economics"
+  "change_pct": -0.38,
+  "as_of": "2026-10-20",
+  "source": "Kitco (5pm NY close, implied from Kitco Wednesday change; Kitco PM spot about $4,122.50)"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Silver",
-  "price": 56.98,
+  "price": 57.88,
   "unit": "$/oz",
-  "change_pct": -0.75,
-  "as_of": "2026-10-16",
-  "source": "Trading Economics"
+  "change_pct": 1.58,
+  "as_of": "2026-10-20",
+  "source": "Kitco (5pm NY close, implied from Kitco Wednesday change; Kitco PM spot about $57.80)"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Platinum",
-  "price": 1639.7,
+  "price": 1647.0,
   "unit": "$/oz",
-  "change_pct": 1.12,
-  "as_of": "2026-10-16",
-  "source": "Trading Economics"
+  "change_pct": 0.73,
+  "as_of": "2026-10-20",
+  "source": "Kitco (5pm NY close, implied from Kitco Wednesday change)"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Palladium",
-  "price": 1096.0,
+  "price": 1086.0,
   "unit": "$/oz",
-  "change_pct": -1.62,
-  "as_of": "2026-10-16",
-  "source": "Kitco (5pm NY close)"
+  "change_pct": -1.36,
+  "as_of": "2026-10-20",
+  "source": "Kitco (5pm NY close, implied from Kitco Wednesday change; Trading Economics about $1,105)"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Rhodium",
-  "price": 9150.02,
+  "price": 9100.0,
   "unit": "$/oz",
-  "change_pct": 0,
-  "as_of": "2026-10-16",
-  "source": "dailymetalprice.com (Kitco bid $8,850; dealer quotes $8,500\u2013$9,850)"
+  "change_pct": 0.0,
+  "as_of": "2026-10-20",
+  "source": "dailymetalprice.com (Kitco bid $8,625 / ask $9,625)"
  },
  {
   "group": "Base metals",
   "metal": "Copper (COMEX)",
-  "price": 6.58,
+  "price": 6.61,
   "unit": "$/lb",
-  "change_pct": 1.11,
-  "as_of": "2026-10-16",
-  "source": "Trading Economics"
+  "change_pct": 0.55,
+  "as_of": "2026-10-20",
+  "source": "Investing.com (Dec futures close $6.6115; Trading Economics about $6.56)"
  },
  {
   "group": "Base metals",
   "metal": "Copper (LME official)",
-  "price": 14595,
+  "price": 14540,
   "unit": "$/t",
-  "change_pct": null,
-  "as_of": "2026-10-16",
-  "source": "KME (LME official)"
+  "change_pct": 0.3,
+  "as_of": "2026-10-20",
+  "source": "LME official cash (Westmetall)"
  },
  {
   "group": "Base metals",
   "metal": "Aluminum (LME)",
-  "price": 3007.1,
+  "price": 3003.5,
   "unit": "$/t",
-  "change_pct": 0.74,
-  "as_of": "2026-10-16",
-  "source": "Trading Economics"
+  "change_pct": -0.51,
+  "as_of": "2026-10-20",
+  "source": "LME official cash (Westmetall)"
  },
  {
   "group": "Base metals",
   "metal": "Zinc (LME)",
-  "price": 3666.75,
+  "price": 3736,
   "unit": "$/t",
-  "change_pct": -0.27,
-  "as_of": "2026-10-16",
-  "source": "Trading Economics"
+  "change_pct": -1.06,
+  "as_of": "2026-10-20",
+  "source": "LME official cash (Westmetall)"
  },
  {
   "group": "Base metals",
   "metal": "Nickel (LME)",
-  "price": 15321.75,
+  "price": 15350,
   "unit": "$/t",
-  "change_pct": 0.47,
-  "as_of": "2026-10-16",
-  "source": "Trading Economics"
+  "change_pct": 0.49,
+  "as_of": "2026-10-20",
+  "source": "LME official cash (Westmetall)"
  },
  {
   "group": "Base metals",
   "metal": "Tin (Shanghai spot)",
-  "price": 56428.41,
+  "price": 58173.65,
   "unit": "$/t",
-  "change_pct": 1.49,
-  "as_of": "2026-10-16",
-  "source": "Shanghai Metals Market"
+  "change_pct": 1.71,
+  "as_of": "2026-10-21",
+  "source": "SMM #1 tin spot avg 388,600 yuan/t (+6,550), converted at about 6.68 yuan/$; LME official cash Oct 20 $51,200"
  },
  {
   "group": "Base metals",
   "metal": "Lead (LME spot)",
-  "price": 1874,
+  "price": 1851,
   "unit": "$/t",
-  "change_pct": null,
-  "as_of": "2026-09-01",
-  "source": "cbonds (older quote \u2014 no fresh free quote found)"
+  "change_pct": -0.27,
+  "as_of": "2026-10-20",
+  "source": "LME official cash (Westmetall)"
  },
  {
   "group": "Steel & ferrous",
   "metal": "US Midwest HRC steel",
-  "price": 1343,
+  "price": 1363,
   "unit": "$/st",
-  "change_pct": 0.07,
-  "as_of": "2026-10-15",
+  "change_pct": -0.15,
+  "as_of": "2026-10-20",
   "source": "Trading Economics"
  },
  {
   "group": "Steel & ferrous",
   "metal": "Iron ore (62% Fe)",
-  "price": 90.57,
+  "price": 90.86,
   "unit": "$/t",
-  "change_pct": -0.19,
-  "as_of": "2026-10-15",
+  "change_pct": -0.1,
+  "as_of": "2026-10-20",
   "source": "Trading Economics"
  },
  {
   "group": "Steel & ferrous",
   "metal": "HMS 1&2 80:20 (Turkey import)",
-  "price": 403,
+  "price": 395,
   "unit": "$/t",
-  "change_pct": 0,
-  "as_of": "2026-10-03",
-  "source": "Arab Iron and Steel Union"
+  "change_pct": -1.25,
+  "as_of": "2026-10-17",
+  "source": "Arab Iron and Steel Union (weekly, US-origin CFR)"
  }
 ]
