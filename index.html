@@ -101,6 +101,9 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 .mm-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
 .mm-hint { margin-top: var(--cds-gap-sm); }
 .mm-first { margin-top: 0; }
+.mm-filters { display: flex; gap: var(--cds-gap-xs); overflow-x: auto; padding-bottom: var(--cds-gap-sm); margin-bottom: var(--cds-gap-xs); -webkit-overflow-scrolling: touch; }
+.mm-fchip { flex: 0 0 auto; font: inherit; font-size: var(--cds-font-size-caption); background: var(--color-panel); color: var(--color-fg-muted); border: 1px solid var(--color-border-line); border-radius: 999px; padding: var(--cds-pad-xs) var(--cds-pad-md); cursor: pointer; touch-action: manipulation; }
+.mm-fchip[aria-pressed="true"] { background: var(--color-fg); color: var(--color-bg); border-color: var(--color-fg); }
 .mm-tile, #price-groups tr[data-key] { cursor: pointer; -webkit-tap-highlight-color: transparent; }
 .mm-tile:hover, .mm-tile:focus-visible { border-color: var(--color-fg-muted); outline: none; }
 .mm-tile.mm-on { border-color: var(--color-fg); }
@@ -158,6 +161,7 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
 
   <section id="news" hidden>
     <h2 class="mm-h2 mm-first" id="movers">What's moving markets</h2>
+    <div class="mm-filters" id="news-filter" role="group" aria-label="Filter news by topic"></div>
     <ul class="mm-list" id="news-list" data-source="news"></ul>
 
     <h2 class="mm-h2" id="coming-up">Coming up</h2>
@@ -427,17 +431,33 @@ body { margin: 0; background: var(--color-bg); color: var(--color-fg); font-fami
     // News
     const nw = dash.data('news');
     const nl = document.getElementById('news-list');
-    if (nw.status === 'error') fail(nl);
+    const nf = document.getElementById('news-filter');
+    if (nw.status === 'error') { fail(nl); nf.replaceChildren(); }
     else {
-      nl.replaceChildren();
-      (nw.status === 'ok' ? nw.data.slice().sort((a, b) => a.rank - b.rank) : []).forEach((n) => {
+      nl.replaceChildren(); nf.replaceChildren();
+      const items = nw.status === 'ok' ? nw.data.slice().sort((a, b) => a.rank - b.rank) : [];
+      const cats = [...new Set(items.map((n) => n.category).filter(Boolean))];
+      let cat = dash.params().cat || 'All';
+      if (cat !== 'All' && !cats.includes(cat)) cat = 'All';
+      if (cats.length > 1) {
+        ['All', ...cats].forEach((c) => {
+          const b = document.createElement('button'); b.className = 'mm-fchip'; b.type = 'button';
+          const n = c === 'All' ? items.length : items.filter((x) => x.category === c).length;
+          b.textContent = c + ' ' + n; b.setAttribute('aria-pressed', String(c === cat));
+          b.addEventListener('click', () => dash.setParams({ cat: c }));
+          nf.append(b);
+        });
+      }
+      items.filter((n) => cat === 'All' || n.category === cat).forEach((n) => {
         const li = document.createElement('li'); li.className = 'mm-item';
         const chip = document.createElement('span'); chip.className = 'mm-chip'; chip.textContent = n.category;
         const h = document.createElement('span'); h.className = 'mm-item-h'; h.textContent = n.headline;
         const p = document.createElement('p'); p.className = 'mm-item-p'; p.textContent = n.detail;
         li.append(chip, h, p);
         const u = safeLink(n.url);
-        if (u) { const a = document.createElement('a'); a.href = u; a.target = '_blank'; a.rel = 'noopener'; a.textContent = n.source + ' ↗'; li.append(a); }
+        const when = n.date ? fmtShort(n.date) : '';
+        if (u) { const a = document.createElement('a'); a.href = u; a.target = '_blank'; a.rel = 'noopener'; a.textContent = n.source + (when ? ' · ' + when : '') + ' ↗'; li.append(a); }
+        else if (n.source) { const s = document.createElement('span'); s.className = 'mm-sub'; s.textContent = n.source + (when ? ' · ' + when : ''); li.append(s); }
         nl.append(li);
       });
     }
