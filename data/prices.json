@@ -6,7 +6,7 @@
   "unit": "$/oz",
   "change_pct": 0.39,
   "as_of": "2026-10-21",
-  "source": "Kitco (5pm NY close, implied from Kitco Thursday change; Kitco PM spot about $4,141)"
+  "source": "Kitco (5pm NY close; Kitco bid $4,084 at 4am ET Oct 22, -1.35% overnight)"
  },
  {
   "group": "Precious & PGMs",
@@ -15,7 +15,7 @@
   "unit": "$/oz",
   "change_pct": -0.05,
   "as_of": "2026-10-21",
-  "source": "Kitco (5pm NY close, implied from Kitco Thursday change; Kitco PM spot about $57.98, Reuters midday $57.46)"
+  "source": "Kitco (5pm NY close; Kitco bid $55.74 at 4am ET Oct 22, -3.65% overnight)"
  },
  {
   "group": "Precious & PGMs",
@@ -24,7 +24,7 @@
   "unit": "$/oz",
   "change_pct": -1.52,
   "as_of": "2026-10-21",
-  "source": "Kitco (5pm NY close, implied from Kitco Thursday change; Reuters midday $1,630, -1.1%)"
+  "source": "Kitco (5pm NY close; Kitco bid $1,586 at 4am ET Oct 22, -2.2% overnight)"
  },
  {
   "group": "Precious & PGMs",
@@ -33,7 +33,7 @@
   "unit": "$/oz",
   "change_pct": -1.2,
   "as_of": "2026-10-21",
-  "source": "Kitco (5pm NY close, implied from Kitco Thursday change; Reuters midday $1,090, -1.2%)"
+  "source": "Kitco (5pm NY close; Kitco bid $1,036 at 4am ET Oct 22, -3.45% overnight)"
  },
  {
   "group": "Precious & PGMs",
@@ -42,7 +42,7 @@
   "unit": "$/oz",
   "change_pct": 0.0,
   "as_of": "2026-10-21",
-  "source": "dailymetalprice.com (Kitco bid $8,625 / ask $9,625)"
+  "source": "dailymetalprice.com ($292.57/g = $9,100/oz; Kitco bid $8,625 / ask $9,625)"
  },
  {
   "group": "Base metals",
@@ -51,7 +51,7 @@
   "unit": "$/lb",
   "change_pct": -0.72,
   "as_of": "2026-10-21",
-  "source": "Investing.com (Dec futures close $6.5557; Trading Economics about $6.53)"
+  "source": "Investing.com (Dec futures close $6.5557); down about 2.2% to $6.43 early Oct 22 (Investing.com)"
  },
  {
   "group": "Base metals",
@@ -60,7 +60,7 @@
   "unit": "$/t",
   "change_pct": -0.68,
   "as_of": "2026-10-21",
-  "source": "LME official cash (Westmetall); LME 3-month close $14,370.5 (SMM)"
+  "source": "LME official cash (Westmetall); LME 3-month $14,315; LME stocks up to 245,275 t"
  },
  {
   "group": "Base metals",
@@ -74,20 +74,20 @@
  {
   "group": "Base metals",
   "metal": "Zinc (LME)",
-  "price": 3736,
+  "price": 3771,
   "unit": "$/t",
-  "change_pct": -1.06,
-  "as_of": "2026-10-20",
-  "source": "LME official cash (Westmetall); Oct 21 official not yet posted \u2014 LME 3-month about $3,742 (+0.5%) Oct 21 afternoon (Reuters)"
+  "change_pct": 0.94,
+  "as_of": "2026-10-21",
+  "source": "LME official cash (Westmetall); 3-month $3,724"
  },
  {
   "group": "Base metals",
   "metal": "Nickel (LME)",
-  "price": 15350,
+  "price": 15830,
   "unit": "$/t",
-  "change_pct": 0.49,
-  "as_of": "2026-10-20",
-  "source": "LME official cash (Westmetall); Oct 21 official not yet posted \u2014 LME 3-month about $16,310 (+4.1%) Oct 21 afternoon (Reuters)"
+  "change_pct": 3.13,
+  "as_of": "2026-10-21",
+  "source": "LME official cash (Westmetall); 3-month $16,040"
  },
  {
   "group": "Base metals",
@@ -96,7 +96,7 @@
   "unit": "$/t",
   "change_pct": 1.71,
   "as_of": "2026-10-21",
-  "source": "SMM #1 tin spot avg 388,600 yuan/t (+6,550), converted at about 6.68 yuan/$; LME official cash Oct 20 $51,200"
+  "source": "SMM #1 tin spot avg 388,600 yuan/t, converted at about 6.68 yuan/$; LME official cash Oct 21 $51,550 (Westmetall)"
  },
  {
   "group": "Base metals",
@@ -105,7 +105,7 @@
   "unit": "$/t",
   "change_pct": -0.27,
   "as_of": "2026-10-20",
-  "source": "LME official cash (Westmetall); Oct 21 official not yet posted \u2014 LME 3-month about $1,908 (+0.7%) Oct 21 afternoon (Reuters)"
+  "source": "LME official cash (Westmetall); Oct 21 official not yet posted"
  },
  {
   "group": "Steel & ferrous",

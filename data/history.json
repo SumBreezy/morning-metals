@@ -240,6 +240,12 @@
   "note": "close"
  },
  {
+  "metal": "Nickel (LME)",
+  "date": "2026-10-21",
+  "price": 15830,
+  "note": "close"
+ },
+ {
   "metal": "Palladium",
   "date": "2026-09-16",
   "price": 1303.01,
@@ -579,6 +585,12 @@
   "metal": "Zinc (LME)",
   "date": "2026-10-20",
   "price": 3736,
+  "note": "close"
+ },
+ {
+  "metal": "Zinc (LME)",
+  "date": "2026-10-21",
+  "price": 3771,
   "note": "close"
  }
 ]
