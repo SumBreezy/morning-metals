@@ -364,7 +364,7 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Bare bright copper",
-  "price": 4.93,
+  "price": 4.92,
   "unit": "$/lb",
   "as_of": "2026-10-12",
   "url": "https://metalrecap.com/scrap-price/alsip/"
@@ -374,7 +374,7 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "#1 copper",
-  "price": 4.76,
+  "price": 4.75,
   "unit": "$/lb",
   "as_of": "2026-10-21",
   "url": "https://metalrecap.com/scrap-price/alsip/"
@@ -384,7 +384,7 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "#2 copper",
-  "price": 4.6,
+  "price": 4.59,
   "unit": "$/lb",
   "as_of": "2026-10-21",
   "url": "https://metalrecap.com/scrap-price/alsip/"
@@ -404,7 +404,7 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Yellow brass",
-  "price": 2.7,
+  "price": 2.67,
   "unit": "$/lb",
   "as_of": "2026-10-21",
   "url": "https://metalrecap.com/scrap-price/alsip/"
@@ -414,7 +414,7 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Red brass",
-  "price": 3.22,
+  "price": 3.17,
   "unit": "$/lb",
   "as_of": "2026-10-14",
   "url": "https://metalrecap.com/scrap-price/alsip/"
@@ -444,7 +444,7 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Aluminum cans",
-  "price": 0.58,
+  "price": 0.59,
   "unit": "$/lb",
   "as_of": "2026-10-21",
   "url": "https://metalrecap.com/scrap-price/alsip/"
@@ -454,7 +454,7 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "304 stainless",
-  "price": 0.33,
+  "price": 0.32,
   "unit": "$/lb",
   "as_of": "2026-10-14",
   "url": "https://metalrecap.com/scrap-price/alsip/"
@@ -486,7 +486,7 @@
   "material": "Heavy steel",
   "price": 0.09,
   "unit": "$/lb",
-  "as_of": "2026-10-22",
+  "as_of": "2026-10-24",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -496,7 +496,17 @@
   "material": "Sheet iron",
   "price": 0.09,
   "unit": "$/lb",
-  "as_of": "2026-10-22",
+  "as_of": "2026-10-25",
+  "url": "https://metalrecap.com/scrap-price/alsip/"
+ },
+ {
+  "yard": "Alsip-area yard average",
+  "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
+  "address": "",
+  "material": "Copper radiators",
+  "price": 2.8,
+  "unit": "$/lb",
+  "as_of": "2026-10-23",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
