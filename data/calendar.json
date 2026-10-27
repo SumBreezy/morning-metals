@@ -1,12 +1,5 @@
 [
  {
-  "when": "Mon Oct 26, after close",
-  "event": "Nucor Q3 earnings",
-  "why": "Largest US scrap buyer; watch comments on scrap and steel pricing.",
-  "source": "The Right Trader",
-  "url": "https://therighttrader.com/earnings-calendar/nue"
- },
- {
   "when": "Tue Oct 27, before open",
   "event": "Freeport-McMoRan Q3 earnings",
   "why": "Top US copper miner; outlook on copper supply and tariffs.",
@@ -23,21 +16,35 @@
  {
   "when": "Tue Oct 27, 9:00am CT",
   "event": "Consumer confidence, new home sales (September) & Richmond Fed survey",
-  "why": "More reads on housing and factory demand; mortgage rates just dipped to 7.32%.",
+  "why": "More reads on housing and factory demand after starts fell 5.2% in September.",
   "source": "Scotiabank / WRE News",
   "url": "https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.calendar-of-economic-release-dates.calendar-of-economic-release-dates--october-2026-.html"
  },
  {
+  "when": "Wed Oct 28, early morning CT",
+  "event": "Stellantis Q3 earnings (call 7:00am CT)",
+  "why": "Jeep/Ram production plans and Canadian strike risk.",
+  "source": "24/7 Wall St.",
+  "url": "https://247wallst.com/investing/2026/10/26/can-stellantis-hold-its-2026-guidance-what-to-watch-in-q3-earnings/"
+ },
+ {
+  "when": "Wed Oct 28",
+  "event": "Algoma Steel Q3 results",
+  "why": "Canadian EAF steelmaker hit by US tariffs; read on scrap buying and US-Canada tariff talks.",
+  "source": "Finviz",
+  "url": "https://finviz.com/news/403425/algoma-steel-group-inc-to-announce-2026-third-quarter-results-october-28-2026"
+ },
+ {
   "when": "Wed Oct 28, 1:00pm CT",
   "event": "Federal Reserve rate decision (press conference 1:30pm)",
-  "why": "A hold is expected, but futures price about a 79% chance of a December hike; a hawkish tone would lift the dollar and weigh on metals.",
-  "source": "Reuters via MarketScreener",
-  "url": "https://marketscreener.com/news/gold-gains-on-softer-oil-prices-fed-decision-in-focus-ce785cdfd08dff22"
+  "why": "Hold expected, but futures price about a 73% chance of a December hike; a hawkish tone would lift the dollar and weigh on metals.",
+  "source": "Kiplinger",
+  "url": "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-october-2026"
  },
  {
   "when": "Wed Oct 28 (time not announced)",
   "event": "Ford Q3 earnings",
-  "why": "Update on F-150 output and the Novelis aluminum supply hit.",
+  "why": "Update on F-150 output after the Novelis aluminum supply hit.",
   "source": "24/7 Wall St.",
   "url": "https://247wallst.com/investing/2026/10/24/wall-street-lowers-the-bar-why-fords-q3-earnings-on-oct-28-could-trigger-a-surprise-october-breakout/"
  },
@@ -77,6 +84,13 @@
   "url": "https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.calendar-of-economic-release-dates.calendar-of-economic-release-dates--october-2026-.html"
  },
  {
+  "when": "Fri Oct 30, 8:30pm CT (estimated)",
+  "event": "China official PMIs (October)",
+  "why": "First read on Chinese factory and construction demand as iron ore sits at a two-year low.",
+  "source": "FinanceCalendar",
+  "url": "https://www.financecalendar.com/?p=2391"
+ },
+ {
   "when": "Mon Nov 2, 9:00am CT (estimated)",
   "event": "ISM manufacturing PMI (October)",
   "why": "Main read on US factory demand for steel, copper and aluminum.",
@@ -86,9 +100,9 @@
  {
   "when": "Tue Nov 3, all day",
   "event": "US midterm elections",
-  "why": "US-Mexico talks on cutting steel and aluminum tariffs may wait until after the vote.",
-  "source": "SteelOrbis",
-  "url": "https://www.steelorbis.com/steel-news/latest-news/mexico-us-trade-deal-progress-halts-over-steel-tariffs-1485768.htm"
+  "why": "US-Canada and US-Mexico steel tariff deals may hinge on the vote.",
+  "source": "IndexBox",
+  "url": "https://indexbox.io/blog/us-and-canada-negotiate-deal-to-ease-steel-and-auto-tariffs-ahead-of-november-3-elections"
  },
  {
   "when": "Tue Nov 3, 9:00am CT",

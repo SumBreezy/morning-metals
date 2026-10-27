@@ -2,128 +2,128 @@
  {
   "group": "Precious & PGMs",
   "metal": "Gold",
-  "price": 3994.9,
+  "price": 4016.2,
   "unit": "$/oz",
-  "change_pct": -0.71,
-  "as_of": "2026-10-23",
-  "source": "Kitco (5pm NY close, from Kitco bid $4,007.80 and +$12.90 change at 3:54am ET Oct 26; Kitco PM report late $3,995.81, -0.7%; weekly loss about 4%)"
+  "change_pct": 0.53,
+  "as_of": "2026-10-26",
+  "source": "Kitco (NY close, from Kitco bid $3,997.60 and -$18.60 change at 4:03am ET Oct 27); Dec futures settled $4,038.40 (+0.8%)"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Silver",
-  "price": 53.8,
+  "price": 53.84,
   "unit": "$/oz",
-  "change_pct": -1.23,
-  "as_of": "2026-10-23",
-  "source": "Kitco (5pm NY close, from Kitco bid $53.89 and +$0.09 change at 3:54am ET Oct 26; Kitco PM report late $53.90, -1.3%)"
+  "change_pct": 0.07,
+  "as_of": "2026-10-26",
+  "source": "Kitco (NY close, from Kitco bid $52.73 and -$1.11 change at 4:03am ET Oct 27); futures $54.04"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Platinum",
-  "price": 1548.0,
+  "price": 1526.0,
   "unit": "$/oz",
-  "change_pct": -0.71,
-  "as_of": "2026-10-23",
-  "source": "Kitco (NY close, from Kitco bid $1,544 and -$4 change at 3:54am ET Oct 26; Reuters $1,546 early Oct 26)"
+  "change_pct": -1.42,
+  "as_of": "2026-10-26",
+  "source": "Kitco (NY close, from Kitco bid $1,486 and -$40 change at 4:03am ET Oct 27); Gold Stock Canada -1.24% in C$"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Palladium",
   "price": 1026.0,
   "unit": "$/oz",
-  "change_pct": -0.97,
-  "as_of": "2026-10-23",
-  "source": "Kitco (NY close, from Kitco bid $1,022 and -$4 change at 3:54am ET Oct 26; Reuters $1,039 early Oct 26)"
+  "change_pct": 0.0,
+  "as_of": "2026-10-26",
+  "source": "Kitco (NY close, from Kitco bid $1,003 and -$23 change at 4:03am ET Oct 27); 'nearly flat' per Gold Stock Canada"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Rhodium",
-  "price": 9150.0,
+  "price": 9100.0,
   "unit": "$/oz",
-  "change_pct": 0.0,
-  "as_of": "2026-10-23",
-  "source": "dailymetalprice.com ($9,150/oz; $294.18/g, unchanged from Oct 22); Kitco bid $8,625 / ask $9,625, dealer range $7,200\u2013$10,600"
+  "change_pct": -0.55,
+  "as_of": "2026-10-26",
+  "source": "dailymetalprice.com ($9,100/oz on 10/26, from $9,150 Oct 23); Kitco bid $8,625 / ask $9,625, dealer range $7,200\u2013$10,600"
  },
  {
   "group": "Base metals",
   "metal": "Copper (COMEX)",
-  "price": 6.51,
+  "price": 6.54,
   "unit": "$/lb",
-  "change_pct": 1.71,
-  "as_of": "2026-10-23",
-  "source": "Investing.com (Dec futures close $6.5075); Rio Times cites $6.54; TE about $6.47 early Oct 26"
+  "change_pct": 0.51,
+  "as_of": "2026-10-26",
+  "source": "Investing.com (Dec futures close $6.5408 vs $6.5075 Oct 23); Capp Notes $6.544; TE about $6.52 early Oct 27"
  },
  {
   "group": "Base metals",
   "metal": "Copper (LME official)",
-  "price": 14415,
+  "price": 14500,
   "unit": "$/t",
-  "change_pct": 1.41,
-  "as_of": "2026-10-23",
-  "source": "LME official cash (Westmetall); LME 3-month $14,334 late Oct 23 (Reuters/Mining.com); LME stocks 273,750 t"
+  "change_pct": 0.59,
+  "as_of": "2026-10-26",
+  "source": "LME official cash (Westmetall, from $14,415 Oct 23); 3-month about $14,329 midday (Reuters); LME stocks 272,975 t"
  },
  {
   "group": "Base metals",
   "metal": "Aluminum (LME)",
-  "price": 3043,
+  "price": 3047.5,
   "unit": "$/t",
-  "change_pct": 0.33,
-  "as_of": "2026-10-23",
-  "source": "LME official cash (Westmetall); 3-month $3,044 late, +1.2% (Reuters/Mining.com)"
+  "change_pct": 0.15,
+  "as_of": "2026-10-26",
+  "source": "LME official cash (Westmetall, from $3,043); 3-month $3,039.50 midday (Reuters); LME stocks 234,050 t"
  },
  {
   "group": "Base metals",
   "metal": "Zinc (LME)",
-  "price": 3790,
+  "price": 3900,
   "unit": "$/t",
-  "change_pct": 1.69,
-  "as_of": "2026-10-23",
-  "source": "LME official cash (Westmetall); 3-month $3,752 late, +2.2% (Reuters/Mining.com)"
+  "change_pct": 2.9,
+  "as_of": "2026-10-26",
+  "source": "LME official cash (Westmetall, from $3,790); 3-month $3,823 late, +2.0% (SMM); cash over 3-month backwardation above $100; spot indication about $3,801 (MetalCharts)"
  },
  {
   "group": "Base metals",
   "metal": "Nickel (LME)",
-  "price": 15695,
+  "price": 15535,
   "unit": "$/t",
-  "change_pct": -1.51,
-  "as_of": "2026-10-23",
-  "source": "LME official cash (Westmetall); 3-month $15,865 late, -1.6% (Reuters/Mining.com)"
+  "change_pct": -1.02,
+  "as_of": "2026-10-26",
+  "source": "LME official cash (Westmetall, from $15,695); Indonesia cut its late-October benchmark 2.9%"
  },
  {
   "group": "Base metals",
   "metal": "Tin (Shanghai spot)",
-  "price": 55757.12,
+  "price": 57676.16,
   "unit": "$/t",
-  "change_pct": -3.0,
-  "as_of": "2026-10-23",
-  "source": "SMM #1 tin spot avg 371,900 yuan/t (down 11,500), converted at about 6.67 yuan/$; % change in yuan; LME official cash Oct 23 $50,855 (Westmetall)"
+  "change_pct": 3.44,
+  "as_of": "2026-10-26",
+  "source": "SMM #1 tin spot avg 384,700 yuan/t (up 12,800), converted at about 6.67 yuan/$; % change in yuan; LME official cash Oct 26 $50,925 (Westmetall)"
  },
  {
   "group": "Base metals",
   "metal": "Lead (LME spot)",
-  "price": 1886,
+  "price": 1900,
   "unit": "$/t",
-  "change_pct": 0.75,
-  "as_of": "2026-10-23",
-  "source": "LME official cash (Westmetall); Oct 22 official $1,872"
+  "change_pct": 0.74,
+  "as_of": "2026-10-26",
+  "source": "LME official cash (Westmetall); Oct 23 official $1,886"
  },
  {
   "group": "Steel & ferrous",
   "metal": "US Midwest HRC steel",
-  "price": 1381,
+  "price": 1383,
   "unit": "$/st",
-  "change_pct": 0.44,
-  "as_of": "2026-10-23",
-  "source": "Trading Economics ($1,381, +$6); CME front-month $1,292 (Investing.com)"
+  "change_pct": 0.14,
+  "as_of": "2026-10-26",
+  "source": "Trading Economics ($1,383, +$2)"
  },
  {
   "group": "Steel & ferrous",
   "metal": "Iron ore (62% Fe)",
-  "price": 90.83,
+  "price": 90.78,
   "unit": "$/t",
-  "change_pct": 0.11,
-  "as_of": "2026-10-23",
-  "source": "Trading Economics (CFR Tianjin); China port stocks down 550,000 t to 147.75 Mt (SMM)"
+  "change_pct": -0.06,
+  "as_of": "2026-10-26",
+  "source": "Trading Economics (CFR, from $90.83); Singapore Nov contract fell to $89.45 early Oct 27, lowest since Sept 2024 (Reuters)"
  },
  {
   "group": "Steel & ferrous",
