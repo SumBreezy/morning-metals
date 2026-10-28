@@ -2,29 +2,29 @@
  {
   "group": "Precious & PGMs",
   "metal": "Gold",
-  "price": 4016.2,
+  "price": 4058.4,
   "unit": "$/oz",
-  "change_pct": 0.53,
-  "as_of": "2026-10-26",
-  "source": "Kitco (NY close, from Kitco bid $3,997.60 and -$18.60 change at 4:03am ET Oct 27); Dec futures settled $4,038.40 (+0.8%)"
+  "change_pct": 1.05,
+  "as_of": "2026-10-27",
+  "source": "Kitco (bid $4,058.40, +$42.20 at 1:49pm ET Oct 27); Reuters spot $4,045 (-0.3%) early Oct 28 implies about $4,057 close"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Silver",
-  "price": 53.84,
+  "price": 54.4,
   "unit": "$/oz",
-  "change_pct": 0.07,
-  "as_of": "2026-10-26",
-  "source": "Kitco (NY close, from Kitco bid $52.73 and -$1.11 change at 4:03am ET Oct 27); futures $54.04"
+  "change_pct": 1.04,
+  "as_of": "2026-10-27",
+  "source": "Reuters spot $54.06 (-0.6%) and Investing.com $53.91 (-0.9%) early Oct 28 imply about $54.40 close; Kitco $54.21 at 1:49pm ET"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Platinum",
-  "price": 1526.0,
+  "price": 1538.0,
   "unit": "$/oz",
-  "change_pct": -1.42,
-  "as_of": "2026-10-26",
-  "source": "Kitco (NY close, from Kitco bid $1,486 and -$40 change at 4:03am ET Oct 27); Gold Stock Canada -1.24% in C$"
+  "change_pct": 0.79,
+  "as_of": "2026-10-27",
+  "source": "Reuters spot $1,533.64 (-0.4%) early Oct 28 implies about $1,540; Trading Economics about $1,537; Kitco $1,527 at 1:49pm ET"
  },
  {
   "group": "Precious & PGMs",
@@ -32,8 +32,8 @@
   "price": 1026.0,
   "unit": "$/oz",
   "change_pct": 0.0,
-  "as_of": "2026-10-26",
-  "source": "Kitco (NY close, from Kitco bid $1,003 and -$23 change at 4:03am ET Oct 27); 'nearly flat' per Gold Stock Canada"
+  "as_of": "2026-10-27",
+  "source": "Reuters spot $1,030.80 (+0.5%) early Oct 28 implies about $1,026 close; sources disagree (Kitco $1,012 at 1:49pm ET, Trading Economics $1,017)"
  },
  {
   "group": "Precious & PGMs",
@@ -42,88 +42,88 @@
   "unit": "$/oz",
   "change_pct": -0.55,
   "as_of": "2026-10-26",
-  "source": "dailymetalprice.com ($9,100/oz on 10/26, from $9,150 Oct 23); Kitco bid $8,625 / ask $9,625, dealer range $7,200\u2013$10,600"
+  "source": "dailymetalprice.com ($9,100/oz on 10/26; site not reachable Oct 28, kept prior day); Kitco bid $8,625 / ask $9,625 unchanged, dealer range $7,200\u2013$10,600"
  },
  {
   "group": "Base metals",
   "metal": "Copper (COMEX)",
-  "price": 6.54,
+  "price": 6.63,
   "unit": "$/lb",
-  "change_pct": 0.51,
-  "as_of": "2026-10-26",
-  "source": "Investing.com (Dec futures close $6.5408 vs $6.5075 Oct 23); Capp Notes $6.544; TE about $6.52 early Oct 27"
+  "change_pct": 1.38,
+  "as_of": "2026-10-27",
+  "source": "Trading Economics ($6.61, -0.26% early Oct 28, implies about $6.63 close); CME: Dec copper's highest close since Oct 14; CPER fund +1.7%"
  },
  {
   "group": "Base metals",
   "metal": "Copper (LME official)",
-  "price": 14500,
+  "price": 14625,
   "unit": "$/t",
-  "change_pct": 0.59,
-  "as_of": "2026-10-26",
-  "source": "LME official cash (Westmetall, from $14,415 Oct 23); 3-month about $14,329 midday (Reuters); LME stocks 272,975 t"
+  "change_pct": 0.86,
+  "as_of": "2026-10-27",
+  "source": "LME official (KME, Oct 27, from $14,500); 3-month $14,487.50, +1.1% (Reuters); cash premium over 3-month about $200"
  },
  {
   "group": "Base metals",
   "metal": "Aluminum (LME)",
-  "price": 3047.5,
+  "price": 3078,
   "unit": "$/t",
-  "change_pct": 0.15,
-  "as_of": "2026-10-26",
-  "source": "LME official cash (Westmetall, from $3,043); 3-month $3,039.50 midday (Reuters); LME stocks 234,050 t"
+  "change_pct": 1.0,
+  "as_of": "2026-10-27",
+  "source": "LME official cash (Westmetall, from $3,047.50); 3-month $3,064; LME stocks 232,100 t"
  },
  {
   "group": "Base metals",
   "metal": "Zinc (LME)",
-  "price": 3900,
+  "price": 3927,
   "unit": "$/t",
-  "change_pct": 2.9,
-  "as_of": "2026-10-26",
-  "source": "LME official cash (Westmetall, from $3,790); 3-month $3,823 late, +2.0% (SMM); cash over 3-month backwardation above $100; spot indication about $3,801 (MetalCharts)"
+  "change_pct": 0.69,
+  "as_of": "2026-10-27",
+  "source": "LME official (KME, from $3,900); 3-month $3,839.50, +0.7%, highest since Sept 30 (Reuters)"
  },
  {
   "group": "Base metals",
   "metal": "Nickel (LME)",
-  "price": 15535,
+  "price": 15440,
   "unit": "$/t",
-  "change_pct": -1.02,
-  "as_of": "2026-10-26",
-  "source": "LME official cash (Westmetall, from $15,695); Indonesia cut its late-October benchmark 2.9%"
+  "change_pct": -0.61,
+  "as_of": "2026-10-27",
+  "source": "LME official (KME, from $15,535); 3-month $15,615, +0.4% (Reuters)"
  },
  {
   "group": "Base metals",
   "metal": "Tin (Shanghai spot)",
-  "price": 57676.16,
+  "price": 58230.88,
   "unit": "$/t",
-  "change_pct": 3.44,
-  "as_of": "2026-10-26",
-  "source": "SMM #1 tin spot avg 384,700 yuan/t (up 12,800), converted at about 6.67 yuan/$; % change in yuan; LME official cash Oct 26 $50,925 (Westmetall)"
+  "change_pct": 0.96,
+  "as_of": "2026-10-27",
+  "source": "SMM #1 tin spot avg 388,400 yuan/t (up 3,700), converted at about 6.67 yuan/$; % change in yuan; LME official Oct 27 $51,300 (KME)"
  },
  {
   "group": "Base metals",
   "metal": "Lead (LME spot)",
   "price": 1900,
   "unit": "$/t",
-  "change_pct": 0.74,
-  "as_of": "2026-10-26",
-  "source": "LME official cash (Westmetall); Oct 23 official $1,886"
+  "change_pct": 0.0,
+  "as_of": "2026-10-27",
+  "source": "LME official (KME, unchanged from $1,900); 3-month $1,933.50, one-month high (Reuters)"
  },
  {
   "group": "Steel & ferrous",
   "metal": "US Midwest HRC steel",
-  "price": 1383,
+  "price": 1382,
   "unit": "$/st",
-  "change_pct": 0.14,
-  "as_of": "2026-10-26",
-  "source": "Trading Economics ($1,383, +$2)"
+  "change_pct": -0.07,
+  "as_of": "2026-10-27",
+  "source": "Trading Economics ($1,382, -$1); Nucor spot HRC raised to $1,270/st Oct 26"
  },
  {
   "group": "Steel & ferrous",
   "metal": "Iron ore (62% Fe)",
-  "price": 90.78,
+  "price": 90.7,
   "unit": "$/t",
-  "change_pct": -0.06,
-  "as_of": "2026-10-26",
-  "source": "Trading Economics (CFR, from $90.83); Singapore Nov contract fell to $89.45 early Oct 27, lowest since Sept 2024 (Reuters)"
+  "change_pct": -0.09,
+  "as_of": "2026-10-27",
+  "source": "Trading Economics (CFR, from $90.78); Singapore futures touched $89.25 Oct 27, lowest since Sept 2024"
  },
  {
   "group": "Steel & ferrous",
