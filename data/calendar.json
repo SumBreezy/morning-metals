@@ -1,31 +1,17 @@
 [
  {
-  "when": "Wed Oct 28",
-  "event": "Algoma Steel Q3 results",
-  "why": "Canadian EAF steelmaker hit by US tariffs; read on scrap buying and US-Canada tariff talks.",
-  "source": "Finviz",
-  "url": "https://finviz.com/news/403425/algoma-steel-group-inc-to-announce-2026-third-quarter-results-october-28-2026"
- },
- {
-  "when": "Wed Oct 28, 1:00pm CT",
-  "event": "Federal Reserve rate decision (press conference 1:30pm)",
-  "why": "Hold expected, but futures price about an 84% chance of a December hike; a hawkish tone would lift the dollar and weigh on metals.",
-  "source": "Business Recorder (Reuters)",
-  "url": "https://www.brecorder.com/news/40446276/gold-slips-on-oil-fuelled-inflation-fears-ahead-of-fed-meeting"
- },
- {
-  "when": "Wed Oct 28 (time not announced)",
-  "event": "Ford Q3 earnings",
-  "why": "Update on F-150 output after the Novelis aluminum supply hit.",
-  "source": "24/7 Wall St.",
-  "url": "https://247wallst.com/investing/2026/10/24/wall-street-lowers-the-bar-why-fords-q3-earnings-on-oct-28-could-trigger-a-surprise-october-breakout/"
+  "when": "Thu Oct 29, 7:15am CT",
+  "event": "European Central Bank rate decision",
+  "why": "Expected to hold; a hawkish tilt would firm the euro and soften the dollar, which feeds into metal prices.",
+  "source": "Newsquawk",
+  "url": "https://www.newsquawk.com/headlines/preview-ecb-policy-announcement-due-thursday-29th-october-2026-at-1315gmt0815edt"
  },
  {
   "when": "Thu Oct 29, 7:30am CT",
-  "event": "US Q3 GDP (advance) and September personal income & spending (PCE)",
-  "why": "Growth and inflation data that steer the Fed's December call.",
-  "source": "Scotiabank",
-  "url": "https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.calendar-of-economic-release-dates.calendar-of-economic-release-dates--october-2026-.html"
+  "event": "US Q3 GDP (advance) and September PCE inflation",
+  "why": "Forecasts: GDP about 3.0%, core PCE 3.1% a year; hot numbers would firm December hike bets and weigh on metals.",
+  "source": "Newsquawk",
+  "url": "https://www.newsquawk.com/headlines/week-in-focus-26-30th-october-2026-fomc-boc-rbnz-ecb-boj-policy-decisions-us-pce"
  },
  {
   "when": "Thu Oct 29, before open",
@@ -35,11 +21,11 @@
   "url": "https://wrenews.com/housing-week-ahead-fed-new-home-sales-dr-horton-october-2026/"
  },
  {
-  "when": "Thu Oct 29 (morning CT)",
-  "event": "European Central Bank rate decision",
-  "why": "Moves the euro and dollar, which feed into metal prices.",
-  "source": "Thrive in Markets",
-  "url": "https://thriveinmarkets.com/calendar/2026-10-26/"
+  "when": "Thu Oct 29, overnight (Fri Asia)",
+  "event": "Bank of Japan rate decision",
+  "why": "Expected to hold at 1.25%; a surprise would move the yen and dollar.",
+  "source": "Newsquawk",
+  "url": "https://www.newsquawk.com/headlines/week-in-focus-26-30th-october-2026-fomc-boc-rbnz-ecb-boj-policy-decisions-us-pce"
  },
  {
   "when": "Fri Oct 30, 7:30am CT",
@@ -58,16 +44,23 @@
  {
   "when": "Fri Oct 30, 8:30pm CT (estimated)",
   "event": "China official PMIs (October)",
-  "why": "First read on Chinese factory and construction demand as iron ore sits at a two-year low.",
+  "why": "First read on Chinese factory and construction demand with iron ore near a two-year low.",
   "source": "FinanceCalendar",
   "url": "https://www.financecalendar.com/?p=2391"
  },
  {
-  "when": "Mon Nov 2, 9:00am CT (estimated)",
-  "event": "ISM manufacturing PMI (October)",
-  "why": "Main read on US factory demand for steel, copper and aluminum.",
-  "source": "The Right Trader",
-  "url": "https://therighttrader.com/economic-calendar/ism-manufacturing"
+  "when": "Sun Nov 1, 7:45pm CT",
+  "event": "China RatingDog manufacturing PMI (October)",
+  "why": "Private read on Chinese factories; US clocks fall back one hour Nov 1.",
+  "source": "LiteFinance",
+  "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-02112026-08112026/"
+ },
+ {
+  "when": "Mon Nov 2, 9:00am CT",
+  "event": "ISM manufacturing PMI and construction spending",
+  "why": "Main reads on US factory and building demand for steel, copper and aluminum.",
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  },
  {
   "when": "Tue Nov 3, all day",
@@ -78,16 +71,30 @@
  },
  {
   "when": "Tue Nov 3, 9:00am CT",
-  "event": "JOLTS job openings (September)",
-  "why": "Labor-market data the Fed watches ahead of December.",
-  "source": "FedRateCalc",
-  "url": "https://fedratecalc.com/us-economic-calendar/november-2026/"
+  "event": "JOLTS job openings and factory orders (September)",
+  "why": "Labor and factory data the Fed watches ahead of December.",
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+ },
+ {
+  "when": "Wed Nov 4, 7:15am\u20139:00am CT",
+  "event": "ADP jobs, trade balance and ISM services",
+  "why": "Busy morning on jobs, imports of metals and the service economy.",
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+ },
+ {
+  "when": "Thu Nov 5, 6:00am CT",
+  "event": "Bank of England rate decision",
+  "why": "Moves the pound and dollar.",
+  "source": "LiteFinance",
+  "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-02112026-08112026/"
  },
  {
   "when": "Fri Nov 6, 7:30am CT",
   "event": "Jobs report (October)",
   "why": "A strong report would raise December hike odds and pressure metals.",
-  "source": "FedRateCalc",
-  "url": "https://fedratecalc.com/us-economic-calendar/november-2026/"
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  }
 ]
