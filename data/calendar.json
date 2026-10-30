@@ -1,36 +1,8 @@
 [
  {
-  "when": "Thu Oct 29, 7:15am CT",
-  "event": "European Central Bank rate decision",
-  "why": "Expected to hold; a hawkish tilt would firm the euro and soften the dollar, which feeds into metal prices.",
-  "source": "Newsquawk",
-  "url": "https://www.newsquawk.com/headlines/preview-ecb-policy-announcement-due-thursday-29th-october-2026-at-1315gmt0815edt"
- },
- {
-  "when": "Thu Oct 29, 7:30am CT",
-  "event": "US Q3 GDP (advance) and September PCE inflation",
-  "why": "Forecasts: GDP about 3.0%, core PCE 3.1% a year; hot numbers would firm December hike bets and weigh on metals.",
-  "source": "Newsquawk",
-  "url": "https://www.newsquawk.com/headlines/week-in-focus-26-30th-october-2026-fomc-boc-rbnz-ecb-boj-policy-decisions-us-pce"
- },
- {
-  "when": "Thu Oct 29, before open",
-  "event": "D.R. Horton fiscal Q4 earnings",
-  "why": "Largest US homebuilder; read on housing demand for steel, copper and aluminum.",
-  "source": "WRE News",
-  "url": "https://wrenews.com/housing-week-ahead-fed-new-home-sales-dr-horton-october-2026/"
- },
- {
-  "when": "Thu Oct 29, overnight (Fri Asia)",
-  "event": "Bank of Japan rate decision",
-  "why": "Expected to hold at 1.25%; a surprise would move the yen and dollar.",
-  "source": "Newsquawk",
-  "url": "https://www.newsquawk.com/headlines/week-in-focus-26-30th-october-2026-fomc-boc-rbnz-ecb-boj-policy-decisions-us-pce"
- },
- {
   "when": "Fri Oct 30, 7:30am CT",
   "event": "Employment cost index (Q3)",
-  "why": "Wage inflation is a big input to the Fed's December rate-hike call.",
+  "why": "Wage inflation is a big input to the Fed's December rate-hike call, already near 80% odds after hot GDP and PCE data.",
   "source": "Scotiabank",
   "url": "https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.calendar-of-economic-release-dates.calendar-of-economic-release-dates--october-2026-.html"
  },
@@ -42,58 +14,72 @@
   "url": "https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.calendar-of-economic-release-dates.calendar-of-economic-release-dates--october-2026-.html"
  },
  {
-  "when": "Fri Oct 30, 8:30pm CT (estimated)",
+  "when": "Fri Oct 30, 8:30pm CT (Sat morning in China)",
   "event": "China official PMIs (October)",
-  "why": "First read on Chinese factory and construction demand with iron ore near a two-year low.",
-  "source": "FinanceCalendar",
-  "url": "https://www.financecalendar.com/?p=2391"
+  "why": "Forecast flat at 50; a weak read would hit copper and iron ore, already at a two-year low.",
+  "source": "Reuters (via 93.3 The Drive)",
+  "url": "https://www.933thedrive.com/2026/10/30/chinas-factory-activity-seen-flat-in-october-reuters-poll/"
  },
  {
   "when": "Sun Nov 1, 7:45pm CT",
   "event": "China RatingDog manufacturing PMI (October)",
-  "why": "Private read on Chinese factories; US clocks fall back one hour Nov 1.",
+  "why": "Private read on Chinese factories, seen dipping to 51.6; US clocks fall back one hour Nov 1.",
   "source": "LiteFinance",
   "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-02112026-08112026/"
  },
  {
+  "when": "Early November (expected)",
+  "event": "Chicago November ferrous scrap settlement",
+  "why": "Mills and dealers set November prices; BL Duke expects $10\u2013$40 a ton higher.",
+  "source": "BL Duke",
+  "url": "https://www.blduke.com/novembers-scrap-forecast/"
+ },
+ {
   "when": "Mon Nov 2, 9:00am CT",
   "event": "ISM manufacturing PMI and construction spending",
-  "why": "Main reads on US factory and building demand for steel, copper and aluminum.",
+  "why": "US factory and building activity drive demand for steel, copper and aluminum.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  },
  {
+  "when": "Mon Nov 2 (weekly)",
+  "event": "Nucor weekly spot hot-rolled coil price",
+  "why": "Nucor has raised its spot HRC price 14 weeks in a row; a further rise supports scrap demand.",
+  "source": "IndexBox",
+  "url": "https://www.indexbox.io/blog/nucor-raises-hot-rolled-coil-spot-price-by-15-to-1270-per-short-tonne/"
+ },
+ {
   "when": "Tue Nov 3, all day",
   "event": "US midterm elections",
-  "why": "US-Canada and US-Mexico steel tariff deals may hinge on the vote.",
+  "why": "Outcome could shift tariff policy, including the Canada steel and auto talks.",
   "source": "IndexBox",
   "url": "https://indexbox.io/blog/us-and-canada-negotiate-deal-to-ease-steel-and-auto-tariffs-ahead-of-november-3-elections"
  },
  {
   "when": "Tue Nov 3, 9:00am CT",
   "event": "JOLTS job openings and factory orders (September)",
-  "why": "Labor and factory data the Fed watches ahead of December.",
+  "why": "Labor and factory demand data feeding the Fed's December decision.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  },
  {
   "when": "Wed Nov 4, 7:15am\u20139:00am CT",
   "event": "ADP jobs, trade balance and ISM services",
-  "why": "Busy morning on jobs, imports of metals and the service economy.",
+  "why": "More reads on the economy and the December rate-hike odds.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  },
  {
   "when": "Thu Nov 5, 6:00am CT",
   "event": "Bank of England rate decision",
-  "why": "Moves the pound and dollar.",
+  "why": "Moves the pound and dollar, which feed into LME prices.",
   "source": "LiteFinance",
   "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-02112026-08112026/"
  },
  {
   "when": "Fri Nov 6, 7:30am CT",
   "event": "Jobs report (October)",
-  "why": "A strong report would raise December hike odds and pressure metals.",
+  "why": "A strong report would lock in a December hike and weigh on metals; a weak one would help.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  }
