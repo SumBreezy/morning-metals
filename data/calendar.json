@@ -1,40 +1,5 @@
 [
  {
-  "when": "Fri Oct 30, 7:30am CT",
-  "event": "Employment cost index (Q3)",
-  "why": "Wage inflation is a big input to the Fed's December rate-hike call, already near 80% odds after hot GDP and PCE data.",
-  "source": "Scotiabank",
-  "url": "https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.calendar-of-economic-release-dates.calendar-of-economic-release-dates--october-2026-.html"
- },
- {
-  "when": "Fri Oct 30, 8:45am CT",
-  "event": "Chicago PMI (October)",
-  "why": "Local factory gauge for the Chicago area.",
-  "source": "Scotiabank",
-  "url": "https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.calendar-of-economic-release-dates.calendar-of-economic-release-dates--october-2026-.html"
- },
- {
-  "when": "Fri Oct 30, 8:30pm CT (Sat morning in China)",
-  "event": "China official PMIs (October)",
-  "why": "Forecast flat at 50; a weak read would hit copper and iron ore, already at a two-year low.",
-  "source": "Reuters (via 93.3 The Drive)",
-  "url": "https://www.933thedrive.com/2026/10/30/chinas-factory-activity-seen-flat-in-october-reuters-poll/"
- },
- {
-  "when": "Sun Nov 1, 7:45pm CT",
-  "event": "China RatingDog manufacturing PMI (October)",
-  "why": "Private read on Chinese factories, seen dipping to 51.6; US clocks fall back one hour Nov 1.",
-  "source": "LiteFinance",
-  "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-02112026-08112026/"
- },
- {
-  "when": "Early November (expected)",
-  "event": "Chicago November ferrous scrap settlement",
-  "why": "Mills and dealers set November prices; BL Duke expects $10\u2013$40 a ton higher.",
-  "source": "BL Duke",
-  "url": "https://www.blduke.com/novembers-scrap-forecast/"
- },
- {
   "when": "Mon Nov 2, 9:00am CT",
   "event": "ISM manufacturing PMI and construction spending",
   "why": "US factory and building activity drive demand for steel, copper and aluminum.",
@@ -44,9 +9,16 @@
  {
   "when": "Mon Nov 2 (weekly)",
   "event": "Nucor weekly spot hot-rolled coil price",
-  "why": "Nucor has raised its spot HRC price 14 weeks in a row; a further rise supports scrap demand.",
+  "why": "Nucor's price has been climbing for months; a further rise supports scrap demand.",
   "source": "IndexBox",
   "url": "https://www.indexbox.io/blog/nucor-raises-hot-rolled-coil-spot-price-by-15-to-1270-per-short-tonne/"
+ },
+ {
+  "when": "By about Nov 10 (expected)",
+  "event": "Chicago November ferrous scrap settlement",
+  "why": "Mills and dealers set November prices; BL Duke expects $10\u2013$40 a ton higher.",
+  "source": "BL Duke",
+  "url": "https://www.blduke.com/novembers-scrap-forecast/"
  },
  {
   "when": "Tue Nov 3, all day",
@@ -77,9 +49,37 @@
   "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-02112026-08112026/"
  },
  {
+  "when": "Thu Nov 5",
+  "event": "LA\u2013Long Beach port watchmen talks deadline",
+  "why": "A strike could slow container shipments of scrap and metals.",
+  "source": "Reuters via WMBD",
+  "url": "https://wmbdradio.com/2026/10/30/employer-at-los-angeles-and-long-beach-seaports-and-maritime-watchmen-union-agree-to-extend-talks-through-nov-5/"
+ },
+ {
   "when": "Fri Nov 6, 7:30am CT",
   "event": "Jobs report (October)",
-  "why": "A strong report would lock in a December hike and weigh on metals; a weak one would help.",
+  "why": "A strong report would firm up a December hike and weigh on metals; a weak one would help.",
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+ },
+ {
+  "when": "Fri Nov 6, 9:00am CT",
+  "event": "Michigan consumer sentiment (preliminary)",
+  "why": "Inflation expectations here feed Fed hike bets.",
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+ },
+ {
+  "when": "Tue Nov 10, 7:30am CT",
+  "event": "Consumer price index (October)",
+  "why": "The key inflation read before the Fed's December meeting; moves the dollar and gold.",
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+ },
+ {
+  "when": "Thu Nov 12, 9:00am CT",
+  "event": "Existing home sales (October)",
+  "why": "Housing turnover drives demand for copper, aluminum and appliances.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  }
