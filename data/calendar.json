@@ -1,26 +1,5 @@
 [
  {
-  "when": "Mon Nov 2, 9:00am CT",
-  "event": "ISM manufacturing PMI and construction spending",
-  "why": "US factory and building activity drive demand for steel, copper and aluminum.",
-  "source": "New York Fed",
-  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
- },
- {
-  "when": "Mon Nov 2 (weekly)",
-  "event": "Nucor weekly spot hot-rolled coil price",
-  "why": "Nucor's price has been climbing for months; a further rise supports scrap demand.",
-  "source": "IndexBox",
-  "url": "https://www.indexbox.io/blog/nucor-raises-hot-rolled-coil-spot-price-by-15-to-1270-per-short-tonne/"
- },
- {
-  "when": "By about Nov 10 (expected)",
-  "event": "Chicago November ferrous scrap settlement",
-  "why": "Mills and dealers set November prices; BL Duke expects $10\u2013$40 a ton higher.",
-  "source": "BL Duke",
-  "url": "https://www.blduke.com/novembers-scrap-forecast/"
- },
- {
   "when": "Tue Nov 3, all day",
   "event": "US midterm elections",
   "why": "Outcome could shift tariff policy, including the Canada steel and auto talks.",
@@ -30,7 +9,7 @@
  {
   "when": "Tue Nov 3, 9:00am CT",
   "event": "JOLTS job openings and factory orders (September)",
-  "why": "Labor and factory demand data feeding the Fed's December decision.",
+  "why": "Labor and factory demand data feeding the Fed\u2019s December decision.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  },
@@ -70,9 +49,23 @@
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  },
  {
+  "when": "Mon Nov 9 (weekly)",
+  "event": "Nucor weekly spot hot-rolled coil price",
+  "why": "Nucor has raised its price 15 weeks in a row; another rise supports scrap demand.",
+  "source": "Steel Market Update",
+  "url": "https://www.steelmarketupdate.com/"
+ },
+ {
+  "when": "By about Nov 10 (expected)",
+  "event": "Chicago November ferrous scrap settlement",
+  "why": "Mills and dealers set November prices; BL Duke expects $10\u2013$40 a ton higher.",
+  "source": "BL Duke",
+  "url": "https://www.blduke.com/novembers-scrap-forecast/"
+ },
+ {
   "when": "Tue Nov 10, 7:30am CT",
   "event": "Consumer price index (October)",
-  "why": "The key inflation read before the Fed's December meeting; moves the dollar and gold.",
+  "why": "The key inflation read before the Fed\u2019s December meeting; moves the dollar and gold.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  },
@@ -80,6 +73,13 @@
   "when": "Thu Nov 12, 9:00am CT",
   "event": "Existing home sales (October)",
   "why": "Housing turnover drives demand for copper, aluminum and appliances.",
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+ },
+ {
+  "when": "Fri Nov 13, 7:30am CT",
+  "event": "Producer price index (October)",
+  "why": "Shows how much metal and energy costs are feeding into wholesale prices.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  }
