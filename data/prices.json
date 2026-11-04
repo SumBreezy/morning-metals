@@ -2,38 +2,38 @@
  {
   "group": "Precious & PGMs",
   "metal": "Gold",
-  "price": 3945.7,
+  "price": 3929.4,
   "unit": "$/oz",
-  "change_pct": 1.84,
-  "as_of": "2026-11-02",
-  "source": "Kitco Nov 2 close implied from Nov 3 quote (bid $3,920.10, -$25.60); Kitco PM report spot $3,945.80, +$71.40, +1.84%; bid about $3,920 early Nov 3"
+  "change_pct": -0.41,
+  "as_of": "2026-11-03",
+  "source": "Kitco Nov 3 close implied from Nov 4 quote (bid $4,041.10, +$111.70); Kitco PM report spot about $3,924 late Tuesday; Trading Economics prior close $3,931.68; gold above $4,000 early Nov 4"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Silver",
-  "price": 50.53,
+  "price": 49.67,
   "unit": "$/oz",
-  "change_pct": 3.08,
-  "as_of": "2026-11-02",
-  "source": "Kitco Nov 2 close implied from Nov 3 quote (bid $49.13, -$1.40); Kitco PM report spot about $50.80 in afternoon trade; % vs Oct 30 row"
+  "change_pct": -1.7,
+  "as_of": "2026-11-03",
+  "source": "Kitco Nov 3 close implied from Nov 4 quote (bid $51.40, +$1.73); Kitco PM report spot about $49.45 late Tuesday; Trading Economics prior close about $49.79; % vs Nov 2 row"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Platinum",
-  "price": 1449.0,
+  "price": 1418.0,
   "unit": "$/oz",
-  "change_pct": 1.05,
-  "as_of": "2026-11-02",
-  "source": "Kitco Nov 2 close implied from Nov 3 quote (bid $1,425/ask $1,435, -$19); Trading Economics prior close about $1,454; % vs Oct 30 row"
+  "change_pct": -2.14,
+  "as_of": "2026-11-03",
+  "source": "Kitco Nov 3 close implied from Nov 4 quote (bid $1,448/ask $1,458, +$35); Trading Economics prior close $1,430; % vs Nov 2 row"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Palladium",
-  "price": 967.0,
+  "price": 936.0,
   "unit": "$/oz",
-  "change_pct": -1.43,
-  "as_of": "2026-11-02",
-  "source": "Kitco Nov 2 close implied from Nov 3 quote (bid $932/ask $972, -$15); Trading Economics prior close about $968.50; % vs Oct 30 row"
+  "change_pct": -3.21,
+  "as_of": "2026-11-03",
+  "source": "Kitco Nov 3 close implied from Nov 4 quote (bid $952/ask $992, +$36); Trading Economics prior close $933.50; % vs Nov 2 row"
  },
  {
   "group": "Precious & PGMs",
@@ -42,88 +42,88 @@
   "unit": "$/oz",
   "change_pct": -0.55,
   "as_of": "2026-10-26",
-  "source": "dailymetalprice.com ($9,100/oz on 10/26; site not reachable Oct 28\u2013Nov 3, kept last daily price); Trading Economics $9,125 (Nov 2, flat); Kitco bid $8,550 / ask $9,550 (Nov 2, unchanged); dealer range $7,200\u2013$10,600"
+  "source": "dailymetalprice.com ($9,100/oz on 10/26; site not reachable Oct 28\u2013Nov 4, kept last daily price); Trading Economics $9,125 (Nov 4, flat); Kitco bid $8,550 / ask $9,550 (Nov 3, unchanged); dealer range $7,200\u2013$10,600"
  },
  {
   "group": "Base metals",
   "metal": "Copper (COMEX)",
-  "price": 6.54,
+  "price": 6.38,
   "unit": "$/lb",
-  "change_pct": 1.24,
-  "as_of": "2026-11-02",
-  "source": "Trading Economics prior close about $6.54 (implied from $6.31, -3.51% on Nov 3); Metalcharts about $6.53; % vs Oct 30 row"
+  "change_pct": -2.45,
+  "as_of": "2026-11-03",
+  "source": "Trading Economics previous close $6.38 (Nov 3; implied $6.3785); Metalcharts about $6.36; quotes swung $6.25\u2013$6.43 early Nov 4; % vs Nov 2 row"
  },
  {
   "group": "Base metals",
   "metal": "Copper (LME official)",
-  "price": 14380,
+  "price": 14110.5,
   "unit": "$/t",
-  "change_pct": -0.48,
-  "as_of": "2026-11-02",
-  "source": "LME official cash (Westmetall, Nov 2, from $14,449); 3-month $14,242; LME stocks 293,775 t (+19,775)"
+  "change_pct": -1.87,
+  "as_of": "2026-11-03",
+  "source": "LME official cash (Westmetall, Nov 3, from $14,380); 3-month $14,001; LME stocks 309,650 t (+15,875)"
  },
  {
   "group": "Base metals",
   "metal": "Aluminum (LME)",
-  "price": 3095,
+  "price": 3082,
   "unit": "$/t",
-  "change_pct": -0.61,
-  "as_of": "2026-11-02",
-  "source": "LME official cash (Westmetall, from $3,114); 3-month $3,060; LME stocks 230,775 t (-425)"
+  "change_pct": -0.42,
+  "as_of": "2026-11-03",
+  "source": "LME official cash (Westmetall, Nov 3, from $3,095); 3-month $3,042; LME stocks 229,475 t (-1,300)"
  },
  {
   "group": "Base metals",
   "metal": "Zinc (LME)",
-  "price": 3935,
+  "price": 3869,
   "unit": "$/t",
-  "change_pct": -0.52,
-  "as_of": "2026-11-02",
-  "source": "LME official cash (Westmetall, from $3,955.50); 3-month $3,861; stocks 158,575 t (-2,700)"
+  "change_pct": -1.68,
+  "as_of": "2026-11-03",
+  "source": "LME official cash (Westmetall, Nov 3, from $3,935); 3-month $3,810; stocks 154,350 t (-4,225)"
  },
  {
   "group": "Base metals",
   "metal": "Nickel (LME)",
-  "price": 15260,
+  "price": 15200,
   "unit": "$/t",
-  "change_pct": 0.13,
-  "as_of": "2026-11-02",
-  "source": "LME official cash (Westmetall, from $15,240); 3-month $15,500; stocks 278,238 t"
+  "change_pct": -0.39,
+  "as_of": "2026-11-03",
+  "source": "LME official cash (Westmetall, Nov 3, from $15,260); 3-month $15,375; stocks 277,854 t (-384)"
  },
  {
   "group": "Base metals",
   "metal": "Tin (Shanghai spot)",
-  "price": 55682.0,
+  "price": 54865.0,
   "unit": "$/t",
-  "change_pct": -0.31,
-  "as_of": "2026-11-02",
-  "source": "SMM #1 tin spot avg 371,400 yuan/t (down 1,150) converted at about 6.67 yuan/$; % change in yuan; LME official Nov 2 $49,520 (Westmetall); LME 3-month close $49,659"
+  "change_pct": -1.47,
+  "as_of": "2026-11-03",
+  "source": "SMM #1 tin spot avg 365,950 yuan/t (down 5,450) converted at about 6.67 yuan/$; % change in yuan; Nov 4 spot fell to 352,300 yuan/t; LME official Nov 3 $47,905 (Westmetall); LME 3-month close $47,435"
  },
  {
   "group": "Base metals",
   "metal": "Lead (LME spot)",
-  "price": 1869.5,
+  "price": 1862,
   "unit": "$/t",
-  "change_pct": -1.08,
-  "as_of": "2026-11-02",
-  "source": "LME official cash (Westmetall, from $1,890); 3-month $1,902; stocks 311,375 t"
+  "change_pct": -0.4,
+  "as_of": "2026-11-03",
+  "source": "LME official cash (Westmetall, Nov 3, from $1,869.50); 3-month $1,894; stocks 310,900 t (-475)"
  },
  {
   "group": "Steel & ferrous",
   "metal": "US Midwest HRC steel",
-  "price": 1434,
+  "price": 1438,
   "unit": "$/st",
-  "change_pct": 0.35,
-  "as_of": "2026-11-02",
-  "source": "Trading Economics (CME Midwest HRC, Nov 2, +$5, near highest since May 2022); Nucor spot $1,280/st; SMU average $1,305/st (Oct 27)"
+  "change_pct": 0.28,
+  "as_of": "2026-11-03",
+  "source": "Trading Economics (CME Midwest HRC, Nov 3, +$4; previous $1,434); Nucor spot $1,280/st (Nov 2)"
  },
  {
   "group": "Steel & ferrous",
   "metal": "Iron ore (62% Fe)",
-  "price": 91.25,
+  "price": 91.03,
   "unit": "$/t",
-  "change_pct": 0.6,
-  "as_of": "2026-11-02",
-  "source": "Trading Economics (CFR, Nov 2, +$0.54); SGX December $91.05; Dalian 674.5 yuan"
+  "change_pct": -0.24,
+  "as_of": "2026-11-03",
+  "source": "Trading Economics (CFR, Nov 3, -$0.22); Dalian 671 yuan, -0.52% (MMI)"
  },
  {
   "group": "Steel & ferrous",
@@ -132,6 +132,6 @@
   "unit": "$/t",
   "change_pct": -1.25,
   "as_of": "2026-10-17",
-  "source": "Arab Iron and Steel Union (weekly, US-origin CFR); no newer free quote found Nov 3, kept Oct 17; Kallanish: prices firm on fresh US deal Oct 27; SteelOrbis: stable in new deals as week started (paywalled)"
+  "source": "Arab Iron and Steel Union (weekly, US-origin CFR); no newer free quote found Nov 4, kept Oct 17; Kallanish Nov 3: Turkish import prices still rising, index +0.5%, US-origin flat (paywalled, no level shown)"
  }
 ]

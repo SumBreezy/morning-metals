@@ -1,19 +1,5 @@
 [
  {
-  "when": "Tue Nov 3, all day",
-  "event": "US midterm elections",
-  "why": "Outcome could shift tariff policy, including the Canada steel and auto talks.",
-  "source": "IndexBox",
-  "url": "https://indexbox.io/blog/us-and-canada-negotiate-deal-to-ease-steel-and-auto-tariffs-ahead-of-november-3-elections"
- },
- {
-  "when": "Tue Nov 3, 9:00am CT",
-  "event": "JOLTS job openings and factory orders (September)",
-  "why": "Labor and factory demand data feeding the Fed\u2019s December decision.",
-  "source": "New York Fed",
-  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
- },
- {
   "when": "Wed Nov 4, 7:15am\u20139:00am CT",
   "event": "ADP jobs, trade balance and ISM services",
   "why": "More reads on the economy and the December rate-hike odds.",
@@ -33,6 +19,13 @@
   "why": "A strike could slow container shipments of scrap and metals.",
   "source": "Reuters via WMBD",
   "url": "https://wmbdradio.com/2026/10/30/employer-at-los-angeles-and-long-beach-seaports-and-maritime-watchmen-union-agree-to-extend-talks-through-nov-5/"
+ },
+ {
+  "when": "Thu Nov 5, 4:00pm CT",
+  "event": "Century Aluminum third-quarter earnings webcast",
+  "why": "A read on the record US aluminum premium and domestic supply.",
+  "source": "Stocktitan",
+  "url": "https://www.stocktitan.net/news/CENX/century-aluminum-sets-date-for-third-quarter-2026-earnings-w9c4wb142142.html"
  },
  {
   "when": "Fri Nov 6, 7:30am CT",
@@ -58,9 +51,9 @@
  {
   "when": "By about Nov 10 (expected)",
   "event": "Chicago November ferrous scrap settlement",
-  "why": "Mills and dealers set November prices; BL Duke expects $10\u2013$40 a ton higher.",
-  "source": "BL Duke",
-  "url": "https://www.blduke.com/novembers-scrap-forecast/"
+  "why": "Mills and dealers set November prices; Steel Market Update sources expect $20\u2013$30 a gross ton higher.",
+  "source": "Steel Market Update",
+  "url": "https://www.steelmarketupdate.com/2026/11/03/ferrous-scrap-prices-seen-rising-in-november/"
  },
  {
   "when": "Tue Nov 10, 7:30am CT",
