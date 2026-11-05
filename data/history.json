@@ -180,6 +180,12 @@
   "note": "close"
  },
  {
+  "metal": "Copper (COMEX)",
+  "date": "2026-11-04",
+  "price": 6.4,
+  "note": "close"
+ },
+ {
   "metal": "Copper (LME official)",
   "date": "2026-10-16",
   "price": 14595,
@@ -348,6 +354,12 @@
   "note": "close"
  },
  {
+  "metal": "Gold",
+  "date": "2026-11-04",
+  "price": 4059.2,
+  "note": "close"
+ },
+ {
   "metal": "HMS 1&2 80:20 (Turkey import)",
   "date": "2026-10-03",
   "price": 403,
@@ -456,6 +468,12 @@
   "note": "close"
  },
  {
+  "metal": "Iron ore (62% Fe)",
+  "date": "2026-11-04",
+  "price": 91.95,
+  "note": "close"
+ },
+ {
   "metal": "Lead (LME spot)",
   "date": "2026-09-01",
   "price": 1874,
@@ -537,6 +555,12 @@
   "metal": "Lead (LME spot)",
   "date": "2026-11-03",
   "price": 1862,
+  "note": "close"
+ },
+ {
+  "metal": "Lead (LME spot)",
+  "date": "2026-11-04",
+  "price": 1858,
   "note": "close"
  },
  {
@@ -630,6 +654,12 @@
   "note": "close"
  },
  {
+  "metal": "Nickel (LME)",
+  "date": "2026-11-04",
+  "price": 15465,
+  "note": "close"
+ },
+ {
   "metal": "Palladium",
   "date": "2026-09-16",
   "price": 1303.01,
@@ -720,6 +750,12 @@
   "note": "close"
  },
  {
+  "metal": "Palladium",
+  "date": "2026-11-04",
+  "price": 1007.0,
+  "note": "close"
+ },
+ {
   "metal": "Platinum",
   "date": "2026-09-16",
   "price": 1794.38,
@@ -807,6 +843,12 @@
   "metal": "Platinum",
   "date": "2026-11-03",
   "price": 1418.0,
+  "note": "close"
+ },
+ {
+  "metal": "Platinum",
+  "date": "2026-11-04",
+  "price": 1501.0,
   "note": "close"
  },
  {
@@ -1056,6 +1098,12 @@
   "note": "close"
  },
  {
+  "metal": "Silver",
+  "date": "2026-11-04",
+  "price": 52.1,
+  "note": "close"
+ },
+ {
   "metal": "Tin (Shanghai spot)",
   "date": "2026-10-15",
   "price": 55599.97,
@@ -1137,6 +1185,12 @@
   "metal": "Tin (Shanghai spot)",
   "date": "2026-11-03",
   "price": 54865.0,
+  "note": "close"
+ },
+ {
+  "metal": "Tin (Shanghai spot)",
+  "date": "2026-11-04",
+  "price": 52794.0,
   "note": "close"
  },
  {
@@ -1230,6 +1284,12 @@
   "note": "close"
  },
  {
+  "metal": "US Midwest HRC steel",
+  "date": "2026-11-04",
+  "price": 1433,
+  "note": "close"
+ },
+ {
   "metal": "Zinc (LME)",
   "date": "2026-09-16",
   "price": 3888.8,
@@ -1317,6 +1377,12 @@
   "metal": "Zinc (LME)",
   "date": "2026-11-03",
   "price": 3869,
+  "note": "close"
+ },
+ {
+  "metal": "Zinc (LME)",
+  "date": "2026-11-04",
+  "price": 3875,
   "note": "close"
  }
 ]

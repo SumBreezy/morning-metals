@@ -1,17 +1,17 @@
 [
  {
-  "when": "Wed Nov 4, 7:15am\u20139:00am CT",
-  "event": "ADP jobs, trade balance and ISM services",
-  "why": "More reads on the economy and the December rate-hike odds.",
-  "source": "New York Fed",
-  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
- },
- {
   "when": "Thu Nov 5, 6:00am CT",
   "event": "Bank of England rate decision",
   "why": "Moves the pound and dollar, which feed into LME prices.",
   "source": "LiteFinance",
   "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-02112026-08112026/"
+ },
+ {
+  "when": "Thu Nov 5, 7:30am CT",
+  "event": "Jobless claims and productivity",
+  "why": "An early read on labor costs ahead of Friday's jobs report.",
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  },
  {
   "when": "Thu Nov 5",
@@ -42,16 +42,30 @@
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  },
  {
+  "when": "Sun Nov 8, evening CT (time unconfirmed)",
+  "event": "China consumer prices (October)",
+  "why": "Shows whether China's price cuts are easing; matters for base metal demand.",
+  "source": "Finance Calendar",
+  "url": "https://www.financecalendar.com/events/?em=11&ey=2026"
+ },
+ {
+  "when": "Mon Nov 9",
+  "event": "Senate procedural vote on permitting reform",
+  "why": "Could speed US mine and project approvals.",
+  "source": "MINING.COM",
+  "url": "https://www.mining.com/democrats-win-puts-us-mining-agenda-under-scrutiny/"
+ },
+ {
   "when": "Mon Nov 9 (weekly)",
   "event": "Nucor weekly spot hot-rolled coil price",
   "why": "Nucor has raised its price 15 weeks in a row; another rise supports scrap demand.",
-  "source": "Steel Market Update",
-  "url": "https://www.steelmarketupdate.com/"
+  "source": "GMK Center",
+  "url": "https://gmk.center/en/news/nucor-has-raised-the-price-of-hot-rolled-coils-by-10-t/"
  },
  {
   "when": "By about Nov 10 (expected)",
   "event": "Chicago November ferrous scrap settlement",
-  "why": "Mills and dealers set November prices; Steel Market Update sources expect $20\u2013$30 a gross ton higher.",
+  "why": "Mills and dealers set November prices; bids are running $20\u2013$30 a gross ton higher.",
   "source": "Steel Market Update",
   "url": "https://www.steelmarketupdate.com/2026/11/03/ferrous-scrap-prices-seen-rising-in-november/"
  },
@@ -73,6 +87,20 @@
   "when": "Fri Nov 13, 7:30am CT",
   "event": "Producer price index (October)",
   "why": "Shows how much metal and energy costs are feeding into wholesale prices.",
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+ },
+ {
+  "when": "Mon Nov 16, 7:30am CT",
+  "event": "Empire State manufacturing (November)",
+  "why": "An early look at November factory activity.",
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+ },
+ {
+  "when": "Tue Nov 17, 7:30am CT",
+  "event": "Retail sales (October)",
+  "why": "A check on consumer demand, with industrial production following at 8:15am CT.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  }
