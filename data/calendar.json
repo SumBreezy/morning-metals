@@ -1,36 +1,8 @@
 [
  {
-  "when": "Thu Nov 5, 6:00am CT",
-  "event": "Bank of England rate decision",
-  "why": "Moves the pound and dollar, which feed into LME prices.",
-  "source": "LiteFinance",
-  "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-02112026-08112026/"
- },
- {
-  "when": "Thu Nov 5, 7:30am CT",
-  "event": "Jobless claims and productivity",
-  "why": "An early read on labor costs ahead of Friday's jobs report.",
-  "source": "New York Fed",
-  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
- },
- {
-  "when": "Thu Nov 5",
-  "event": "LA\u2013Long Beach port watchmen talks deadline",
-  "why": "A strike could slow container shipments of scrap and metals.",
-  "source": "Reuters via WMBD",
-  "url": "https://wmbdradio.com/2026/10/30/employer-at-los-angeles-and-long-beach-seaports-and-maritime-watchmen-union-agree-to-extend-talks-through-nov-5/"
- },
- {
-  "when": "Thu Nov 5, 4:00pm CT",
-  "event": "Century Aluminum third-quarter earnings webcast",
-  "why": "A read on the record US aluminum premium and domestic supply.",
-  "source": "Stocktitan",
-  "url": "https://www.stocktitan.net/news/CENX/century-aluminum-sets-date-for-third-quarter-2026-earnings-w9c4wb142142.html"
- },
- {
   "when": "Fri Nov 6, 7:30am CT",
   "event": "Jobs report (October)",
-  "why": "A strong report would firm up a December hike and weigh on metals; a weak one would help.",
+  "why": "Sets odds of a December Fed hike, which drive the dollar, gold and copper.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  },
@@ -42,37 +14,51 @@
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  },
  {
-  "when": "Sun Nov 8, evening CT (time unconfirmed)",
-  "event": "China consumer prices (October)",
-  "why": "Shows whether China's price cuts are easing; matters for base metal demand.",
-  "source": "Finance Calendar",
-  "url": "https://www.financecalendar.com/events/?em=11&ey=2026"
- },
- {
-  "when": "Mon Nov 9",
-  "event": "Senate procedural vote on permitting reform",
-  "why": "Could speed US mine and project approvals.",
-  "source": "MINING.COM",
-  "url": "https://www.mining.com/democrats-win-puts-us-mining-agenda-under-scrutiny/"
+  "when": "Sun Nov 8, about 7:30pm CT (time unconfirmed)",
+  "event": "China consumer and producer prices (October)",
+  "why": "Firm factory prices in China support metal demand.",
+  "source": "Lundgreen's Investor Insights",
+  "url": "https://www.lundgreensinvestorinsights.com/next-week-in-china-9-13-november-2026/"
  },
  {
   "when": "Mon Nov 9 (weekly)",
-  "event": "Nucor weekly spot hot-rolled coil price",
-  "why": "Nucor has raised its price 15 weeks in a row; another rise supports scrap demand.",
-  "source": "GMK Center",
-  "url": "https://gmk.center/en/news/nucor-has-raised-the-price-of-hot-rolled-coils-by-10-t/"
+  "event": "Nucor weekly hot-rolled coil price",
+  "why": "Nucor has raised it 15 weeks in a row; another rise supports scrap demand.",
+  "source": "IndexBox",
+  "url": "https://www.indexbox.io/blog/nucor-raises-hot-rolled-coil-spot-price-for-fifteenth-consecutive-week/"
  },
  {
-  "when": "By about Nov 10 (expected)",
+  "when": "Week of Nov 9 (expected)",
   "event": "Chicago November ferrous scrap settlement",
-  "why": "Mills and dealers set November prices; bids are running $20\u2013$30 a gross ton higher.",
-  "source": "Steel Market Update",
-  "url": "https://www.steelmarketupdate.com/2026/11/03/ferrous-scrap-prices-seen-rising-in-november/"
+  "why": "Mill bids are running about $20 a gross ton higher on prime grades.",
+  "source": "Fastmarkets",
+  "url": "https://www.fastmarkets.com/insights/us-scrap-trends-outlook-november-2026/"
+ },
+ {
+  "when": "Mon Nov 9 evening or Tue Nov 10 CT (time unconfirmed)",
+  "event": "China trade data (October)",
+  "why": "Shows China's copper, aluminum, iron ore and steel imports and exports.",
+  "source": "Lundgreen's Investor Insights",
+  "url": "https://www.lundgreensinvestorinsights.com/next-week-in-china-9-13-november-2026/"
  },
  {
   "when": "Tue Nov 10, 7:30am CT",
   "event": "Consumer price index (October)",
-  "why": "The key inflation read before the Fed\u2019s December meeting; moves the dollar and gold.",
+  "why": "The key inflation read before the Fed's Dec 9 meeting; moves the dollar and gold.",
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+ },
+ {
+  "when": "Tue Nov 10",
+  "event": "Section 301 China tariff exclusions expire",
+  "why": "178 exclusions lapse unless extended, raising costs on some Chinese imports.",
+  "source": "Thomson Reuters",
+  "url": "https://tax.thomsonreuters.com/blog/section-301-exclusions-expiration/"
+ },
+ {
+  "when": "Wed Nov 11",
+  "event": "Veterans Day (bond market closed)",
+  "why": "Thin trading; no major US data.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  },
@@ -86,9 +72,16 @@
  {
   "when": "Fri Nov 13, 7:30am CT",
   "event": "Producer price index (October)",
-  "why": "Shows how much metal and energy costs are feeding into wholesale prices.",
+  "why": "Shows how much metal and energy costs feed into wholesale prices.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+ },
+ {
+  "when": "Fri Nov 13 (time unconfirmed)",
+  "event": "China credit data (October)",
+  "why": "New lending signals whether stimulus is reaching builders and factories.",
+  "source": "Lundgreen's Investor Insights",
+  "url": "https://www.lundgreensinvestorinsights.com/next-week-in-china-9-13-november-2026/"
  },
  {
   "when": "Mon Nov 16, 7:30am CT",
@@ -99,8 +92,8 @@
  },
  {
   "when": "Tue Nov 17, 7:30am CT",
-  "event": "Retail sales (October)",
-  "why": "A check on consumer demand, with industrial production following at 8:15am CT.",
+  "event": "Retail sales (October); industrial production at 8:15am CT",
+  "why": "Industrial output covers auto and metals production.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  }

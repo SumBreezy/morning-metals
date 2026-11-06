@@ -4,7 +4,7 @@
   "area": "Chicago Heights",
   "address": "551 E. Lincoln Hwy, Chicago Heights, IL",
   "material": "Bare bright copper",
-  "price": 5.43,
+  "price": 5.32,
   "unit": "$/lb",
   "as_of": "",
   "url": "https://www.bigdaddyscrap.com/what-we-buy-prices"
@@ -14,7 +14,7 @@
   "area": "Chicago Heights",
   "address": "551 E. Lincoln Hwy, Chicago Heights, IL",
   "material": "#1 copper",
-  "price": 5.37,
+  "price": 5.25,
   "unit": "$/lb",
   "as_of": "",
   "url": "https://www.bigdaddyscrap.com/what-we-buy-prices"
@@ -24,16 +24,6 @@
   "area": "Chicago Heights",
   "address": "551 E. Lincoln Hwy, Chicago Heights, IL",
   "material": "#2 copper",
-  "price": 5.05,
-  "unit": "$/lb",
-  "as_of": "",
-  "url": "https://www.bigdaddyscrap.com/what-we-buy-prices"
- },
- {
-  "yard": "Big Daddy Scrap",
-  "area": "Chicago Heights",
-  "address": "551 E. Lincoln Hwy, Chicago Heights, IL",
-  "material": "Sheet copper",
   "price": 4.95,
   "unit": "$/lb",
   "as_of": "",
@@ -43,8 +33,18 @@
   "yard": "Big Daddy Scrap",
   "area": "Chicago Heights",
   "address": "551 E. Lincoln Hwy, Chicago Heights, IL",
+  "material": "Sheet copper",
+  "price": 4.85,
+  "unit": "$/lb",
+  "as_of": "",
+  "url": "https://www.bigdaddyscrap.com/what-we-buy-prices"
+ },
+ {
+  "yard": "Big Daddy Scrap",
+  "area": "Chicago Heights",
+  "address": "551 E. Lincoln Hwy, Chicago Heights, IL",
   "material": "Buss bar",
-  "price": 5.05,
+  "price": 4.95,
   "unit": "$/lb",
   "as_of": "",
   "url": "https://www.bigdaddyscrap.com/what-we-buy-prices"
@@ -54,7 +54,7 @@
   "area": "Chicago Heights",
   "address": "551 E. Lincoln Hwy, Chicago Heights, IL",
   "material": "#1 insulated wire (90%)",
-  "price": 4.61,
+  "price": 4.48,
   "unit": "$/lb",
   "as_of": "",
   "url": "https://www.bigdaddyscrap.com/what-we-buy-prices"
@@ -64,7 +64,7 @@
   "area": "Chicago Heights",
   "address": "551 E. Lincoln Hwy, Chicago Heights, IL",
   "material": "#1 insulated wire (80%)",
-  "price": 4.03,
+  "price": 3.91,
   "unit": "$/lb",
   "as_of": "",
   "url": "https://www.bigdaddyscrap.com/what-we-buy-prices"
@@ -74,7 +74,7 @@
   "area": "Chicago Heights",
   "address": "551 E. Lincoln Hwy, Chicago Heights, IL",
   "material": "Romex",
-  "price": 2.99,
+  "price": 2.9,
   "unit": "$/lb",
   "as_of": "",
   "url": "https://www.bigdaddyscrap.com/what-we-buy-prices"
@@ -84,7 +84,7 @@
   "area": "Chicago Heights",
   "address": "551 E. Lincoln Hwy, Chicago Heights, IL",
   "material": "Wire harness",
-  "price": 1.96,
+  "price": 1.89,
   "unit": "$/lb",
   "as_of": "",
   "url": "https://www.bigdaddyscrap.com/what-we-buy-prices"
@@ -224,7 +224,7 @@
   "area": "Chicago Heights",
   "address": "551 E. Lincoln Hwy, Chicago Heights, IL",
   "material": "Motors (iron)",
-  "price": 215,
+  "price": 230,
   "unit": "$/net ton",
   "as_of": "",
   "url": "https://www.bigdaddyscrap.com/what-we-buy-prices"
@@ -234,7 +234,7 @@
   "area": "Chicago Heights",
   "address": "551 E. Lincoln Hwy, Chicago Heights, IL",
   "material": "Cast iron",
-  "price": 205,
+  "price": 220,
   "unit": "$/net ton",
   "as_of": "",
   "url": "https://www.bigdaddyscrap.com/what-we-buy-prices"
@@ -244,7 +244,7 @@
   "area": "Chicago Heights",
   "address": "551 E. Lincoln Hwy, Chicago Heights, IL",
   "material": "Heavy metal",
-  "price": 205,
+  "price": 220,
   "unit": "$/net ton",
   "as_of": "",
   "url": "https://www.bigdaddyscrap.com/what-we-buy-prices"
@@ -254,7 +254,7 @@
   "area": "Chicago Heights",
   "address": "551 E. Lincoln Hwy, Chicago Heights, IL",
   "material": "Sheet iron",
-  "price": 190,
+  "price": 205,
   "unit": "$/net ton",
   "as_of": "",
   "url": "https://www.bigdaddyscrap.com/what-we-buy-prices"
@@ -364,9 +364,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Bare bright copper",
-  "price": 4.91,
+  "price": 4.99,
   "unit": "$/lb",
-  "as_of": "2026-10-12",
+  "as_of": "2026-11-06",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -374,9 +374,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "#1 copper",
-  "price": 4.65,
+  "price": 4.89,
   "unit": "$/lb",
-  "as_of": "2026-10-21",
+  "as_of": "2026-11-06",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -384,9 +384,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "#2 copper",
-  "price": 4.5,
+  "price": 4.68,
   "unit": "$/lb",
-  "as_of": "2026-10-21",
+  "as_of": "2026-11-06",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -394,9 +394,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "#1 insulated wire",
-  "price": 2.76,
+  "price": 2.87,
   "unit": "$/lb",
-  "as_of": "2026-10-14",
+  "as_of": "2026-11-06",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -404,9 +404,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Yellow brass",
-  "price": 2.77,
+  "price": 2.92,
   "unit": "$/lb",
-  "as_of": "2026-10-21",
+  "as_of": "2026-11-06",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -414,9 +414,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Red brass",
-  "price": 3.02,
+  "price": 3.56,
   "unit": "$/lb",
-  "as_of": "2026-10-14",
+  "as_of": "2026-11-06",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -424,9 +424,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Aluminum wheels",
-  "price": 1.09,
+  "price": 1.06,
   "unit": "$/lb",
-  "as_of": "2026-10-15",
+  "as_of": "2026-11-06",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -434,9 +434,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Cast aluminum",
-  "price": 0.59,
+  "price": 0.58,
   "unit": "$/lb",
-  "as_of": "2026-10-21",
+  "as_of": "2026-11-06",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -444,9 +444,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Aluminum cans",
-  "price": 0.62,
+  "price": 0.64,
   "unit": "$/lb",
-  "as_of": "2026-10-21",
+  "as_of": "2026-11-06",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -454,9 +454,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "304 stainless",
-  "price": 0.31,
+  "price": 0.32,
   "unit": "$/lb",
-  "as_of": "2026-10-14",
+  "as_of": "2026-11-06",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -464,9 +464,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Car batteries",
-  "price": 0.22,
+  "price": 0.24,
   "unit": "$/lb",
-  "as_of": "2026-10-12",
+  "as_of": "2026-11-06",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -476,7 +476,7 @@
   "material": "Cast iron rotors",
   "price": 0.13,
   "unit": "$/lb",
-  "as_of": "2026-10-17",
+  "as_of": "2026-11-06",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -484,9 +484,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Heavy steel",
-  "price": 0.08,
+  "price": 0.09,
   "unit": "$/lb",
-  "as_of": "2026-10-29",
+  "as_of": "2026-11-06",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -496,7 +496,7 @@
   "material": "Sheet iron",
   "price": 0.09,
   "unit": "$/lb",
-  "as_of": "2026-10-29",
+  "as_of": "2026-11-06",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -504,9 +504,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Copper radiators",
-  "price": 2.8,
+  "price": 2.57,
   "unit": "$/lb",
-  "as_of": "2026-10-23",
+  "as_of": "2026-11-06",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
