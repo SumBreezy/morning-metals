@@ -1,31 +1,17 @@
 [
  {
-  "when": "Fri Nov 6, 7:30am CT",
-  "event": "Jobs report (October)",
-  "why": "Sets odds of a December Fed hike, which drive the dollar, gold and copper.",
-  "source": "New York Fed",
-  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
- },
- {
-  "when": "Fri Nov 6, 9:00am CT",
-  "event": "Michigan consumer sentiment (preliminary)",
-  "why": "Inflation expectations here feed Fed hike bets.",
-  "source": "New York Fed",
-  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
- },
- {
-  "when": "Sun Nov 8, about 7:30pm CT (time unconfirmed)",
-  "event": "China consumer and producer prices (October)",
-  "why": "Firm factory prices in China support metal demand.",
-  "source": "Lundgreen's Investor Insights",
-  "url": "https://www.lundgreensinvestorinsights.com/next-week-in-china-9-13-november-2026/"
- },
- {
   "when": "Mon Nov 9 (weekly)",
   "event": "Nucor weekly hot-rolled coil price",
   "why": "Nucor has raised it 15 weeks in a row; another rise supports scrap demand.",
   "source": "IndexBox",
   "url": "https://www.indexbox.io/blog/nucor-raises-hot-rolled-coil-spot-price-for-fifteenth-consecutive-week/"
+ },
+ {
+  "when": "Mon Nov 9 (times unconfirmed)",
+  "event": "Fed speakers Bowman, Goolsbee and Barkin",
+  "why": "First Fed reaction to the strong jobs report; hawkish tones lift the dollar.",
+  "source": "Global Macro Week Ahead (Substack)",
+  "url": "https://analysisofficial.substack.com/p/global-macro-week-ahead-nov-913-2026"
  },
  {
   "when": "Week of Nov 9 (expected)",
@@ -35,7 +21,7 @@
   "url": "https://www.fastmarkets.com/insights/us-scrap-trends-outlook-november-2026/"
  },
  {
-  "when": "Mon Nov 9 evening or Tue Nov 10 CT (time unconfirmed)",
+  "when": "Mon Nov 9 evening CT / Tue Nov 10 Beijing (time unconfirmed)",
   "event": "China trade data (October)",
   "why": "Shows China's copper, aluminum, iron ore and steel imports and exports.",
   "source": "Lundgreen's Investor Insights",
@@ -44,7 +30,7 @@
  {
   "when": "Tue Nov 10, 7:30am CT",
   "event": "Consumer price index (October)",
-  "why": "The key inflation read before the Fed's Dec 9 meeting; moves the dollar and gold.",
+  "why": "The key inflation read before the Fed's Dec 8-9 meeting; moves the dollar and gold.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  },
@@ -56,9 +42,23 @@
   "url": "https://tax.thomsonreuters.com/blog/section-301-exclusions-expiration/"
  },
  {
+  "when": "Tue Nov 10 (times unconfirmed)",
+  "event": "Fed speakers Waller, then Logan, Bowman and Schmid after CPI",
+  "why": "Their read on CPI will shape December hike odds.",
+  "source": "Global Macro Week Ahead (Substack)",
+  "url": "https://analysisofficial.substack.com/p/global-macro-week-ahead-nov-913-2026"
+ },
+ {
   "when": "Wed Nov 11",
   "event": "Veterans Day (bond market closed)",
   "why": "Thin trading; no major US data.",
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+ },
+ {
+  "when": "Thu Nov 12, 7:30am CT",
+  "event": "Weekly jobless claims",
+  "why": "Labor-market strength feeds Fed hike bets.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  },
@@ -68,6 +68,13 @@
   "why": "Housing turnover drives demand for copper, aluminum and appliances.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+ },
+ {
+  "when": "Thu Nov 12 (times unconfirmed)",
+  "event": "Fed speakers Hammack, Barr, Goolsbee, Daly and Williams",
+  "why": "A heavy day of Fed talk that can move the dollar and gold.",
+  "source": "Global Macro Week Ahead (Substack)",
+  "url": "https://analysisofficial.substack.com/p/global-macro-week-ahead-nov-913-2026"
  },
  {
   "when": "Fri Nov 13, 7:30am CT",
@@ -84,6 +91,13 @@
   "url": "https://www.lundgreensinvestorinsights.com/next-week-in-china-9-13-november-2026/"
  },
  {
+  "when": "Mon Nov 16 (weekly)",
+  "event": "Nucor weekly hot-rolled coil price",
+  "why": "A steady weekly signal for flat-rolled and scrap demand.",
+  "source": "IndexBox",
+  "url": "https://www.indexbox.io/blog/nucor-raises-hot-rolled-coil-spot-price-for-fifteenth-consecutive-week/"
+ },
+ {
   "when": "Mon Nov 16, 7:30am CT",
   "event": "Empire State manufacturing (November)",
   "why": "An early look at November factory activity.",
@@ -92,8 +106,36 @@
  },
  {
   "when": "Tue Nov 17, 7:30am CT",
-  "event": "Retail sales (October); industrial production at 8:15am CT",
+  "event": "Retail sales and import/export prices (October); industrial production at 8:15am CT",
   "why": "Industrial output covers auto and metals production.",
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+ },
+ {
+  "when": "Wed Nov 18, 7:30am CT",
+  "event": "Housing starts and building permits (October)",
+  "why": "New homebuilding drives demand for rebar, wire and copper.",
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+ },
+ {
+  "when": "Wed Nov 18, about 1:00pm CT (date inferred)",
+  "event": "FOMC minutes from the Oct 27-28 meeting",
+  "why": "Shows how many officials favor more hikes; moves the dollar and gold.",
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+ },
+ {
+  "when": "Thu Nov 19, 7:30am CT",
+  "event": "Philadelphia Fed manufacturing survey and jobless claims",
+  "why": "A read on November factory demand in the Northeast and Midwest.",
+  "source": "New York Fed",
+  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+ },
+ {
+  "when": "Fri Nov 20, 9:00am CT",
+  "event": "Michigan consumer sentiment (final November)",
+  "why": "Inflation expectations here feed Fed hike bets.",
   "source": "New York Fed",
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  }
