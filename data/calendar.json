@@ -1,115 +1,80 @@
 [
  {
-  "when": "Mon Nov 9 (weekly)",
-  "event": "Nucor weekly hot-rolled coil price",
-  "why": "Nucor has raised it 15 weeks in a row; another rise supports scrap demand.",
-  "source": "IndexBox",
-  "url": "https://www.indexbox.io/blog/nucor-raises-hot-rolled-coil-spot-price-for-fifteenth-consecutive-week/"
- },
- {
-  "when": "Mon Nov 9 (times unconfirmed)",
-  "event": "Fed speakers Bowman, Goolsbee and Barkin",
-  "why": "First Fed reaction to the strong jobs report; hawkish tones lift the dollar.",
-  "source": "Global Macro Week Ahead (Substack)",
-  "url": "https://analysisofficial.substack.com/p/global-macro-week-ahead-nov-913-2026"
- },
- {
-  "when": "Week of Nov 9 (expected)",
-  "event": "Chicago November ferrous scrap settlement",
-  "why": "Mill bids are running about $20 a gross ton higher on prime grades.",
-  "source": "Fastmarkets",
-  "url": "https://www.fastmarkets.com/insights/us-scrap-trends-outlook-november-2026/"
- },
- {
-  "when": "Mon Nov 9 evening CT / Tue Nov 10 Beijing (time unconfirmed)",
-  "event": "China trade data (October)",
-  "why": "Shows China's copper, aluminum, iron ore and steel imports and exports.",
-  "source": "Lundgreen's Investor Insights",
-  "url": "https://www.lundgreensinvestorinsights.com/next-week-in-china-9-13-november-2026/"
- },
- {
   "when": "Tue Nov 10, 7:30am CT",
-  "event": "Consumer price index (October)",
-  "why": "The key inflation read before the Fed's Dec 8-9 meeting; moves the dollar and gold.",
-  "source": "New York Fed",
-  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+  "event": "US consumer price index (October); monthly changes only, no yearly rate this time",
+  "why": "The last big inflation read before the Dec 8-9 Fed meeting; a hot number firms the dollar and weighs on metals.",
+  "source": "StockTitan (BLS schedule)",
+  "url": "https://www.stocktitan.net/articles/october-2026-cpi-preview-no-yearly-rate"
  },
  {
-  "when": "Tue Nov 10",
-  "event": "Section 301 China tariff exclusions expire",
-  "why": "178 exclusions lapse unless extended, raising costs on some Chinese imports.",
-  "source": "Thomson Reuters",
-  "url": "https://tax.thomsonreuters.com/blog/section-301-exclusions-expiration/"
- },
- {
-  "when": "Tue Nov 10 (times unconfirmed)",
-  "event": "Fed speakers Waller, then Logan, Bowman and Schmid after CPI",
-  "why": "Their read on CPI will shape December hike odds.",
-  "source": "Global Macro Week Ahead (Substack)",
-  "url": "https://analysisofficial.substack.com/p/global-macro-week-ahead-nov-913-2026"
+  "when": "Tue Nov 10, about 2:30pm CT",
+  "event": "Fed's Bowman on the economic outlook",
+  "why": "Her first take after CPI on a December hike.",
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/newsevents/2026-november.htm"
  },
  {
   "when": "Wed Nov 11",
   "event": "Veterans Day (bond market closed)",
   "why": "Thin trading; no major US data.",
-  "source": "New York Fed",
-  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/newsevents/2026-november.htm"
  },
  {
   "when": "Thu Nov 12, 7:30am CT",
   "event": "Weekly jobless claims",
   "why": "Labor-market strength feeds Fed hike bets.",
-  "source": "New York Fed",
-  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+  "source": "Xoomar economic calendar",
+  "url": "https://xoomar.com/markets/calendar"
  },
  {
-  "when": "Thu Nov 12, 9:00am CT",
-  "event": "Existing home sales (October)",
-  "why": "Housing turnover drives demand for copper, aluminum and appliances.",
-  "source": "New York Fed",
-  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
- },
- {
-  "when": "Thu Nov 12 (times unconfirmed)",
-  "event": "Fed speakers Hammack, Barr, Goolsbee, Daly and Williams",
-  "why": "A heavy day of Fed talk that can move the dollar and gold.",
-  "source": "Global Macro Week Ahead (Substack)",
-  "url": "https://analysisofficial.substack.com/p/global-macro-week-ahead-nov-913-2026"
+  "when": "Thu Nov 12 (Williams 5:30am CT, Goolsbee 10:30am CT)",
+  "event": "Fed speakers Williams, Goolsbee and Hammack",
+  "why": "More signals on the size of a December hike; moves the dollar and gold.",
+  "source": "The Weekend Spread",
+  "url": "https://theweekendspread.substack.com/p/the-week-ahead-monday-november-9"
  },
  {
   "when": "Fri Nov 13, 7:30am CT",
   "event": "Producer price index (October)",
-  "why": "Shows how much metal and energy costs feed into wholesale prices.",
-  "source": "New York Fed",
-  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+  "why": "Shows how metal and energy costs feed into wholesale prices.",
+  "source": "Xoomar economic calendar",
+  "url": "https://xoomar.com/markets/calendar"
  },
  {
-  "when": "Fri Nov 13 (time unconfirmed)",
-  "event": "China credit data (October)",
-  "why": "New lending signals whether stimulus is reaching builders and factories.",
-  "source": "Lundgreen's Investor Insights",
-  "url": "https://www.lundgreensinvestorinsights.com/next-week-in-china-9-13-november-2026/"
+  "when": "Sun Nov 15, 8:00pm CT (preliminary)",
+  "event": "China October industrial output, property investment, retail sales and home prices",
+  "why": "The health of Chinese steel and copper demand.",
+  "source": "National Bureau of Statistics of China",
+  "url": "https://www.stats.gov.cn/english/PressRelease/ReleaseCalendar/202512/t20251226_1962154.html"
  },
  {
   "when": "Mon Nov 16 (weekly)",
   "event": "Nucor weekly hot-rolled coil price",
-  "why": "A steady weekly signal for flat-rolled and scrap demand.",
-  "source": "IndexBox",
-  "url": "https://www.indexbox.io/blog/nucor-raises-hot-rolled-coil-spot-price-for-fifteenth-consecutive-week/"
- },
- {
-  "when": "Mon Nov 16, 7:30am CT",
-  "event": "Empire State manufacturing (November)",
-  "why": "An early look at November factory activity.",
-  "source": "New York Fed",
-  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+  "why": "Sets the tone for flat-rolled steel and prime scrap.",
+  "source": "Steel Market Update",
+  "url": "https://www.steelmarketupdate.com/category/prices/"
  },
  {
   "when": "Tue Nov 17, 7:30am CT",
-  "event": "Retail sales and import/export prices (October); industrial production at 8:15am CT",
-  "why": "Industrial output covers auto and metals production.",
-  "source": "New York Fed",
-  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+  "event": "Retail sales and import/export prices (October)",
+  "why": "Consumer demand including autos, and tariff-driven import costs.",
+  "source": "Census Bureau",
+  "url": "https://www.census.gov/retail/release_schedule.html"
+ },
+ {
+  "when": "Tue Nov 17, 8:15am CT",
+  "event": "Industrial production (October)",
+  "why": "Factory and metals output; a direct read on scrap generation and mill demand.",
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/newsevents/2026-november.htm"
+ },
+ {
+  "when": "Tue Nov 17, 9:00am CT",
+  "event": "Homebuilder sentiment (November)",
+  "why": "Builder mood is the weakest since 2012; a read on housing metals demand.",
+  "source": "NAHB",
+  "url": "https://www.nahb.org/news-and-economics/housing-economics/indices/nahb-wells-fargo-housing-market-index-release-dates"
  },
  {
   "when": "Wed Nov 18, 7:30am CT",
@@ -119,18 +84,25 @@
   "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
  },
  {
-  "when": "Wed Nov 18, about 1:00pm CT (date inferred)",
+  "when": "Wed Nov 18, about 1:00pm CT",
   "event": "FOMC minutes from the Oct 27-28 meeting",
   "why": "Shows how many officials favor more hikes; moves the dollar and gold.",
   "source": "Federal Reserve",
-  "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  "url": "https://www.federalreserve.gov/newsevents/2026-november.htm"
+ },
+ {
+  "when": "Wed-Thu Nov 18-19",
+  "event": "APEC leaders' meeting in Shenzhen; Trump-Xi meeting expected",
+  "why": "US-China tariffs and the extended truce are on the table.",
+  "source": "KSAT (AP)",
+  "url": "https://www.ksat.com/news/2026/11/10/chinas-trade-surplus-surpasses-1-trillion-for-a-2nd-straight-year-as-exports-surge-35/"
  },
  {
   "when": "Thu Nov 19, 7:30am CT",
-  "event": "Philadelphia Fed manufacturing survey and jobless claims",
-  "why": "A read on November factory demand in the Northeast and Midwest.",
-  "source": "New York Fed",
-  "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html"
+  "event": "Weekly jobless claims",
+  "why": "Labor-market read ahead of the December Fed meeting.",
+  "source": "Xoomar economic calendar",
+  "url": "https://xoomar.com/markets/calendar"
  },
  {
   "when": "Fri Nov 20, 9:00am CT",
