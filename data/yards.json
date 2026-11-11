@@ -264,7 +264,7 @@
   "area": "West Side Chicago",
   "address": "5618 W. Fillmore St, Chicago, IL 60644",
   "material": "Bare bright copper",
-  "price": 5.15,
+  "price": 5.0,
   "unit": "$/lb",
   "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
@@ -274,7 +274,7 @@
   "area": "West Side Chicago",
   "address": "5618 W. Fillmore St, Chicago, IL 60644",
   "material": "#1 copper",
-  "price": 5.05,
+  "price": 4.9,
   "unit": "$/lb",
   "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
@@ -284,7 +284,7 @@
   "area": "West Side Chicago",
   "address": "5618 W. Fillmore St, Chicago, IL 60644",
   "material": "#2 copper",
-  "price": 4.87,
+  "price": 4.78,
   "unit": "$/lb",
   "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
@@ -294,7 +294,7 @@
   "area": "West Side Chicago",
   "address": "5618 W. Fillmore St, Chicago, IL 60644",
   "material": "Yellow brass",
-  "price": 2.9,
+  "price": 2.8,
   "unit": "$/lb",
   "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
@@ -304,7 +304,7 @@
   "area": "West Side Chicago",
   "address": "5618 W. Fillmore St, Chicago, IL 60644",
   "material": "Sheet aluminum",
-  "price": 0.6,
+  "price": 0.5,
   "unit": "$/lb",
   "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
@@ -314,7 +314,7 @@
   "area": "West Side Chicago",
   "address": "5618 W. Fillmore St, Chicago, IL 60644",
   "material": "Aluminum cans",
-  "price": 0.55,
+  "price": 0.5,
   "unit": "$/lb",
   "as_of": "",
   "url": "https://centralmetalrecycling.net/pricing-recycling-central-metal/"
@@ -364,9 +364,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Bare bright copper",
-  "price": 4.64,
+  "price": 4.65,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-11",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -374,9 +374,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "#1 copper",
-  "price": 4.61,
+  "price": 4.57,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-11",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -384,9 +384,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "#2 copper",
-  "price": 4.13,
+  "price": 4.07,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-11",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -404,9 +404,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Yellow brass",
-  "price": 2.65,
+  "price": 2.63,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-11",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -416,7 +416,7 @@
   "material": "Red brass",
   "price": 3.28,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-11",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -424,9 +424,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Aluminum wheels",
-  "price": 0.95,
+  "price": 0.94,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-11",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -446,7 +446,7 @@
   "material": "Aluminum cans",
   "price": 0.54,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-11",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -454,9 +454,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "304 stainless",
-  "price": 0.32,
+  "price": 0.33,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-11",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -464,9 +464,9 @@
   "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
   "address": "",
   "material": "Car batteries",
-  "price": 0.23,
+  "price": 0.22,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-10",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -476,7 +476,7 @@
   "material": "Cast iron rotors",
   "price": 0.15,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-10",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -486,7 +486,7 @@
   "material": "Heavy steel",
   "price": 0.1,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-11",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -496,7 +496,7 @@
   "material": "Sheet iron",
   "price": 0.1,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-11",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -507,6 +507,16 @@
   "price": 1.41,
   "unit": "$/lb",
   "as_of": "2026-11-09",
+  "url": "https://metalrecap.com/scrap-price/alsip/"
+ },
+ {
+  "yard": "Alsip-area yard average",
+  "area": "Alsip / southwest suburbs (MetalRecap 30-day avg)",
+  "address": "",
+  "material": "Aluminum extrusions",
+  "price": 0.63,
+  "unit": "$/lb",
+  "as_of": "2026-11-11",
   "url": "https://metalrecap.com/scrap-price/alsip/"
  },
  {
@@ -524,9 +534,19 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Bare bright copper",
-  "price": 5,
+  "price": 4.5,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-23",
+  "url": "https://www.scrapmonster.com/scrap-yards/prices/indiana/state/3379"
+ },
+ {
+  "yard": "Indiana yard average",
+  "area": "Statewide (ScrapMonster)",
+  "address": "",
+  "material": "#1 copper",
+  "price": 4.4,
+  "unit": "$/lb",
+  "as_of": "2026-10-23",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/indiana/state/3379"
  },
  {
@@ -534,9 +554,9 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "#2 copper",
-  "price": 4.7,
+  "price": 4.3,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-23",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/indiana/state/3379"
  },
  {
@@ -544,9 +564,9 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Aluminum cans",
-  "price": 0.7,
+  "price": 0.6,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-23",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/indiana/state/3379"
  },
  {
@@ -603,10 +623,10 @@
   "yard": "Illinois yard average",
   "area": "Statewide (ScrapMonster)",
   "address": "",
-  "material": "Bare bright copper",
-  "price": 5.39,
+  "material": "Bare bright copper (#1)",
+  "price": 5.85,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-12",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -614,19 +634,19 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "#1 copper wire",
-  "price": 5.29,
+  "price": 5.75,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-12",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
   "yard": "Illinois yard average",
   "area": "Statewide (ScrapMonster)",
   "address": "",
-  "material": "#1 copper tube",
-  "price": 5.28,
+  "material": "#1 copper",
+  "price": 4.64,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-12",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -634,19 +654,19 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "#2 copper",
-  "price": 5.05,
+  "price": 4.54,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-12",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
   "yard": "Illinois yard average",
   "area": "Statewide (ScrapMonster)",
   "address": "",
-  "material": "Copper radiators",
-  "price": 2.95,
+  "material": "Auto radiators",
+  "price": 3.19,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-12",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -654,9 +674,9 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Yellow brass",
-  "price": 2.95,
+  "price": 3.75,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-12",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -664,9 +684,9 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Red brass",
-  "price": 3.9,
+  "price": 4.7,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-12",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -674,9 +694,9 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Aluminum cans",
-  "price": 0.85,
+  "price": 0.71,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-12",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -684,9 +704,9 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Aluminum extrusion (unclean)",
-  "price": 0.83,
+  "price": 0.75,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-12",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -694,19 +714,19 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Cast aluminum",
-  "price": 0.78,
+  "price": 0.66,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-12",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
   "yard": "Illinois yard average",
   "area": "Statewide (ScrapMonster)",
   "address": "",
-  "material": "Aluminum car wheels",
-  "price": 1.33,
+  "material": "Aluminum wheels (clean)",
+  "price": 1.1,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-12",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -714,9 +734,9 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "304 stainless",
-  "price": 0.46,
+  "price": 0.37,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-12",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -726,17 +746,17 @@
   "material": "Lead",
   "price": 0.48,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-12",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
   "yard": "Illinois yard average",
   "area": "Statewide (ScrapMonster)",
   "address": "",
-  "material": "Car batteries",
-  "price": 0.2,
+  "material": "Lead batteries",
+  "price": 0.18,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-10-12",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
