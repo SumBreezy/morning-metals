@@ -28,6 +28,13 @@
   "url": "https://www.bls.gov/schedule/news_release/ppi.htm"
  },
  {
+  "when": "Fri Nov 13 (time not announced)",
+  "event": "US Steel and United Steelworkers resume contract talks",
+  "why": "A strike threat at US Steel would affect flat-rolled supply and mill scrap buying.",
+  "source": "Steel Market Update",
+  "url": "https://www.steelmarketupdate.com/2026/11/11/uss-usw-to-resume-labor-talks-on-friday-union-predicts-progress/"
+ },
+ {
   "when": "Sun Nov 15, 5:50pm CT",
   "event": "Japan Q3 (Jul-Sep) GDP, first preliminary estimate",
   "why": "Japan is a big steel and metals economy, so a weak print can dent Asian demand sentiment.",
@@ -61,6 +68,13 @@
   "why": "Mill utilization (77.0% for the week ending Nov 7) is a direct read on ferrous scrap demand.",
   "source": "American Iron and Steel Institute",
   "url": "https://www.steel.org/industry-data/"
+ },
+ {
+  "when": "Mon Nov 16",
+  "event": "Last trading day of Shanghai's November copper contract (delivery Nov 17-18)",
+  "why": "China's spot copper market is expected to stay tight until delivery, supporting prices.",
+  "source": "SMM",
+  "url": "https://news.metal.com/newscontent/104210314-shanghai-spot-copper-premiums-surge-to-2615-yuanmt-the-highest-level-in-history-how-tight-is-supply-before-delivery"
  },
  {
   "when": "Tue Nov 17, 7:30am CT",

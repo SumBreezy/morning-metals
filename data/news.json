@@ -10,15 +10,51 @@
  },
  {
   "rank": 2,
-  "category": "Copper",
-  "headline": "LME copper falls about 1.3% to $13,712 after hot US inflation report",
-  "detail": "October CPI came in above forecast, and Fed officials sounded hawkish, so traders added bets on a December rate hike and LME copper settled down 1.27%. Chinese buyers are also balking at high prices and premiums, which points to softer copper scrap bids in the near term.",
-  "source": "Shanghai Metals Market (SMM)",
-  "url": "https://news.metal.com/newscontent/5RV544IWHTXZYXEVVVTOKDI3DQ6QPGFFF66352I-us-inflation-exceeds-expectations-combined-with-hawkish-signals-copper-prices-fall-under-pressure-smm-copper-morning-meeting-summary",
+  "category": "Fed & dollar",
+  "headline": "Chicago Fed's Goolsbee calls October inflation borderline disturbing",
+  "detail": "Goolsbee said inflation is speeding up and spreading and would not rule out a half-point hike in December. A more hawkish Fed lifts the dollar, which weighs on copper, aluminum and gold.",
+  "source": "Scotsman Guide",
+  "url": "https://www.scotsmanguide.com/news/feds-goolsbee-flags-october-inflation-data-as-borderline-disturbing/",
   "date": "2026-11-11"
  },
  {
   "rank": 3,
+  "category": "Aluminum & nickel",
+  "headline": "LME aluminum stocks sink to lowest since 1990, squeezing cash prices",
+  "detail": "Exchange aluminum stocks fell to a 35-year low and cash metal jumped to a premium of roughly $150/t over three-month, with a couple of traders reportedly holding much of the available metal. That squeeze, not new demand, drove Wednesday's jump in cash aluminum.",
+  "source": "Seeking Alpha",
+  "url": "https://seekingalpha.com/news/4670933-aluminum-prices-face-historic-squeeze-as-london-exchange-inventories-plunge?feed_item_type=news",
+  "date": "2026-11-11"
+ },
+ {
+  "rank": 4,
+  "category": "Copper",
+  "headline": "Copper bounces back as China runs short of metal",
+  "detail": "Three-month LME copper rose about 0.8% Wednesday after Tuesday's CPI selloff, helped by better tech sentiment. China's import premium held at a record for a third day, showing physical tightness that is cushioning prices against the strong dollar.",
+  "source": "Business Recorder (Reuters)",
+  "url": "https://www.brecorder.com/news/40448498/copper-snaps-back-as-ai-worries-fade-shortages-persist-in-china",
+  "date": "2026-11-12"
+ },
+ {
+  "rank": 5,
+  "category": "Gold & silver",
+  "headline": "Gold drops below $4,000 as the dollar hits its highest since spring 2025",
+  "detail": "Gold fell about 1% late Wednesday as the dollar index climbed near 103 and futures priced a December rate hike as very likely. Silver held around $51.50.",
+  "source": "Kitco",
+  "url": "https://www.kitco.com/news/article/2026-11-11/gold-falls-below-4000-dollar-surges-fed-hike-bets-rise-kitco-pm-report",
+  "date": "2026-11-11"
+ },
+ {
+  "rank": 6,
+  "category": "Steel & iron ore",
+  "headline": "Steel buyers expect hot-rolled coil to reach $1,400-1,449 within two months",
+  "detail": "A Steel Market Update survey found tight supply and steady demand keeping sheet prices climbing, with mixed views on when the rally tops out. Strong mill demand supports prime and busheling scrap.",
+  "source": "Steel Market Update",
+  "url": "https://www.steelmarketupdate.com/2026/11/11/steel-market-chatter-tight-supply-strong-demand-keep-sheet-prices-climbing/",
+  "date": "2026-11-11"
+ },
+ {
+  "rank": 7,
   "category": "Steel & iron ore",
   "headline": "Nucor lifts HRC spot price $15 to $1,295/st, the 17th straight weekly increase",
   "detail": "Nucor raised its weekly hot-rolled coil price again, with lead times holding at 3-5 weeks. US HRC is trading about $1,340-1,400/st. Strong sheet prices keep EAF mills hungry for prime and shredded scrap.",
@@ -27,52 +63,52 @@
   "date": "2026-11-10"
  },
  {
-  "rank": 4,
-  "category": "Fed & dollar",
-  "headline": "Hot October CPI makes a December Fed hike look nearly certain",
-  "detail": "Consumer prices rose 0.4% in October against 0.3% expected, and core prices rose 0.3% against 0.2%. Futures now put a December hike at about 89%, with some bets on a half-point move. The dollar index firmed to about 102 and 2-year yields jumped. Higher rates and a firmer dollar usually weigh on copper, aluminum and scrap prices.",
-  "source": "Forbes",
-  "url": "https://www.forbes.com/sites/zacharyfolk/2026/11/10/interest-rate-hike-odds-rise-after-october-inflation-exceeded-economists-expectations/",
-  "date": "2026-11-10"
- },
- {
-  "rank": 5,
-  "category": "Aluminum & nickel",
-  "headline": "LME aluminum drops to three-week low below $3,000 on Chinese exports and Iran de-escalation",
-  "detail": "Three-month aluminum fell 2.3% to about $2,995/t, now about 21% below June's four-year high. Chinese exports are up 18% this year and Middle East supply is returning faster than expected, so aluminum scrap values face pressure, although LME stocks remain low.",
-  "source": "MINING.COM (Reuters)",
-  "url": "https://www.mining.com/web/firmer-dollar-middle-east-de-escalation-hopes-push-aluminium-to-three-week-low/",
-  "date": "2026-11-10"
- },
- {
-  "rank": 6,
-  "category": "Tariffs & policy",
-  "headline": "US and China extend their trade truce two more months, to January 10",
-  "detail": "China paused some critical-mineral export controls and its 24% tariff on US goods for two more months, though a 10% duty remains. The US extended 178 Section 301 tariff exclusions on Chinese goods. This avoids a near-term escalation that could have rattled metals markets and supply chains.",
-  "source": "The National",
-  "url": "https://thenationalnews.com/news/us/2026/11/09/china-extends-pause-on-rare-earth-export-curbs-for-two-months",
-  "date": "2026-11-09"
- },
- {
-  "rank": 7,
-  "category": "Aluminum & nickel",
-  "headline": "Midterm results raise hopes of Canada tariff relief that could shrink the Midwest premium",
-  "detail": "The Midwest aluminum premium had eased to $1.12/lb from a record $1.19 in May. After Democratic wins, traders expect pressure for a US-Canada deal on the 50% tariff. Any decline is expected to be gradual, but scrap brokers cut prices quickly the last time a deal was floated.",
-  "source": "Argus Media",
-  "url": "https://www.argusmedia.com/news-and-insights/latest-market-news/2900826-us-blue-wave-renews-prospect-of-canada-tariff-relief",
-  "date": "2026-11-05"
- },
- {
   "rank": 8,
   "category": "PGMs & converters",
-  "headline": "Platinum and palladium fall back from recent highs after the CPI report",
-  "detail": "Platinum fell about 2.4% from a three-week high near $1,587/oz, and palladium was 3% below last week's $1,066 high, as rate-hike bets rose. Lower PGM prices mean lower catalytic converter payouts.",
-  "source": "BullionVault",
-  "url": "https://www.bullionvault.com/gold-news/gold-price-news/gold-silver-inflation-fed-hike-111020261",
-  "date": "2026-11-10"
+  "headline": "Palladium jumps about 6% to near $1,087",
+  "detail": "Palladium is up roughly 16% since Nov 4 as short sellers covered and Nornickel warned of lower output in 2027-28. That helps catalytic converter values, though weak auto output and more recycling remain headwinds.",
+  "source": "IG",
+  "url": "https://www.ig.com/en-ch/news-and-trade-ideas/palladium-price-rebound-resistance-seasonality-261111",
+  "date": "2026-11-11"
  },
  {
   "rank": 9,
+  "category": "Steel & iron ore",
+  "headline": "US Steel and the Steelworkers resume contract talks Friday",
+  "detail": "Talks restart Nov 13 after stalling; Cleveland-Cliffs already reached its deal with the union. Any strike threat at US Steel would be a wildcard for flat-rolled supply and mill scrap buying.",
+  "source": "Steel Market Update",
+  "url": "https://www.steelmarketupdate.com/2026/11/11/uss-usw-to-resume-labor-talks-on-friday-union-predicts-progress/",
+  "date": "2026-11-11"
+ },
+ {
+  "rank": 10,
+  "category": "Scrap",
+  "headline": "Thailand tightens imports of copper, aluminum and steel scrap",
+  "detail": "Thailand is drafting tougher impurity, certification and importer rules and has stepped up customs checks, pushing some cargoes to Malaysia and India. Fewer Asian outlets could pressure US nonferrous scrap export prices.",
+  "source": "SMM (news.metal.com)",
+  "url": "https://news.metal.com/newscontent/PQ7X7OZB22Y5G74RPQAS5AZPGJKPSW7PTJVMUJA-thailand-tightens-scrap-metal-import-controls-some-shipments-diverted-to-other-asian-markets",
+  "date": "2026-11-12"
+ },
+ {
+  "rank": 11,
+  "category": "Copper",
+  "headline": "China's copper import premiums hit record highs",
+  "detail": "Shanghai import premiums passed $200/t, the highest on record, as metal is diverted to the US, smelters run maintenance and Chinese stocks shrink. SMM expects premiums to stay high through December, which supports copper prices.",
+  "source": "SMM (news.metal.com)",
+  "url": "https://news.metal.com/newscontent/KAZMU6DREBKO6SZXLGKPJKRM3YLJ4JTAQ4JEWGA-the-logic-behind-the-surge-in-cif-chinas-copper-cathode-premiums-and-the-outlook-ahead-smm-analysis",
+  "date": "2026-11-11"
+ },
+ {
+  "rank": 12,
+  "category": "Supply shocks",
+  "headline": "Strike at Teck's Highland Valley copper mine nears three weeks",
+  "detail": "More than 1,200 Steelworkers have been out since Oct 24 at the British Columbia mine, and tensions are rising over replacement workers. It adds to an already tight copper concentrate market.",
+  "source": "The Tyee",
+  "url": "https://thetyee.ca/News/2026/11/12/BC-Mine-Strike-Tensions-Flare/",
+  "date": "2026-11-12"
+ },
+ {
+  "rank": 13,
   "category": "Fed & dollar",
   "headline": "Fed's Waller says a half-point December hike should be on the table",
   "detail": "Fed Governor Waller said a 25bp hike could put the Fed's credibility at risk if core inflation stays hot. A larger hike would support the dollar and tighten credit for metal buyers and end users.",
@@ -81,88 +117,88 @@
   "date": "2026-11-10"
  },
  {
-  "rank": 10,
-  "category": "China",
-  "headline": "China's October trade jumps; exports up about 29%, imports up about 35%",
-  "detail": "Customs data showed October exports up 28.7% and imports up 34.7% from a year earlier in yuan terms, with auto exports up 37.6%. China's trade surplus for the year has passed $1 trillion. Strong imports signal solid raw-material demand, while the auto export surge adds pressure on global car makers.",
-  "source": "Global Times",
-  "url": "https://www.globaltimes.cn/page/202611/1374002.shtml",
-  "date": "2026-11-10"
- },
- {
-  "rank": 11,
-  "category": "China",
-  "headline": "China's iron ore imports slip in October while steel exports stay near 10 million tonnes",
-  "detail": "Iron ore imports fell to about 105.7 million tonnes, down 3.8% from September and 5.1% from a year ago. Steel exports were about 9.85 million tonnes, slightly above last year. Softer ore buying points to cautious mills, and steady exports keep cheap Chinese steel weighing on world prices.",
-  "source": "SteelOrbis",
-  "url": "https://www.steelorbis.com/steel-news/latest-news/chinas-iron-ore-imports-increase-by-31-percent-in-january-october-2026-1489460.htm",
-  "date": "2026-11-10"
- },
- {
-  "rank": 12,
-  "category": "Tariffs & policy",
-  "headline": "New Democratic Congress may target tariffs, but Trump's veto limits what it can do",
-  "detail": "Democrats take over both chambers in January and plan to go after tariffs, more likely one tariff at a time than with a broad overhaul. Without two-thirds majorities to override a veto, the Section 232 steel, aluminum and copper tariffs that support domestic prices likely stay in place for now.",
-  "source": "The Hill (via Yahoo News)",
-  "url": "https://www.yahoo.com/news/politics/articles/democrats-won-congress-actually-stop-110000772.html",
-  "date": "2026-11-08"
- },
- {
-  "rank": 13,
-  "category": "Supply shocks",
-  "headline": "Codelco cuts 2026 copper guidance to about 1.2 Mt and admits overstating past output",
-  "detail": "Chile's state miner lowered its 2026 target from 1.34 Mt. It confirmed that 42,100 t of 2024-25 output was overstated and dropped its goal of 1.7 Mt a year by 2030. Lower supply from the world's top copper producer supports copper prices over the longer term.",
-  "source": "Yahoo Finance (Reuters)",
-  "url": "https://ca.finance.yahoo.com/news/codelco-lowers-2026-guidance-confirms-180151789.html",
-  "date": "2026-11-05"
- },
- {
   "rank": 14,
-  "category": "Gold & silver",
-  "headline": "Gold and silver fall as October CPI beats forecasts",
-  "detail": "US consumer prices rose 0.4% in October against 0.3% expected, raising bets on a December Fed hike. Gold fell about 1.8%, silver about 2.3% and copper about 1%. A hawkish Fed and a stronger dollar weigh on the whole metals complex.",
-  "source": "Mining.com.au",
-  "url": "https://mining.com.au/metals-sell-off-again-after-inflation-data/",
-  "date": "2026-11-11"
+  "category": "Tariffs & policy",
+  "headline": "Importers press for $166 billion in refunds of struck-down tariffs",
+  "detail": "A class of importers asked the trade court to order refunds of the IEEPA tariffs, with the Justice Department's answer due Nov 13. The Section 232 steel, aluminum and copper tariffs are not affected.",
+  "source": "Fortune",
+  "url": "https://fortune.com/2026/11/12/tariff-refund-class-action-lawsuit-universal-tariff-refunds-trump-administration/",
+  "date": "2026-11-12"
  },
  {
   "rank": 15,
-  "category": "Steel & iron ore",
-  "headline": "Cleveland-Cliffs and USW reach four-year labor deals covering about 12,000 workers",
-  "detail": "The tentative deals cover Cliffs steel and mining sites in Indiana, Ohio, Pennsylvania, Minnesota and Michigan, pending ratification. They remove a strike risk at major Midwest steelmaking and iron ore operations.",
-  "source": "North American Mining Magazine",
-  "url": "https://northamericanmining.com/index.php/2026/11/10/cleveland-cliffs-united-steelworkers-reach-four-year-labor-deal/",
-  "date": "2026-11-10"
- },
- {
-  "rank": 16,
-  "category": "Construction",
-  "headline": "Mortgage rates post biggest one-day jump in over a month after CPI",
-  "detail": "The average 30-year fixed rate rose to about 7.30%, up 0.12 point in a day after the hot inflation report. Higher borrowing costs further cool homebuilding and the demand for wire, pipe and rebar that comes with it.",
-  "source": "Mortgage News Daily",
-  "url": "https://www.mortgagenewsdaily.com/markets/mortgage-rates-11102026",
-  "date": "2026-11-10"
- },
- {
-  "rank": 17,
-  "category": "Autos",
-  "headline": "Stellantis sells idled Brampton, Ontario car plant to a defense contractor",
-  "detail": "Stellantis sold the Brampton assembly plant to armored-vehicle maker Roshel, and more than 2,200 laid-off auto workers face an uncertain future. It is another lost North American assembly plant, which means less auto stamping and production scrap in the region.",
-  "source": "Unifor via Canada Newswire",
-  "url": "https://www.newswire.ca/news-releases/sale-of-brampton-assembly-plant-a-betrayal-by-stellantis-838477230.html",
+  "category": "Tariffs & policy",
+  "headline": "US and China extend their trade truce two more months, to January 10",
+  "detail": "China paused some critical-mineral export controls and its 24% tariff on US goods for two more months, though a 10% duty remains. The US extended 178 Section 301 tariff exclusions on Chinese goods. This avoids a near-term escalation that could have rattled metals markets and supply chains.",
+  "source": "The National",
+  "url": "https://thenationalnews.com/news/us/2026/11/09/china-extends-pause-on-rare-earth-export-curbs-for-two-months",
   "date": "2026-11-09"
  },
  {
+  "rank": 16,
+  "category": "China",
+  "headline": "China's central bank promises more support for the economy",
+  "detail": "The PBoC said it will keep policy loose and borrowing costs low, with more lending for consumer demand and infrastructure. Stimulus hopes support base metal demand.",
+  "source": "Reuters via 93.3 The Drive",
+  "url": "https://www.933thedrive.com/2026/11/11/chinas-central-bank-vows-to-step-up-policy-support-for-the-economy/",
+  "date": "2026-11-11"
+ },
+ {
+  "rank": 17,
+  "category": "China",
+  "headline": "China's October steel exports fall 6% from September",
+  "detail": "China shipped 9.85 Mt of steel in October as a new export license system holds volumes back. Less cheap Chinese steel abroad supports steel prices outside China.",
+  "source": "SteelOrbis",
+  "url": "https://www.steelorbis.com/steel-news/latest-news/chinas-steel-exports-down-23-in-jan-oct-down-61-in-oct-from-sept-2026-1489467.htm",
+  "date": "2026-11-10"
+ },
+ {
   "rank": 18,
-  "category": "PGMs & converters",
-  "headline": "Sibanye-Stillwater cuts US PGM output forecast after Montana strike",
-  "detail": "Sibanye lowered 2026 output from its Montana mines to 245,000-255,000 oz, from 280,000-300,000 oz, after a five-week strike, and raised its cost guidance. Less US-mined palladium and platinum lends some support to PGM prices.",
-  "source": "Business Day",
-  "url": "https://www.businessday.co.za/companies/2026-11-06-sibanye-cuts-us-pgm-production-forecast-after-five-week-strike/",
-  "date": "2026-11-06"
+  "category": "Aluminum & nickel",
+  "headline": "Nickel slips as Treasury yields and the dollar climb",
+  "detail": "Shanghai nickel eased as the 10-year Treasury yield neared 5% after the hot CPI report. SMM sees a sideways range unless producers follow through on announced output cuts.",
+  "source": "SMM (news.metal.com)",
+  "url": "https://news.metal.com/newscontent/HAX4FOTS3V2WA5JHFEDDY2IBQJ6JBX4ZMAYBESA-smm-nickel-midday-review-nickel-prices-bottomed-out-on-november-11-as-us-treasury-yields-and-a-stronger-dollar-weighed-on-the-metals-sector",
+  "date": "2026-11-11"
  },
  {
   "rank": 19,
+  "category": "Aluminum & nickel",
+  "headline": "Midterm results raise hopes of Canada tariff relief that could shrink the Midwest premium",
+  "detail": "The Midwest aluminum premium had eased to $1.12/lb from a record $1.19 in May. After Democratic wins, traders expect pressure for a US-Canada deal on the 50% tariff. Any decline is expected to be gradual, but scrap brokers cut prices quickly the last time a deal was floated.",
+  "source": "Argus Media",
+  "url": "https://www.argusmedia.com/news-and-insights/latest-market-news/2900826-us-blue-wave-renews-prospect-of-canada-tariff-relief",
+  "date": "2026-11-05"
+ },
+ {
+  "rank": 20,
+  "category": "Scrap",
+  "headline": "Kazakhstan bans scrap exports for six months",
+  "detail": "The ban, in force since Nov 1, covers ferrous, nonferrous and stainless scrap to keep material for local mills. It trims supply in world scrap trade.",
+  "source": "SMM (news.metal.com)",
+  "url": "https://news.metal.com/newscontent/Q2LDYDVCQ5SDTPRCPZ4TSFZNGAT3RQSHGSWOLTQ-smm-stainless-steel-scrap-flashkazakhstan-extends-metal-scrap-export-ban-including-stainless-steel-for-six-months",
+  "date": "2026-11-12"
+ },
+ {
+  "rank": 21,
+  "category": "Autos",
+  "headline": "New-car prices hit a record $51,109 as dealer inventory climbs to 3.1 million",
+  "detail": "Inventory rose by about 100,000 units while prices stayed high. Fuller lots point to softer production ahead, which means less prompt industrial scrap from auto plants.",
+  "source": "Autofreak",
+  "url": "https://autofreak.com/new-car-prices-record-inventory-growth",
+  "date": "2026-11-12"
+ },
+ {
+  "rank": 22,
+  "category": "Autos",
+  "headline": "Ford's October US sales slip 0.8%",
+  "detail": "F-Series pickups and big SUVs gained while overall Ford sales dipped slightly; used wholesale prices are up about 2% from a year ago. Flat sales keep auto steel and aluminum demand steady but not growing.",
+  "source": "CBT News",
+  "url": "https://www.cbtnews.com/cbt-automotive-newscast-november-11-2026",
+  "date": "2026-11-11"
+ },
+ {
+  "rank": 23,
   "category": "Autos",
   "headline": "Stellantis keeps Windsor minivan and Charger plant down for a fourth straight week",
   "detail": "Production at Windsor Assembly, which has about 6,400 workers, is idled through the week of Nov 9, and Stellantis cites demand and tariffs. Long shutdowns cut flat-rolled steel and aluminum demand and the flow of prompt industrial scrap from feeder plants.",
@@ -171,66 +207,66 @@
   "date": "2026-11-05"
  },
  {
-  "rank": 20,
-  "category": "Copper",
-  "headline": "Copper slips near $13,900 on election jitters as US refined-copper tariff talk resurfaces",
-  "detail": "LME copper fell about 1% to $13,897 around the midterm results. A report said a US tariff on refined copper imports is under discussion, which could widen the Comex-LME gap and change US copper scrap spreads.",
-  "source": "Finimize",
-  "url": "https://finimize.com/content/copper-slips-as-us-midterms-keep-markets-on-edge",
-  "date": "2026-11-04"
- },
- {
-  "rank": 21,
-  "category": "China",
-  "headline": "China factory prices rise at their fastest pace in over four years",
-  "detail": "Producer prices rose 5.7% from a year earlier in October, driven mainly by oil and energy costs, while consumer inflation eased to 0.7%. Squeezed factory margins and weak households argue against a big construction-led stimulus that would lift steel demand.",
-  "source": "Intelligence Report",
-  "url": "https://intelligencereport.org/2026/11/09/china-inflation-october-ppi-cpi-gap/",
-  "date": "2026-11-09"
- },
- {
-  "rank": 22,
-  "category": "Tariffs & policy",
-  "headline": "Canada extends and widens its tariff-relief program to mid-2028",
-  "detail": "Ottawa extended its remission program, which has helped firms move away from US steel suppliers, to June 2028. It also widened the program to more manufacturing, farm and mining inputs. That supports the cross-border steel trade shifting away from US mills.",
-  "source": "CP24 (Canadian Press)",
-  "url": "https://www.cp24.com/news/canada/2026/11/09/ottawa-amends-extends-tariff-relief-program-beyond-us-steel-imports/",
-  "date": "2026-11-09"
- },
- {
-  "rank": 23,
-  "category": "Construction",
-  "headline": "Residential construction sheds most jobs since 2021 while nonresidential adds",
-  "detail": "Residential construction cut 16,400 jobs in October, its biggest drop since March 2021, while nonresidential added about 13,300. Housing is weakening, and commercial and industrial work such as data centers is carrying construction-steel demand.",
-  "source": "NAHB Eye on Housing",
-  "url": "https://eyeonhousing.org/2026/11/hiring-rebounds-in-october-but-residential-construction-employment-declines/",
-  "date": "2026-11-06"
- },
- {
   "rank": 24,
-  "category": "Construction",
-  "headline": "Court fight continues over $18B Grayslake data center as building proceeds",
-  "detail": "A Lake County judge heard the village's bid to dismiss a neighbor lawsuit against the T5 data center project and will rule by Dec 30. Construction is already underway. Large local data center builds are a major source of steel and copper demand in the Chicago area.",
-  "source": "FOX 32 Chicago",
-  "url": "https://www.fox32chicago.com/news/lake-county-residents-fight-18b-data-center-project-court",
-  "date": "2026-11-06"
+  "category": "PGMs & converters",
+  "headline": "Platinum holds near $1,540 close to a two-week high",
+  "detail": "Rate-hike bets and weak auto output weigh on platinum, but demand from hybrids and catalytic converters is cushioning the dip.",
+  "source": "Trading Economics",
+  "url": "https://tradingeconomics.com/commodity/platinum",
+  "date": "2026-11-11"
  },
  {
   "rank": 25,
+  "category": "PGMs & converters",
+  "headline": "Sibanye-Stillwater cuts US PGM output forecast after Montana strike",
+  "detail": "Sibanye lowered 2026 output from its Montana mines to 245,000-255,000 oz, from 280,000-300,000 oz, after a five-week strike, and raised its cost guidance. Less US-mined palladium and platinum lends some support to PGM prices.",
+  "source": "Business Day",
+  "url": "https://www.businessday.co.za/companies/2026-11-06-sibanye-cuts-us-pgm-production-forecast-after-five-week-strike/",
+  "date": "2026-11-06"
+ },
+ {
+  "rank": 26,
+  "category": "Gold & silver",
+  "headline": "Standard Chartered still sees gold at $4,650 this quarter",
+  "detail": "The bank expects one December hike then a pause and points to strong ETF and central bank buying. It sees $4,200 as the next hurdle.",
+  "source": "Kitco",
+  "url": "https://www.kitco.com/news/article/2026-11-11/gold-prices-find-solid-support-4000-standard-chartered-sees-rally-4650-year",
+  "date": "2026-11-11"
+ },
+ {
+  "rank": 27,
+  "category": "Construction",
+  "headline": "Nonresidential construction forecast to grow only about 2% in 2027",
+  "detail": "Data centers and power projects keep growing while chip plants, warehouses and public work fall. That is mixed for rebar, structural steel and copper wire demand.",
+  "source": "Forbes",
+  "url": "https://www.forbes.com/sites/billconerly/2026/11/10/nonresidential-contractors-face-a-split-market-in-2027-heres-why/",
+  "date": "2026-11-10"
+ },
+ {
+  "rank": 28,
+  "category": "Construction",
+  "headline": "Mortgage rates post biggest one-day jump in over a month after CPI",
+  "detail": "The average 30-year fixed rate rose to about 7.30%, up 0.12 point in a day after the hot inflation report. Higher borrowing costs further cool homebuilding and the demand for wire, pipe and rebar that comes with it.",
+  "source": "Mortgage News Daily",
+  "url": "https://www.mortgagenewsdaily.com/markets/mortgage-rates-11102026",
+  "date": "2026-11-10"
+ },
+ {
+  "rank": 29,
+  "category": "Supply shocks",
+  "headline": "Codelco cuts 2026 copper guidance to about 1.2 Mt and admits overstating past output",
+  "detail": "Chile's state miner lowered its 2026 target from 1.34 Mt. It confirmed that 42,100 t of 2024-25 output was overstated and dropped its goal of 1.7 Mt a year by 2030. Lower supply from the world's top copper producer supports copper prices over the longer term.",
+  "source": "Yahoo Finance (Reuters)",
+  "url": "https://ca.finance.yahoo.com/news/codelco-lowers-2026-guidance-confirms-180151789.html",
+  "date": "2026-11-05"
+ },
+ {
+  "rank": 30,
   "category": "Supply shocks",
   "headline": "Nickel jumps to five-week high as Indonesia cracks down on a major ore trader",
   "detail": "LME nickel rose 3.8% to $16,375/t after Indonesia's forestry task force moved against firms tied to a large nickel ore trader. Tighter Indonesian supply can support nickel and stainless scrap values.",
   "source": "MINING.COM (Reuters)",
   "url": "https://www.mining.com/web/nickel-price-leaps-to-5-week-high-on-indonesian-crackdown-copper-hits-3-month-low/",
   "date": "2026-11-05"
- },
- {
-  "rank": 26,
-  "category": "Steel & iron ore",
-  "headline": "Iron ore slips as northern China orders pollution-related steel curbs",
-  "detail": "Tangshan and Handan started emergency air-pollution measures that usually force steel output cuts. Dalian ore fell to about 684.5 yuan and China's hot-metal output hit its lowest since March, a sign of weak demand for steelmaking raw materials worldwide.",
-  "source": "Business Recorder (Reuters)",
-  "url": "https://www.brecorder.com/news/40448191/iron-ore-falls-as-china-pollution-curbs-fuel-demand-worries",
-  "date": "2026-11-10"
  }
 ]
