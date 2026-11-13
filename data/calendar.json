@@ -1,26 +1,5 @@
 [
  {
-  "when": "Thu Nov 12, 7:30am CT",
-  "event": "US weekly initial jobless claims (week ending Nov 7)",
-  "why": "A softer labor market raises rate-cut odds, which can weaken the dollar and lift metals.",
-  "source": "TD Economics, upcoming releases calendar",
-  "url": "https://economics.td.com/domains/economics.td.com/documents/reports/bottom-line/tables/2026-11-06/upcoming.htm"
- },
- {
-  "when": "Thu Nov 12, 8:00am to 5:30pm CT",
-  "event": "Fed speakers: Hammack (8:00am CT), Goolsbee at Yahoo Finance Invest (Chicago Fed lists 10:15am CT), Daly (12:10pm CT), Williams panel (5:30pm CT)",
-  "why": "Rate-path hints move the dollar and with it copper, aluminum and gold.",
-  "source": "TD Economics calendar; Chicago Fed",
-  "url": "https://www.chicagofed.org/publications/speeches/2026/nov-12-yahoo-finance-invest"
- },
- {
-  "when": "Thu Nov 12, 11:00am CT",
-  "event": "EIA Weekly Petroleum Status Report (moved from Wednesday for Veterans Day)",
-  "why": "Oil and diesel moves feed into freight costs and broad commodity sentiment.",
-  "source": "U.S. Energy Information Administration",
-  "url": "https://www.eia.gov/petroleum/supply/weekly/schedule.php"
- },
- {
   "when": "Fri Nov 13, 7:30am CT",
   "event": "US Producer Price Index (October)",
   "why": "Hot producer inflation can push rate-cut hopes back and firm the dollar.",
@@ -138,5 +117,19 @@
   "why": "Inflation expectations in the survey can move rate bets and the dollar.",
   "source": "Finviz economic calendar",
   "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
+ },
+ {
+  "when": "Mon Nov 23",
+  "event": "Nucor weekly Consumer Spot Price (CSP) for hot-rolled coil",
+  "why": "Nucor has raised HRC 15 weeks running ($1,280/st as of Nov 2), which supports prime and shred scrap pricing.",
+  "source": "GMK Center",
+  "url": "https://gmk.center/en/news/nucor-has-raised-the-price-of-hot-rolled-coils-by-10-t/"
+ },
+ {
+  "when": "Mon Nov 23",
+  "event": "AISI weekly raw steel production (week ending Nov 21)",
+  "why": "Mill utilization (77.0% for the week ending Nov 7) is a direct read on ferrous scrap demand.",
+  "source": "American Iron and Steel Institute",
+  "url": "https://www.steel.org/industry-data/"
  }
 ]

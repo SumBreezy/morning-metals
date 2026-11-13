@@ -2,128 +2,128 @@
  {
   "group": "Precious & PGMs",
   "metal": "Gold",
-  "price": 3987.84,
+  "price": 3876.43,
   "unit": "$/oz",
-  "change_pct": -1.1,
-  "as_of": "2026-11-11",
-  "source": "Trading Economics Nov 11 close $3,987.84 (previous value on Nov 12 page); Kitco 9:35pm ET Nov 11 bid $3,979.60 / ask $3,981.60; London PM fix Nov 11 $4,050.25 (Westmetall); % vs Nov 10 row"
+  "change_pct": -2.79,
+  "as_of": "2026-11-12",
+  "source": "Trading Economics Nov 12 close $3,876.43 (previous value on Nov 13 page); Kitco 8:27pm ET Nov 12 bid $3,911.20 / ask $3,913.20 (+$34.80 vs ~$3,876.4 reference); London PM fix Nov 12 $3,945.75 (Westmetall); USAGOLD reported ~$3,866.51 (-3.05%); % vs Nov 11 row"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Silver",
-  "price": 51.66,
+  "price": 50.02,
   "unit": "$/oz",
-  "change_pct": 0.31,
-  "as_of": "2026-11-11",
-  "source": "Trading Economics Nov 11 close $51.66 (previous value on Nov 12 page); Kitco 9:35pm ET Nov 11 bid $51.38 / ask $51.63; % vs Nov 10 row"
+  "change_pct": -3.17,
+  "as_of": "2026-11-12",
+  "source": "Trading Economics Nov 12 close $50.02 (previous value on Nov 13 page); Kitco 8:27pm ET Nov 12 bid $50.48 / ask $50.73 (+$0.53); USAGOLD reported $49.88 (-3.47%); % vs Nov 11 row"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Platinum",
-  "price": 1538.5,
+  "price": 1520.4,
   "unit": "$/oz",
-  "change_pct": 0.01,
-  "as_of": "2026-11-11",
-  "source": "Trading Economics Nov 11 close $1,538.50 (previous value on Nov 12 page); Kitco 9:35pm ET Nov 11 bid $1,532 / ask $1,542 (+$1); % vs Nov 10 row"
+  "change_pct": -1.18,
+  "as_of": "2026-11-12",
+  "source": "Trading Economics Nov 12 close $1,520.40 (previous value on Nov 13 page); Kitco 8:27pm ET Nov 12 bid $1,524 / ask $1,534 (+$10); % vs Nov 11 row"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Palladium",
-  "price": 1046.0,
+  "price": 991.5,
   "unit": "$/oz",
-  "change_pct": 2.45,
-  "as_of": "2026-11-11",
-  "source": "Trading Economics Nov 11 close $1,046.00 (previous value on Nov 12 page); Kitco 9:35pm ET Nov 11 bid $1,019 / ask $1,059 (+$6), day range $1,005-$1,113; % vs Nov 10 row"
+  "change_pct": -5.21,
+  "as_of": "2026-11-12",
+  "source": "Trading Economics Nov 12 close $991.50 (previous value on Nov 13 page); Kitco 8:27pm ET Nov 12 bid $989 / ask $1,029 (+$11), day range $967-$1,061; % vs Nov 11 row"
  },
  {
   "group": "Precious & PGMs",
   "metal": "Rhodium",
-  "price": 9225.0,
+  "price": 9075.0,
   "unit": "$/oz",
-  "change_pct": -1.34,
-  "as_of": "2026-11-11",
-  "source": "Kitco midpoint of bid $8,725 / ask $9,725 (quote set Nov 11 6:00pm ET, unchanged at 12:41am ET Nov 12); Johnson Matthey price tables failed to load Nov 12 (client error; matthey.com PGM page loads prices by script, rhodium value not readable); Trading Economics $9,300 (Nov 12, flat); dailymetalprice.com failed (client error); Money Metals $9,900 (Nov 12 5:21am ET); % vs Nov 10 history row ($9,350, Kitco midpoint)"
+  "change_pct": -1.63,
+  "as_of": "2026-11-12",
+  "source": "Kitco midpoint of bid $8,575 / ask $9,575 (quote set Nov 12 6:00pm ET; Kitco day range $7,200-$10,600); Johnson Matthey failed Nov 13 (platinum.matthey.com price tables: site client error; matthey.com PGM page loaded but its price table returned \"MetalPrice Api Failed\", no rhodium value); Trading Economics $9,125 (Nov 13, flat, CFD); dailymetalprice.com failed (site client error); % vs Nov 11 history row ($9,225, Kitco midpoint)"
  },
  {
   "group": "Base metals",
   "metal": "Copper (COMEX)",
-  "price": 6.27,
+  "price": 6.18,
   "unit": "$/lb",
-  "change_pct": 0.8,
-  "as_of": "2026-11-11",
-  "source": "Trading Economics Nov 11 close $6.27 (previous value on Nov 12 page; Nov 12 early trade near $6.20); % vs Nov 10 row"
+  "change_pct": -1.44,
+  "as_of": "2026-11-12",
+  "source": "Trading Economics Nov 12 close $6.18 (previous value on Nov 13 page; Nov 13 early trade near $6.14); % vs Nov 11 row"
  },
  {
   "group": "Base metals",
   "metal": "Copper (LME official)",
-  "price": 13875.5,
+  "price": 13712.0,
   "unit": "$/t",
-  "change_pct": -0.83,
-  "as_of": "2026-11-11",
-  "source": "LME official cash (Westmetall, Nov 11, from $13,992 Nov 10); 3-month $13,795; stocks 319,675 t (+3,050)"
+  "change_pct": -1.18,
+  "as_of": "2026-11-12",
+  "source": "LME official cash (Westmetall, Nov 12, from $13,875.50 Nov 11); 3-month $13,655; stocks 328,600 t (+8,925); SMM: LME 3M closed $13,605 (-1.37%) Nov 12"
  },
  {
   "group": "Base metals",
   "metal": "Aluminum (LME)",
-  "price": 3223.5,
+  "price": 3155.5,
   "unit": "$/t",
-  "change_pct": 2.76,
-  "as_of": "2026-11-11",
-  "source": "LME official cash (Westmetall, Nov 11, from $3,137 Nov 10); 3-month $3,064; stocks 226,725 t (-125); cash premium over 3-month at ~$160 as LME stocks hit lowest since 1990"
+  "change_pct": -2.11,
+  "as_of": "2026-11-12",
+  "source": "LME official cash (Westmetall, Nov 12, from $3,223.50 Nov 11); 3-month $3,032; stocks 226,350 t (-375); cash-to-3M backwardation hit ~$177/t, steepest since 1990 (Reuters via Business Recorder)"
  },
  {
   "group": "Base metals",
   "metal": "Zinc (LME)",
-  "price": 3794,
+  "price": 3760.5,
   "unit": "$/t",
-  "change_pct": 0.69,
-  "as_of": "2026-11-11",
-  "source": "LME official cash (Westmetall, Nov 11, from $3,768 Nov 10); 3-month $3,746; stocks 143,575 t (-1,400)"
+  "change_pct": -0.88,
+  "as_of": "2026-11-12",
+  "source": "LME official cash (Westmetall, Nov 12, from $3,794 Nov 11); 3-month $3,722; stocks 142,625 t (-950)"
  },
  {
   "group": "Base metals",
   "metal": "Nickel (LME)",
-  "price": 15930,
+  "price": 16010.0,
   "unit": "$/t",
-  "change_pct": 0.35,
-  "as_of": "2026-11-11",
-  "source": "LME official cash (Westmetall, Nov 11, from $15,875 Nov 10); 3-month $16,140; stocks 271,632 t (-30)"
+  "change_pct": 0.5,
+  "as_of": "2026-11-12",
+  "source": "LME official cash (Westmetall, Nov 12, from $15,930 Nov 11); 3-month $16,215; stocks 272,526 t (+894)"
  },
  {
   "group": "Base metals",
   "metal": "Tin (Shanghai spot)",
-  "price": 47200,
+  "price": 46650.0,
   "unit": "$/t",
-  "change_pct": 1.84,
-  "as_of": "2026-11-11",
-  "source": "LME official cash (Westmetall, Nov 11, from $46,345 Nov 10), used as no SMM yuan spot found (same basis as prior rows); 3-month $46,900; stocks 3,790 t (-50)"
+  "change_pct": -1.17,
+  "as_of": "2026-11-12",
+  "source": "LME official cash (Westmetall, Nov 12, from $47,200 Nov 11), used as no SMM yuan spot found (same basis as prior rows); 3-month $46,260; stocks 3,790 t (unch)"
  },
  {
   "group": "Base metals",
   "metal": "Lead (LME spot)",
-  "price": 1845,
+  "price": 1843.0,
   "unit": "$/t",
-  "change_pct": -0.05,
-  "as_of": "2026-11-11",
-  "source": "LME official cash (Westmetall, Nov 11, from $1,846 Nov 10); 3-month $1,880; stocks 292,125 t (-8,175)"
+  "change_pct": -0.11,
+  "as_of": "2026-11-12",
+  "source": "LME official cash (Westmetall overview page, Nov 12, from $1,845 Nov 11; Westmetall lead table not yet updated for Nov 12, so treat as preliminary); 3-month $1,879; stocks 286,650 t (-5,475)"
  },
  {
   "group": "Steel & ferrous",
   "metal": "US Midwest HRC steel",
-  "price": 1428,
+  "price": 1428.0,
   "unit": "$/st",
-  "change_pct": 0.78,
-  "as_of": "2026-11-11",
-  "source": "Trading Economics (CME Midwest HRC, Nov 11 close $1,428, +$11/+0.78% from $1,417); Nucor CSP $1,295/st week of Nov 9 (IndexBox)"
+  "change_pct": 0.0,
+  "as_of": "2026-11-12",
+  "source": "Trading Economics (CME Midwest HRC, Nov 12 close $1,428, unchanged from Nov 11; Nov 13 early $1,430); Nucor CSP $1,295/st week of Nov 9 (GMK Center); CME HRC open interest at record 849,240 st (SMU/CRU Nov 12)"
  },
  {
   "group": "Steel & ferrous",
   "metal": "Iron ore (62% Fe)",
-  "price": 92.15,
+  "price": 91.6,
   "unit": "$/t",
-  "change_pct": -0.42,
-  "as_of": "2026-11-11",
-  "source": "Trading Economics (CFR Tianjin, Nov 11 close $92.15, -$0.39/-0.42% from $92.54)"
+  "change_pct": -0.6,
+  "as_of": "2026-11-12",
+  "source": "Trading Economics (CFR Tianjin, Nov 12 close $91.60, -$0.55/-0.60% from $92.15)"
  },
  {
   "group": "Steel & ferrous",
