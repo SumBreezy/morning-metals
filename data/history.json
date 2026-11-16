@@ -126,6 +126,12 @@
   "note": "close"
  },
  {
+  "metal": "Aluminum (LME)",
+  "date": "2026-11-13",
+  "price": 3150.5,
+  "note": "close"
+ },
+ {
   "metal": "Copper (COMEX)",
   "date": "2026-09-16",
   "price": 6.5907,
@@ -258,6 +264,12 @@
   "note": "close"
  },
  {
+  "metal": "Copper (COMEX)",
+  "date": "2026-11-13",
+  "price": 6.08,
+  "note": "close"
+ },
+ {
   "metal": "Copper (LME official)",
   "date": "2026-10-16",
   "price": 14595,
@@ -369,6 +381,12 @@
   "metal": "Copper (LME official)",
   "date": "2026-11-12",
   "price": 13712.0,
+  "note": "close"
+ },
+ {
+  "metal": "Copper (LME official)",
+  "date": "2026-11-13",
+  "price": 13610.0,
   "note": "close"
  },
  {
@@ -501,6 +519,12 @@
   "metal": "Gold",
   "date": "2026-11-12",
   "price": 3876.43,
+  "note": "close"
+ },
+ {
+  "metal": "Gold",
+  "date": "2026-11-13",
+  "price": 3881.75,
   "note": "close"
  },
  {
@@ -660,6 +684,12 @@
   "note": "close"
  },
  {
+  "metal": "Iron ore (62% Fe)",
+  "date": "2026-11-13",
+  "price": 91.48,
+  "note": "close"
+ },
+ {
   "metal": "Lead (LME spot)",
   "date": "2026-09-01",
   "price": 1874,
@@ -777,6 +807,12 @@
   "metal": "Lead (LME spot)",
   "date": "2026-11-12",
   "price": 1843.0,
+  "note": "close"
+ },
+ {
+  "metal": "Lead (LME spot)",
+  "date": "2026-11-13",
+  "price": 1853.0,
   "note": "close"
  },
  {
@@ -912,6 +948,12 @@
   "note": "close"
  },
  {
+  "metal": "Nickel (LME)",
+  "date": "2026-11-13",
+  "price": 16025.0,
+  "note": "close"
+ },
+ {
   "metal": "Palladium",
   "date": "2026-09-16",
   "price": 1303.01,
@@ -1044,6 +1086,12 @@
   "note": "close"
  },
  {
+  "metal": "Palladium",
+  "date": "2026-11-13",
+  "price": 1007.5,
+  "note": "close"
+ },
+ {
   "metal": "Platinum",
   "date": "2026-09-16",
   "price": 1794.38,
@@ -1173,6 +1221,12 @@
   "metal": "Platinum",
   "date": "2026-11-12",
   "price": 1520.4,
+  "note": "close"
+ },
+ {
+  "metal": "Platinum",
+  "date": "2026-11-13",
+  "price": 1489.7,
   "note": "close"
  },
  {
@@ -1362,6 +1416,12 @@
   "note": "daily price, Kitco bid/ask midpoint"
  },
  {
+  "metal": "Rhodium",
+  "date": "2026-11-15",
+  "price": 8775.0,
+  "note": "daily price, Kitco (bid/ask midpoint)"
+ },
+ {
   "metal": "Silver",
   "date": "2026-09-16",
   "price": 65.1945,
@@ -1494,6 +1554,12 @@
   "note": "close"
  },
  {
+  "metal": "Silver",
+  "date": "2026-11-13",
+  "price": 48.72,
+  "note": "close"
+ },
+ {
   "metal": "Tin (Shanghai spot)",
   "date": "2026-10-15",
   "price": 55599.97,
@@ -1611,6 +1677,12 @@
   "metal": "Tin (Shanghai spot)",
   "date": "2026-11-12",
   "price": 46650.0,
+  "note": "close"
+ },
+ {
+  "metal": "Tin (Shanghai spot)",
+  "date": "2026-11-13",
+  "price": 48295.0,
   "note": "close"
  },
  {
@@ -1746,6 +1818,12 @@
   "note": "close"
  },
  {
+  "metal": "US Midwest HRC steel",
+  "date": "2026-11-13",
+  "price": 1430.0,
+  "note": "close"
+ },
+ {
   "metal": "Zinc (LME)",
   "date": "2026-09-16",
   "price": 3888.8,
@@ -1869,6 +1947,12 @@
   "metal": "Zinc (LME)",
   "date": "2026-11-12",
   "price": 3760.5,
+  "note": "close"
+ },
+ {
+  "metal": "Zinc (LME)",
+  "date": "2026-11-13",
+  "price": 3745.0,
   "note": "close"
  }
 ]
