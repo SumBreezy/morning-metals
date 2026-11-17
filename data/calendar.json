@@ -1,114 +1,149 @@
 [
  {
-  "when": "Mon Nov 16, 7:30am CT",
-  "event": "NY Fed Empire State Manufacturing Index (November)",
-  "why": "This is the first factory read of the month and hints at US metal-consuming activity.",
-  "source": "Finviz economic calendar",
-  "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
- },
- {
-  "when": "Mon Nov 16",
-  "event": "Nucor weekly Consumer Spot Price (CSP) for hot-rolled coil",
-  "why": "Nucor has raised HRC 17 weeks running ($1,295/st week of Nov 9), which supports prime and shred scrap pricing.",
-  "source": "GMK Center",
-  "url": "https://gmk.center/en/news/nucor-has-raised-the-price-of-hot-rolled-coils-by-10-t/"
- },
- {
-  "when": "Mon Nov 16",
-  "event": "AISI weekly raw steel production (week ending Nov 14)",
-  "why": "Mill utilization (77.0% for the week ending Nov 7, down from 88.9%) is a direct read on ferrous scrap demand.",
-  "source": "American Iron and Steel Institute",
-  "url": "https://www.steel.org/industry-data/"
- },
- {
-  "when": "Mon Nov 16",
-  "event": "Last trading day of Shanghai's November copper contract (delivery Nov 17-18)",
-  "why": "China's spot copper market is expected to stay tight until delivery, supporting prices.",
-  "source": "SMM",
-  "url": "https://news.metal.com/newscontent/104210314-shanghai-spot-copper-premiums-surge-to-2615-yuanmt-the-highest-level-in-history-how-tight-is-supply-before-delivery"
- },
- {
   "when": "Tue Nov 17, 7:30am CT",
-  "event": "US advance retail sales (October) and import/export prices (October)",
-  "why": "Consumer strength and import inflation shape the Fed outlook and demand for autos and appliances.",
-  "source": "U.S. Census Bureau; U.S. Bureau of Labor Statistics",
+  "event": "US retail sales (October)",
+  "why": "Shows consumer demand after hot inflation; a strong number firms Fed-hike bets and the dollar.",
+  "source": "US Census Bureau",
   "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
  },
  {
   "when": "Tue Nov 17, 8:15am CT",
   "event": "Fed industrial production and capacity utilization (October)",
-  "why": "Manufacturing output, including primary metals and autos, tracks scrap generation and consumption.",
-  "source": "Federal Reserve Board",
+  "why": "A direct read on factory and metals activity.",
+  "source": "Federal Reserve",
   "url": "https://www.federalreserve.gov/newsevents/2026-november.htm"
  },
  {
   "when": "Tue Nov 17, 9:00am CT",
-  "event": "NAHB Housing Market Index (November)",
-  "why": "Builder confidence signals demand for copper wire, pipe, rebar and aluminum.",
-  "source": "Finviz economic calendar",
-  "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
+  "event": "NAHB homebuilder confidence (November)",
+  "why": "Builder mood was at a 14-year low in October; housing drives copper and steel demand.",
+  "source": "Investrade weekly calendar",
+  "url": "https://investrade.com/weekly-event-calendar-11-16-2026-11-20-2026/"
+ },
+ {
+  "when": "Tue Nov 17, after the close",
+  "event": "Nvidia earnings",
+  "why": "AI and data-center spending worries helped push copper to a four-month low.",
+  "source": "Investrade weekly calendar",
+  "url": "https://investrade.com/weekly-event-calendar-11-16-2026-11-20-2026/"
  },
  {
   "when": "Wed Nov 18, 7:30am CT",
   "event": "US housing starts and building permits (October)",
-  "why": "Construction activity drives copper and steel use in homes.",
-  "source": "U.S. Census Bureau",
+  "why": "Construction demand for copper wire, plumbing and rebar.",
+  "source": "US Census Bureau",
   "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
  },
  {
   "when": "Wed Nov 18, 1:00pm CT",
-  "event": "FOMC minutes (Oct 27-28 meeting)",
-  "why": "The tone on future cuts can swing the dollar and metals late in the session.",
-  "source": "Federal Reserve Board",
+  "event": "FOMC minutes (Oct 27\u201328 meeting)",
+  "why": "Could confirm or cool December hike bets that drive the dollar and metals.",
+  "source": "Federal Reserve",
   "url": "https://www.federalreserve.gov/newsevents/2026-november.htm"
  },
  {
-  "when": "Wed-Thu Nov 18-19",
-  "event": "APEC Economic Leaders' Meeting in Shenzhen; Trump says he expects to meet Xi (exact time not announced)",
-  "why": "Tariff and trade-truce headlines (the truce runs to January) can jolt copper, aluminum and steel.",
-  "source": "News Tribune (AP)",
-  "url": "https://www.newstribune.com/news/2026/nov/09/trump-thinks-he-will-meet-xi-and-putin-at-china-apec-summit/"
+  "when": "Wed\u2013Thu Nov 18\u201319",
+  "event": "APEC leaders' meeting in Shenzhen",
+  "why": "Trade-policy headlines can move copper and the China mood.",
+  "source": "Wikipedia (APEC China 2026)",
+  "url": "https://en.wikipedia.org/wiki/APEC_China_2026"
+ },
+ {
+  "when": "Thu Nov 19 (overnight Wed into Thu CT)",
+  "event": "Trump\u2013Xi meeting and lunch",
+  "why": "Tariff relief or new friction would move copper, aluminum and steel.",
+  "source": "Admirals",
+  "url": "https://admiralmarkets.com/analytics/traders-blog/trump-xi-apec-shenzhen-meeting-markets"
  },
  {
   "when": "Thu Nov 19, 7:30am CT",
-  "event": "US jobless claims and Philadelphia Fed Manufacturing Index (November); Fed's Hammack speaks 7:50am CT",
-  "why": "Labor and regional factory data, including prices paid, feed rate expectations and metals demand views.",
-  "source": "Finviz economic calendar",
-  "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
+  "event": "US jobless claims and Philadelphia Fed manufacturing (November)",
+  "why": "Early reads on jobs and factory activity.",
+  "source": "Investrade weekly calendar",
+  "url": "https://investrade.com/weekly-event-calendar-11-16-2026-11-20-2026/"
  },
  {
-  "when": "Thu Nov 19, 7:00pm CT",
-  "event": "China Loan Prime Rate announcement (PBoC, November)",
-  "why": "A surprise cut would be read as stimulus for Chinese construction and metals demand.",
-  "source": "FinanceCalendar",
-  "url": "https://www.financecalendar.com/?p=2443"
+  "when": "Thu Nov 19, 9:00am CT",
+  "event": "Conference Board leading index (October)",
+  "why": "Broad gauge of where the economy is heading.",
+  "source": "Investrade weekly calendar",
+  "url": "https://investrade.com/weekly-event-calendar-11-16-2026-11-20-2026/"
+ },
+ {
+  "when": "Thu Nov 19, evening CT (Fri morning Beijing)",
+  "event": "China loan prime rate decision",
+  "why": "Unchanged for 17 months; a cut would help China metals demand (exact time not confirmed).",
+  "source": "Investing.com (Reuters)",
+  "url": "https://www.investing.com/news/economy-news/china-leaves-loan-rates-steady-for-17th-consecutive-month-4958644"
  },
  {
   "when": "Fri Nov 20, 9:00am CT",
-  "event": "University of Michigan consumer sentiment, final (November)",
-  "why": "Inflation expectations in the survey can move rate bets and the dollar.",
-  "source": "Finviz economic calendar",
-  "url": "https://finviz.com/calendar/economic?dateFrom=2026-11-16"
+  "event": "University of Michigan sentiment and inflation expectations, final (November)",
+  "why": "Inflation expectations feed the Fed's thinking.",
+  "source": "Investrade weekly calendar",
+  "url": "https://investrade.com/weekly-event-calendar-11-16-2026-11-20-2026/"
  },
  {
   "when": "Mon Nov 23",
-  "event": "Nucor weekly Consumer Spot Price (CSP) for hot-rolled coil",
-  "why": "Nucor has raised HRC 17 weeks running ($1,295/st week of Nov 9), which supports prime and shred scrap pricing.",
-  "source": "GMK Center",
-  "url": "https://gmk.center/en/news/nucor-has-raised-the-price-of-hot-rolled-coils-by-10-t/"
+  "event": "Nucor weekly hot-rolled coil spot price (CSP)",
+  "why": "Up 17 weeks straight; sets the tone for sheet steel and prime scrap.",
+  "source": "Steel Market Update",
+  "url": "https://www.steelmarketupdate.com/2026/11/09/nucor-ups-spot-hr-coil-to-1295-ton/"
  },
  {
   "when": "Mon Nov 23",
-  "event": "AISI weekly raw steel production (week ending Nov 21)",
-  "why": "Mill utilization (77.0% for the week ending Nov 7, down from 88.9%) is a direct read on ferrous scrap demand.",
-  "source": "American Iron and Steel Institute",
-  "url": "https://www.steel.org/industry-data/"
+  "event": "AISI weekly raw steel production",
+  "why": "Mill utilization drives how much scrap mills buy.",
+  "source": "SteelOrbis",
+  "url": "https://www.steelorbis.com/steel-news/latest-news/us-raw-steel-production-increases-by-60-percent-week-46-2026-1491317.htm"
  },
  {
-  "when": "Thu Nov 26 (all day)",
-  "event": "Thanksgiving: US stock and futures markets closed (CME metals on holiday schedule), Fri Nov 27 early close",
-  "why": "Thin holiday trading can exaggerate price moves, and many yards and mills close or shorten hours.",
-  "source": "NYSE holiday calendar",
-  "url": "https://www.nyse.com/markets/hours-calendars"
+  "when": "Mon Nov 23, 8:45am CT",
+  "event": "S&P Global flash US PMIs (November)",
+  "why": "Early look at November factory activity.",
+  "source": "MTS Insights",
+  "url": "https://www.mtsinsights.com/events/4745/"
+ },
+ {
+  "when": "Tue Nov 24, 9:00am CT",
+  "event": "Conference Board consumer confidence (November)",
+  "why": "Consumer demand, including for cars.",
+  "source": "Letters to a Young Investor",
+  "url": "https://letterstoayounginvestor.substack.com/p/weekly-economic-calendar-november-cf0"
+ },
+ {
+  "when": "Wed Nov 25, 7:30am CT",
+  "event": "Q3 GDP (second estimate), October PCE inflation, durable goods orders, jobless claims (early for Thanksgiving)",
+  "why": "PCE is the Fed's preferred inflation gauge two weeks before the Dec 9 decision; durable goods use lots of steel, aluminum and copper.",
+  "source": "BEA / US Census Bureau",
+  "url": "https://www.bea.gov/news/schedule/"
+ },
+ {
+  "when": "Wed Nov 25, 9:00am CT",
+  "event": "US new home sales (October)",
+  "why": "Housing demand for copper and steel.",
+  "source": "US Census Bureau",
+  "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
+ },
+ {
+  "when": "Wed Nov 25, 1:00pm CT",
+  "event": "Fed Beige Book",
+  "why": "District reports, including Chicago, on manufacturing, construction and prices.",
+  "source": "Federal Reserve",
+  "url": "https://www.federalreserve.gov/newsevents/2026-november.htm"
+ },
+ {
+  "when": "Thu Nov 26, all day",
+  "event": "Thanksgiving: US markets closed, no CME/COMEX settlements; LME open",
+  "why": "Thin trading, with London setting the day's metal prices.",
+  "source": "CME Group",
+  "url": "https://www.cmegroup.com/tools-information/holiday-calendar/files/2026/thanksgiving-holiday-settlement-times-2026.pdf"
+ },
+ {
+  "when": "Fri Nov 27, 7:30am CT; stocks close at noon CT",
+  "event": "Advance trade and inventories (October); shortened US session",
+  "why": "Low liquidity can exaggerate metal price moves.",
+  "source": "US Census Bureau / CME Group",
+  "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
  }
 ]
