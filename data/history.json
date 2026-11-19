@@ -294,6 +294,12 @@
   "note": "close"
  },
  {
+  "metal": "Copper (COMEX)",
+  "date": "2026-11-18",
+  "price": 5.65,
+  "note": "close"
+ },
+ {
   "metal": "Copper (LME official)",
   "date": "2026-10-16",
   "price": 14595,
@@ -576,6 +582,12 @@
   "note": "close"
  },
  {
+  "metal": "Gold",
+  "date": "2026-11-18",
+  "price": 3760.89,
+  "note": "close"
+ },
+ {
   "metal": "HMS 1&2 80:20 (Turkey import)",
   "date": "2026-10-03",
   "price": 403,
@@ -747,6 +759,12 @@
   "metal": "Iron ore (62% Fe)",
   "date": "2026-11-17",
   "price": 90.62,
+  "note": "close"
+ },
+ {
+  "metal": "Iron ore (62% Fe)",
+  "date": "2026-11-18",
+  "price": 90.72,
   "note": "close"
  },
  {
@@ -1188,6 +1206,12 @@
   "note": "close"
  },
  {
+  "metal": "Palladium",
+  "date": "2026-11-18",
+  "price": 952.0,
+  "note": "close"
+ },
+ {
   "metal": "Platinum",
   "date": "2026-09-16",
   "price": 1794.38,
@@ -1335,6 +1359,12 @@
   "metal": "Platinum",
   "date": "2026-11-17",
   "price": 1426.5,
+  "note": "close"
+ },
+ {
+  "metal": "Platinum",
+  "date": "2026-11-18",
+  "price": 1362.1,
   "note": "close"
  },
  {
@@ -1542,6 +1572,12 @@
   "note": "daily price, Kitco (bid/ask midpoint)"
  },
  {
+  "metal": "Rhodium",
+  "date": "2026-11-19",
+  "price": 9050.0,
+  "note": "daily price, Kitco (bid/ask midpoint)"
+ },
+ {
   "metal": "Silver",
   "date": "2026-09-16",
   "price": 65.1945,
@@ -1689,6 +1725,12 @@
   "metal": "Silver",
   "date": "2026-11-17",
   "price": 47.34,
+  "note": "close"
+ },
+ {
+  "metal": "Silver",
+  "date": "2026-11-18",
+  "price": 45.16,
   "note": "close"
  },
  {
@@ -1977,6 +2019,12 @@
   "metal": "US Midwest HRC steel",
   "date": "2026-11-17",
   "price": 1439.0,
+  "note": "close"
+ },
+ {
+  "metal": "US Midwest HRC steel",
+  "date": "2026-11-18",
+  "price": 1434.07,
   "note": "close"
  },
  {

@@ -643,10 +643,20 @@
   "yard": "Illinois yard average",
   "area": "Statewide (ScrapMonster)",
   "address": "",
-  "material": "#1 copper",
-  "price": 5.19,
+  "material": "Bare bright copper",
+  "price": 4.54,
   "unit": "$/lb",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-19",
+  "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
+ },
+ {
+  "yard": "Illinois yard average",
+  "area": "Statewide (ScrapMonster)",
+  "address": "",
+  "material": "#1 copper",
+  "price": 4.53,
+  "unit": "$/lb",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -654,9 +664,9 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "#2 copper",
-  "price": 5.0,
+  "price": 4.3,
   "unit": "$/lb",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -664,9 +674,29 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Copper sheet",
-  "price": 4.92,
+  "price": 4.12,
   "unit": "$/lb",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-19",
+  "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
+ },
+ {
+  "yard": "Illinois yard average",
+  "area": "Statewide (ScrapMonster)",
+  "address": "",
+  "material": "Insulated wire 90% recovery",
+  "price": 3.98,
+  "unit": "$/lb",
+  "as_of": "2026-11-19",
+  "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
+ },
+ {
+  "yard": "Illinois yard average",
+  "area": "Statewide (ScrapMonster)",
+  "address": "",
+  "material": "Insulated wire 80% recovery",
+  "price": 3.47,
+  "unit": "$/lb",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -674,9 +704,9 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "#1 insulated wire",
-  "price": 3.26,
+  "price": 1.99,
   "unit": "$/lb",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -684,9 +714,19 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "#2 insulated wire",
-  "price": 2.08,
+  "price": 1.27,
   "unit": "$/lb",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-19",
+  "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
+ },
+ {
+  "yard": "Illinois yard average",
+  "area": "Statewide (ScrapMonster)",
+  "address": "",
+  "material": "Romex",
+  "price": 2.56,
+  "unit": "$/lb",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -694,9 +734,9 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Harness wire",
-  "price": 2.03,
+  "price": 1.65,
   "unit": "$/lb",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -704,9 +744,9 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Copper radiators",
-  "price": 3.9,
+  "price": 0.75,
   "unit": "$/lb",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -714,9 +754,9 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Al/Cu radiators",
-  "price": 2.68,
+  "price": 2.26,
   "unit": "$/lb",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -724,19 +764,29 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Brass, clean",
-  "price": 3.42,
+  "price": 2.76,
   "unit": "$/lb",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
   "yard": "Illinois yard average",
   "area": "Statewide (ScrapMonster)",
   "address": "",
-  "material": "Brass breakage",
-  "price": 1.82,
+  "material": "Yellow brass",
+  "price": 2.77,
   "unit": "$/lb",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-19",
+  "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
+ },
+ {
+  "yard": "Illinois yard average",
+  "area": "Statewide (ScrapMonster)",
+  "address": "",
+  "material": "Red brass",
+  "price": 3.1,
+  "unit": "$/lb",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -744,9 +794,9 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Aluminum cans",
-  "price": 0.68,
+  "price": 0.63,
   "unit": "$/lb",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -754,9 +804,29 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Aluminum (general)",
-  "price": 0.59,
+  "price": 0.62,
   "unit": "$/lb",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-19",
+  "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
+ },
+ {
+  "yard": "Illinois yard average",
+  "area": "Statewide (ScrapMonster)",
+  "address": "",
+  "material": "Cast aluminum",
+  "price": 0.51,
+  "unit": "$/lb",
+  "as_of": "2026-11-19",
+  "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
+ },
+ {
+  "yard": "Illinois yard average",
+  "area": "Statewide (ScrapMonster)",
+  "address": "",
+  "material": "Aluminum extrusion",
+  "price": 0.62,
+  "unit": "$/lb",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -766,7 +836,7 @@
   "material": "Aluminum painted siding",
   "price": 0.75,
   "unit": "$/lb",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -776,17 +846,27 @@
   "material": "Aluminum radiators",
   "price": 0.59,
   "unit": "$/lb",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
   "yard": "Illinois yard average",
   "area": "Statewide (ScrapMonster)",
   "address": "",
-  "material": "304 stainless (prepared)",
-  "price": 0.46,
+  "material": "Aluminum wheels, clean",
+  "price": 1.15,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-19",
+  "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
+ },
+ {
+  "yard": "Illinois yard average",
+  "area": "Statewide (ScrapMonster)",
+  "address": "",
+  "material": "Stainless steel",
+  "price": 0.29,
+  "unit": "$/lb",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -794,9 +874,9 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Lead",
-  "price": 0.48,
+  "price": 0.45,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -806,17 +886,17 @@
   "material": "Auto batteries",
   "price": 0.2,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
   "yard": "Illinois yard average",
   "area": "Statewide (ScrapMonster)",
   "address": "",
-  "material": "Steel case batteries",
-  "price": 0.18,
+  "material": "Lead batteries",
+  "price": 0.15,
   "unit": "$/lb",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -824,19 +904,19 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Sheet iron",
-  "price": 205,
-  "unit": "$/ton",
-  "as_of": "2026-11-13",
+  "price": 216.67,
+  "unit": "$/net ton",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
   "yard": "Illinois yard average",
   "area": "Statewide (ScrapMonster)",
   "address": "",
-  "material": "Sheet iron (iron-scrap listing)",
-  "price": 175,
+  "material": "P&S (plate & structural)",
+  "price": 280,
   "unit": "$/net ton",
-  "as_of": "2026-10-09",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -844,9 +924,9 @@
   "area": "Statewide (ScrapMonster)",
   "address": "",
   "material": "Cast iron",
-  "price": 220,
+  "price": 240,
   "unit": "$/net ton",
-  "as_of": "2026-10-09",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
@@ -856,7 +936,7 @@
   "material": "Brakes / rotors",
   "price": 250,
   "unit": "$/net ton",
-  "as_of": "2026-10-09",
+  "as_of": "2026-11-19",
   "url": "https://www.scrapmonster.com/scrap-yards/prices/illinois/state/3378"
  },
  {
