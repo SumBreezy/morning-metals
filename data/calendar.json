@@ -1,86 +1,100 @@
 [
  {
-  "when": "Thu Nov 19, 7:30am CT",
-  "event": "Weekly initial jobless claims",
-  "why": "Labor-market strength feeds December hike sizing (25 vs 50 bp) and the dollar.",
-  "source": "Letters to a Young Investor weekly calendar",
-  "url": "https://letterstoayounginvestor.substack.com/p/weekly-economic-calendar-november-cf0"
- },
- {
   "when": "Fri Nov 20, 9:00am CT",
-  "event": "UMich consumer sentiment (final Nov) and inflation expectations",
-  "why": "Inflation expectations are a key input for Fed hawks.",
-  "source": "Helious US calendar",
+  "event": "US UMich consumer sentiment (final Nov)",
+  "why": "Weak consumer mood points to softer demand for cars, appliances and other metal-heavy goods.",
+  "source": "Helious economic calendar",
   "url": "https://helious.io/calendar/2026-11"
  },
  {
   "when": "Mon Nov 23, 8:45am CT",
-  "event": "S&P Global flash US PMIs (Nov)",
-  "why": "First read on November factory demand for steel and metals.",
-  "source": "LiteFinance weekly calendar",
+  "event": "US S&P Global flash manufacturing/services PMIs (Nov)",
+  "why": "First read on November factory activity, a direct gauge of industrial metal demand.",
+  "source": "LiteFinance weekly economic calendar",
   "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
  },
  {
   "when": "Tue Nov 24, 9:00am CT",
-  "event": "Conference Board consumer confidence",
-  "why": "Consumer demand for autos and durables.",
-  "source": "LiteFinance weekly calendar",
-  "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
+  "event": "US Conference Board consumer confidence (Nov)",
+  "why": "Confidence shifts move the dollar and rate expectations, which drive gold and base metals.",
+  "source": "Helious economic calendar",
+  "url": "https://helious.io/calendar/2026-11"
  },
  {
   "when": "Wed Nov 25, 7:30am CT",
-  "event": "Durable goods orders (Oct)",
-  "why": "Capital-goods demand drives steel, aluminum and copper use.",
-  "source": "U.S. Census Bureau",
+  "event": "US weekly initial jobless claims (moved up for Thanksgiving)",
+  "why": "Labor-market signals shape Fed rate bets and the dollar, moving precious metals.",
+  "source": "FinanceCalendar",
+  "url": "https://www.financecalendar.com/event/us-initial-jobless-claims-november-25-2026/"
+ },
+ {
+  "when": "Wed Nov 25, 7:30am CT",
+  "event": "US durable goods orders (Oct, advance)",
+  "why": "Orders for long-lasting equipment track demand for steel, aluminum and copper.",
+  "source": "US Census Bureau economic indicator calendar",
   "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
  },
  {
   "when": "Wed Nov 25, 7:30am CT",
-  "event": "Q3 GDP second estimate and PCE inflation (per third-party calendars)",
-  "why": "The Fed's preferred inflation gauge, last big data point before the December decision.",
-  "source": "Helious US calendar",
-  "url": "https://helious.io/calendar/2026-11"
+  "event": "US Q3 GDP second estimate and Oct personal income/PCE inflation",
+  "why": "Growth and inflation data reset Fed expectations ahead of the Dec meeting, moving gold and the dollar.",
+  "source": "FedRateCalc (BEA schedule) / LiteFinance",
+  "url": "https://fedratecalc.com/us-economic-calendar/november-2026/"
  },
  {
   "when": "Wed Nov 25, 9:00am CT",
-  "event": "New home sales (Oct)",
-  "why": "Housing demand for rebar, copper wire and aluminum.",
-  "source": "U.S. Census Bureau",
+  "event": "US new home sales (Oct) and preliminary steel imports (Oct)",
+  "why": "Housing drives copper and steel use; steel import data shows pressure on domestic steel and scrap.",
+  "source": "US Census Bureau economic indicator calendar",
   "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
+ },
+ {
+  "when": "Wed Nov 25, 1:00pm CT",
+  "event": "Fed Beige Book (last before Dec FOMC)",
+  "why": "Regional anecdotes on manufacturing and prices can shift Fed expectations and metal sentiment.",
+  "source": "Federal Reserve Board",
+  "url": "https://www.federalreserve.gov/monetarypolicy/publications/beige-book-default.htm"
  },
  {
   "when": "Thu Nov 26, all day",
-  "event": "Thanksgiving: US markets closed (check CME metals holiday hours)",
-  "why": "Thin holiday trading can exaggerate copper and gold moves.",
-  "source": "Helious US calendar",
-  "url": "https://helious.io/calendar/2026-11"
+  "event": "Thanksgiving: US stock and bond markets closed; CME/COMEX publish no settlements",
+  "why": "Thin holiday liquidity can exaggerate metal price moves.",
+  "source": "CME Group Thanksgiving settlement times 2026",
+  "url": "https://www.cmegroup.com/tools-information/holiday-calendar/files/2026/thanksgiving-holiday-settlement-times-2026.pdf"
  },
  {
-  "when": "Fri Nov 27, 7:30am CT",
-  "event": "Advance goods trade and inventories (Oct); US markets close early",
-  "why": "Trade and inventory signal during a tariff-heavy period.",
-  "source": "U.S. Census Bureau",
+  "when": "Fri Nov 27, 7:30am CT (early market close later in day)",
+  "event": "US advance trade, retail and wholesale inventories (Oct); US stocks/bonds close early; COMEX metals on normal settlement schedule",
+  "why": "Trade and inventory data hint at goods demand, and the shortened session keeps liquidity thin.",
+  "source": "US Census Bureau / CME Group",
   "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
  },
  {
-  "when": "Sun Nov 29 evening CT (usual timing)",
-  "event": "China official manufacturing PMI (Nov)",
-  "why": "Main read on Chinese demand for copper, steel and iron ore.",
-  "source": "Financecalendar.com",
+  "when": "Sun Nov 29, 7:30pm CT (Mon Nov 30, 9:30am Beijing)",
+  "event": "China NBS official manufacturing and non-manufacturing PMIs (Nov)",
+  "why": "China uses about half the world's metals, so its factory PMI moves copper, iron ore and steel.",
+  "source": "FinanceCalendar (status: estimated)",
   "url": "https://www.financecalendar.com/?p=2449"
  },
  {
-  "when": "Late Nov to early Dec (no date set)",
-  "event": "US ferrous scrap December trade/settle",
-  "why": "Sets Chicago and Midwest mill buy prices for busheling, shredded and HMS in December.",
-  "source": "Steel Market Update",
-  "url": "https://www.steelmarketupdate.com/2026/11/06/november-scrap-prices-rise-as-market-nears-settle/"
+  "when": "Tue Dec 1, 9:00am CT",
+  "event": "US ISM manufacturing PMI (Nov)",
+  "why": "The main US factory gauge; its prices and new-orders readings move industrial metals.",
+  "source": "FinanceCalendar",
+  "url": "https://www.financecalendar.com/event/us-ism-manufacturing-pmi-december-2026/"
  },
  {
   "when": "Tue Dec 1, 9:00am CT",
-  "event": "ISM manufacturing PMI (Nov) and construction spending (Oct)",
-  "why": "U.S. factory and building demand for metals.",
-  "source": "U.S. Census Bureau / Financecalendar.com",
+  "event": "US construction spending (Oct)",
+  "why": "Construction is the largest end use for steel rebar and a major one for copper.",
+  "source": "US Census Bureau economic indicator calendar",
   "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
+ },
+ {
+  "when": "Tue Dec 1, 9:00am CT",
+  "event": "US JOLTS job openings (Oct)",
+  "why": "Labor demand data feeds Fed rate expectations ahead of the Dec 4 jobs report, moving gold.",
+  "source": "US Bureau of Labor Statistics release schedule",
+  "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
  }
 ]
