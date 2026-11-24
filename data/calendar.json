@@ -1,12 +1,5 @@
 [
  {
-  "when": "Mon Nov 23, 8:45am CT",
-  "event": "US S&P Global flash PMIs (Nov, manufacturing/services/composite)",
-  "why": "Early read on US factory demand, a driver for copper and steel sentiment.",
-  "source": "LiteFinance weekly calendar (14:45 GMT)",
-  "url": "https://www.litefinance.org/blog/analysts-opinions/weekly-economic-calendar-for-23112026-29112026/"
- },
- {
   "when": "Tue Nov 24, 9:00am CT",
   "event": "Conference Board consumer confidence (Nov)",
   "why": "Consumer outlook feeds dollar and growth expectations that move metals.",
@@ -15,50 +8,50 @@
  },
  {
   "when": "Wed Nov 25, 7:30am CT",
-  "event": "US initial jobless claims (moved up for Thanksgiving)",
-  "why": "Labor-market signal shifts Fed-cut odds and the dollar.",
-  "source": "FinanceCalendar (08:30 ET)",
+  "event": "US initial jobless claims (moved up a day for Thanksgiving)",
+  "why": "Labor-market signal shifts Fed rate odds and the dollar.",
+  "source": "FinanceCalendar, status confirmed (08:30 ET)",
   "url": "https://www.financecalendar.com/event/us-initial-jobless-claims-november-25-2026/"
  },
  {
   "when": "Wed Nov 25, 7:30am CT",
   "event": "Advance durable goods orders (Oct)",
   "why": "Direct gauge of capital-goods and metal-intensive demand.",
-  "source": "Census economic indicator calendar",
+  "source": "Census economic indicator calendar (8:30 ET)",
   "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
  },
  {
   "when": "Wed Nov 25, 7:30am CT",
-  "event": "GDP Q3 second estimate + Personal Income & Outlays / PCE inflation (Oct)",
+  "event": "GDP Q3 second estimate + corporate profits; Personal Income & Outlays / PCE inflation (Oct)",
   "why": "Growth and the Fed's preferred inflation gauge drive rate expectations and the dollar.",
-  "source": "BEA release schedule",
+  "source": "BEA release schedule (8:30 ET)",
   "url": "https://www.bea.gov/news/schedule"
  },
  {
   "when": "Wed Nov 25, 9:00am CT",
   "event": "New residential (new home) sales (Oct)",
   "why": "Housing activity drives copper wiring/plumbing and steel demand.",
-  "source": "Census economic indicator calendar",
+  "source": "Census economic indicator calendar (10:00 ET)",
   "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
  },
  {
   "when": "Wed Nov 25, 9:00am CT",
   "event": "Preliminary US imports of steel products (Oct)",
-  "why": "Import volumes affect domestic HRC supply and pricing.",
-  "source": "Census economic indicator calendar",
+  "why": "Import volumes affect domestic steel supply and pricing.",
+  "source": "Census economic indicator calendar (10:00 ET)",
   "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
  },
  {
   "when": "Wed Nov 25, 1:00pm CT",
   "event": "Federal Reserve Beige Book",
-  "why": "Anecdotal read on manufacturing/steel/construction ahead of the December FOMC.",
-  "source": "Federal Reserve Beige Book page (Nov 25 date)",
-  "url": "https://www.federalreserve.gov/monetarypolicy/beige-book-default.htm"
+  "why": "Anecdotal read on manufacturing/steel/construction ahead of the Dec 8-9 FOMC.",
+  "source": "Federal Reserve Beige Book page + Fed November calendar (2:00pm ET)",
+  "url": "https://www.federalreserve.gov/newsevents/2026-November.htm"
  },
  {
   "when": "Thu Nov 26, all day",
-  "event": "Thanksgiving: CME will not derive or disseminate settlements for CME, CBOT, NYMEX or COMEX; US stock and bond markets closed",
-  "why": "Thin or no US trading means no official COMEX copper/HRC settles that day.",
+  "event": "Thanksgiving: CME will not derive or disseminate settlements for CME, CBOT, NYMEX or COMEX; US stock and bond markets closed; Fed weekly releases pushed to Fri",
+  "why": "No official COMEX copper/HRC settles that day.",
   "source": "CME Thanksgiving 2026 settlement times PDF",
   "url": "https://www.cmegroup.com/tools-information/holiday-calendar/files/2026/thanksgiving-holiday-settlement-times-2026.pdf"
  },
@@ -66,57 +59,71 @@
   "when": "Fri Nov 27, 7:30am CT",
   "event": "Advance economic indicators (Oct goods trade, retail and wholesale inventories)",
   "why": "Trade and inventory data feed Q4 GDP tracking and metal import demand.",
-  "source": "Census economic indicator calendar",
+  "source": "Census economic indicator calendar (8:30 ET)",
   "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
  },
  {
   "when": "Fri Nov 27, all day",
-  "event": "Day after Thanksgiving: COMEX metals on normal settlement schedule; CME equity and interest-rate settlements at 12:00 CT; US stocks close early",
+  "event": "Day after Thanksgiving: COMEX metals on normal settlement schedule; CME equity and rate products settle 12:00 CT; US stocks close early",
   "why": "Low liquidity can exaggerate metal price moves.",
   "source": "CME Thanksgiving 2026 settlement times PDF",
   "url": "https://www.cmegroup.com/tools-information/holiday-calendar/files/2026/thanksgiving-holiday-settlement-times-2026.pdf"
  },
  {
   "when": "Sun Nov 29, 7:30pm CT",
-  "event": "China NBS official manufacturing and non-manufacturing PMIs (Nov; listed as estimated)",
+  "event": "China NBS official manufacturing and non-manufacturing PMIs (Nov; listed as expected, not confirmed)",
   "why": "China is the largest copper and steel consumer, so its factory data moves base metals.",
-  "source": "FinanceCalendar (09:30 Beijing, Nov 30)",
+  "source": "FinanceCalendar (09:30 Beijing, Mon Nov 30)",
   "url": "https://www.financecalendar.com/?p=2449"
+ },
+ {
+  "when": "Mon Nov 30, 8:45am CT",
+  "event": "Chicago Business Barometer / Chicago PMI (Nov)",
+  "why": "Regional Midwest factory gauge, closest macro read for Chicago-area metal demand.",
+  "source": "MNI Chicago PMI publication calendar (09:45 ET)",
+  "url": "https://www.mnimarkets.com/chicago-business-barometer-aka-chicago-pmi-publication-calendar"
  },
  {
   "when": "Mon Nov 30, 7:45pm CT",
   "event": "China Caixin manufacturing PMI (Nov; listed as confirmed)",
   "why": "Private-sector China factory read, key for copper demand.",
-  "source": "FinanceCalendar (09:45 Beijing, Dec 1)",
+  "source": "FinanceCalendar (09:45 Beijing, Tue Dec 1)",
   "url": "https://www.financecalendar.com/event/china-caixin-manufacturing-pmi-december-2026/"
  },
  {
   "when": "Tue Dec 1, 9:00am CT",
   "event": "ISM manufacturing PMI (Nov)",
   "why": "Headline US factory gauge, including prices paid for metals.",
-  "source": "FinanceCalendar (10:00 ET)",
+  "source": "FinanceCalendar, status confirmed (10:00 ET)",
   "url": "https://www.financecalendar.com/event/us-ism-manufacturing-pmi-december-2026/"
  },
  {
   "when": "Tue Dec 1, 9:00am CT",
   "event": "Construction spending (Oct)",
   "why": "Construction is a top end-use for steel and copper.",
-  "source": "Census economic indicator calendar",
+  "source": "Census economic indicator calendar (10:00 ET)",
   "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
  },
  {
   "when": "Tue Dec 1, 9:00am CT",
   "event": "JOLTS job openings (Oct)",
   "why": "Labor demand informs Fed path and dollar.",
-  "source": "BLS December 2026 release schedule",
+  "source": "BLS December 2026 release schedule (10:00 ET)",
   "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
  },
  {
   "when": "Wed Dec 2, 7:15am CT",
   "event": "ADP employment report (Nov)",
   "why": "Private payroll preview ahead of the jobs report.",
-  "source": "FinanceCalendar (08:15 ET)",
+  "source": "FinanceCalendar, status confirmed (08:15 ET)",
   "url": "https://www.financecalendar.com/event/us-adp-employment-report-december-2026/"
+ },
+ {
+  "when": "Wed Dec 2, 9:00am CT",
+  "event": "Metropolitan area employment and unemployment (Oct)",
+  "why": "Includes Chicago-metro and NW Indiana labor data.",
+  "source": "BLS December 2026 release schedule (10:00 ET)",
+  "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
  },
  {
   "when": "Thu Dec 3, 9:00am CT",
@@ -129,14 +136,21 @@
   "when": "Thu Dec 3, 9:00am CT",
   "event": "Factory orders full report (M3, Oct)",
   "why": "Final read on durable and nondurable orders tied to metal demand.",
-  "source": "Census economic indicator calendar",
+  "source": "Census economic indicator calendar (10:00 ET)",
   "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
  },
  {
   "when": "Fri Dec 4, 7:30am CT",
   "event": "Employment Situation / nonfarm payrolls (Nov)",
-  "why": "Biggest monthly macro data release, so it can swing the dollar and metals sharply ahead of the December FOMC.",
-  "source": "BLS December 2026 release schedule",
+  "why": "Biggest monthly macro release; can swing the dollar and metals sharply ahead of the Dec 8-9 FOMC.",
+  "source": "BLS December 2026 release schedule (8:30 ET)",
   "url": "https://www.bls.gov/schedule/2026/12_sched_list.htm"
+ },
+ {
+  "when": "Fri Dec 4, 9:00am CT",
+  "event": "Consumer sentiment (Dec)",
+  "why": "Consumer mood and inflation expectations feed Fed and dollar outlook.",
+  "source": "Helious December calendar (10:00 ET)",
+  "url": "https://helious.io/calendar/2026-12"
  }
 ]
