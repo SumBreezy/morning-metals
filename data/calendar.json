@@ -1,12 +1,5 @@
 [
  {
-  "when": "Tue Nov 24, 9:00am CT",
-  "event": "Conference Board consumer confidence (Nov)",
-  "why": "Consumer outlook feeds dollar and growth expectations that move metals.",
-  "source": "Helious calendar (10:00 ET)",
-  "url": "https://helious.io/calendar/2026-11"
- },
- {
   "when": "Wed Nov 25, 7:30am CT",
   "event": "US initial jobless claims (moved up a day for Thanksgiving)",
   "why": "Labor-market signal shifts Fed rate odds and the dollar.",
@@ -152,5 +145,12 @@
   "why": "Consumer mood and inflation expectations feed Fed and dollar outlook.",
   "source": "Helious December calendar (10:00 ET)",
   "url": "https://helious.io/calendar/2026-12"
+ },
+ {
+  "when": "Tue Dec 8 - Wed Dec 9 (decision Wed 1:00pm CT)",
+  "event": "FOMC meeting and rate decision",
+  "why": "Futures price a December rate hike; the decision drives the dollar and metal prices.",
+  "source": "Federal Reserve FOMC calendar",
+  "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
  }
 ]
