@@ -1,54 +1,5 @@
 [
  {
-  "when": "Wed Nov 25, 7:30am CT",
-  "event": "US initial jobless claims (moved up a day for Thanksgiving)",
-  "why": "Labor-market signal shifts Fed rate odds and the dollar.",
-  "source": "FinanceCalendar, status confirmed (08:30 ET)",
-  "url": "https://www.financecalendar.com/event/us-initial-jobless-claims-november-25-2026/"
- },
- {
-  "when": "Wed Nov 25, 7:30am CT",
-  "event": "Advance durable goods orders (Oct)",
-  "why": "Direct gauge of capital-goods and metal-intensive demand.",
-  "source": "Census economic indicator calendar (8:30 ET)",
-  "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
- },
- {
-  "when": "Wed Nov 25, 7:30am CT",
-  "event": "GDP Q3 second estimate + corporate profits; Personal Income & Outlays / PCE inflation (Oct)",
-  "why": "Growth and the Fed's preferred inflation gauge drive rate expectations and the dollar.",
-  "source": "BEA release schedule (8:30 ET)",
-  "url": "https://www.bea.gov/news/schedule"
- },
- {
-  "when": "Wed Nov 25, 9:00am CT",
-  "event": "New residential (new home) sales (Oct)",
-  "why": "Housing activity drives copper wiring/plumbing and steel demand.",
-  "source": "Census economic indicator calendar (10:00 ET)",
-  "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
- },
- {
-  "when": "Wed Nov 25, 9:00am CT",
-  "event": "Preliminary US imports of steel products (Oct)",
-  "why": "Import volumes affect domestic steel supply and pricing.",
-  "source": "Census economic indicator calendar (10:00 ET)",
-  "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
- },
- {
-  "when": "Wed Nov 25, 1:00pm CT",
-  "event": "Federal Reserve Beige Book",
-  "why": "Anecdotal read on manufacturing/steel/construction ahead of the Dec 8-9 FOMC.",
-  "source": "Federal Reserve Beige Book page + Fed November calendar (2:00pm ET)",
-  "url": "https://www.federalreserve.gov/newsevents/2026-November.htm"
- },
- {
-  "when": "Thu Nov 26, all day",
-  "event": "Thanksgiving: CME will not derive or disseminate settlements for CME, CBOT, NYMEX or COMEX; US stock and bond markets closed; Fed weekly releases pushed to Fri",
-  "why": "No official COMEX copper/HRC settles that day.",
-  "source": "CME Thanksgiving 2026 settlement times PDF",
-  "url": "https://www.cmegroup.com/tools-information/holiday-calendar/files/2026/thanksgiving-holiday-settlement-times-2026.pdf"
- },
- {
   "when": "Fri Nov 27, 7:30am CT",
   "event": "Advance economic indicators (Oct goods trade, retail and wholesale inventories)",
   "why": "Trade and inventory data feed Q4 GDP tracking and metal import demand.",
@@ -145,6 +96,20 @@
   "why": "Consumer mood and inflation expectations feed Fed and dollar outlook.",
   "source": "Helious December calendar (10:00 ET)",
   "url": "https://helious.io/calendar/2026-12"
+ },
+ {
+  "when": "Mon Dec 7, 9:00am CT",
+  "event": "Quarterly Financial Report: manufacturing, mining and trade (Q3)",
+  "why": "Shows manufacturers' profits and spending, a read on metal-using industry health.",
+  "source": "Census economic indicator calendar (10:00 ET)",
+  "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
+ },
+ {
+  "when": "Tue Dec 8, 7:30am CT",
+  "event": "US international trade in goods and services (Oct)",
+  "why": "Shows metal and steel import/export flows after the tariff moves.",
+  "source": "Census economic indicator calendar (8:30 ET)",
+  "url": "https://www.census.gov/economic-indicators/calendar-listview-2026.html"
  },
  {
   "when": "Tue Dec 8 - Wed Dec 9 (decision Wed 1:00pm CT)",
